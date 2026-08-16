@@ -1,0 +1,32 @@
+name: Generate Ephemeride
+
+on:
+  workflow_dispatch: # bouton "Run workflow" manuel dans l'onglet Actions
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 180 # large marge, le run réel prend ~15-20 min
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Generate ephemeride.json
+        env:
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+        run: node generate.js
+
+      - name: Commit result
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add ephemeride.json
+          git diff --staged --quiet || git commit -m "Generate ephemeride.json"
+          git push
