@@ -6,7 +6,8 @@
 const fs = require('fs');
 
 const USER_AGENT = 'EncyclopedieGeek/1.0 (GitHub Actions; contact: nico)';
-const MAX_DEPTH = 2; // profondeur de sous-catégories à explorer
+const MAX_DEPTH = 3; // profondeur de sous-catégories à explorer (augmenté pour plus de volume)
+const MAX_CRAWL_TIME_MS = 30 * 60 * 1000; // sécurité : 30 min max pour la collecte, quel que soit l'avancement
 const OUTPUT_FILE = 'terms.json';
 
 // Catégories de départ, larges pour couvrir "tous les domaines de
@@ -42,6 +43,47 @@ const SEED_CATEGORIES = [
   'Category:Cloud computing',
   'Category:Open-source software',
   'Category:Video game companies',
+  'Category:Cryptocurrencies',
+  'Category:Wireless networking',
+  'Category:File systems',
+  'Category:Assembly languages',
+  'Category:Esports',
+  'Category:Video game development',
+  'Category:Mobile operating systems',
+  'Category:Web browsers',
+  'Category:Search engines',
+  'Category:Electronic commerce',
+  'Category:Quantum computing',
+  'Category:Nanotechnology',
+  'Category:Wearable computers',
+  'Category:Home computers',
+  'Category:Supercomputers',
+  'Category:Computer memory',
+  'Category:Solid-state drives',
+  'Category:Graphics processing units',
+  'Category:Central processing unit',
+  'Category:Computer peripherals',
+  'Category:Motherboard',
+  'Category:Computer storage devices',
+  'Category:Video game platforms',
+  'Category:Emulation software',
+  'Category:Free software',
+  'Category:Computer humor',
+  'Category:Hacker culture',
+  'Category:Internet culture',
+  'Category:Technology in fiction',
+  'Category:Science fiction themes',
+  'Category:History of the Internet',
+  'Category:Digital media',
+  'Category:Audio codecs',
+  'Category:Video codecs',
+  'Category:Web development software',
+  'Category:Integrated development environments',
+  'Category:Computer displays',
+  'Category:Input devices',
+  'Category:Computer fonts',
+  'Category:Encryption algorithms',
+  'Category:Malware',
 ];
 
 // Filtre pour écarter les pages qui ne sont pas de vrais articles
@@ -63,14 +105,40 @@ function isLikelyArticle(title) {
   return !bad.some((re) => re.test(title));
 }
 
-async function fetchCategoryMembers(category, cmtype, cmcontinue) {
+async function fetchCategoryMembers(category, cmtype, cmcontinue, attempt = 1) {
   let url =
     `https://en.wikipedia.org/w/api.php?action=query&list=categorymembers` +
     `&cmtitle=${encodeURIComponent(category)}&cmlimit=500&cmtype=${cmtype}&format=json`;
   if (cmcontinue) url += `&cmcontinue=${encodeURIComponent(cmcontinue)}`;
-  const res = await fetch(url, { headers: { 'User-Agent': USER_AGENT } });
-  if (!res.ok) return { members: [], next: null };
-  const data = await res.json();
+  const res = await fetch(url, { headers: { 'User-Agent': 'EncyclopedieGeek/1.0 (https://github.com/nbbou81000/Geek-almanac)' } });
+
+  if (!res.ok) {
+    if (attempt <= 3) {
+      const wait = attempt * 2000;
+      console.warn(`  ⚠ ${category} → HTTP ${res.status}, retry dans ${wait}ms (tentative ${attempt}/3)`);
+      await new Promise((r) => setTimeout(r, wait));
+      return fetchCategoryMembers(category, cmtype, cmcontinue, attempt + 1);
+    }
+    console.error(`  ✗ ${category} → HTTP ${res.status} après 3 tentatives, catégorie ignorée`);
+    return { members: [], next: null };
+  }
+
+  const text = await res.text();
+  let data;
+  try {
+    data = JSON.parse(text);
+  } catch {
+    // Réponse non-JSON = probablement un throttle Wikimedia ("too many requests")
+    if (attempt <= 3) {
+      const wait = attempt * 2000;
+      console.warn(`  ⚠ ${category} → réponse non-JSON (throttle probable), retry dans ${wait}ms`);
+      await new Promise((r) => setTimeout(r, wait));
+      return fetchCategoryMembers(category, cmtype, cmcontinue, attempt + 1);
+    }
+    console.error(`  ✗ ${category} → throttle persistant après 3 tentatives, catégorie ignorée`);
+    return { members: [], next: null };
+  }
+
   return {
     members: data.query?.categorymembers || [],
     next: data.continue?.cmcontinue || null,
@@ -80,6 +148,7 @@ async function fetchCategoryMembers(category, cmtype, cmcontinue) {
 async function collectFromCategory(category, depth, visitedCats, titles) {
   if (visitedCats.has(category) || depth > MAX_DEPTH) return;
   visitedCats.add(category);
+  await new Promise((r) => setTimeout(r, 150)); // espacement anti-throttle
 
   // Articles de cette catégorie
   let cont;
@@ -110,8 +179,13 @@ async function collectFromCategory(category, depth, visitedCats, titles) {
 async function main() {
   const titles = new Set();
   const visitedCats = new Set();
+  const startTime = Date.now();
 
   for (const [i, cat] of SEED_CATEGORIES.entries()) {
+    if (Date.now() - startTime > MAX_CRAWL_TIME_MS) {
+      console.log(`\n⏰ Limite de temps de collecte atteinte (30 min), arrêt propre avec ${titles.size} termes déjà trouvés.`);
+      break;
+    }
     console.log(`[${i + 1}/${SEED_CATEGORIES.length}] Exploration ${cat} ...`);
     try {
       await collectFromCategory(cat, 0, visitedCats, titles);
