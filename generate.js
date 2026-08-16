@@ -3,7 +3,7 @@
 
 const fs = require('fs');
 
-const USER_AGENT = 'EphemerideGeek/1.0 (GitHub Actions; contact: nico)';
+const USER_AGENT = 'EphemerideGeek/1.0 (https://github.com/nbbou81000/Geek-almanac)';
 const GROQ_API_KEY = process.env.GROQ_API_KEY;
 const GROQ_MODEL = 'llama-3.1-8b-instant'; // quota tier gratuit bien plus généreux que le 70B
 const OUTPUT_FILE = 'ephemeride.json';
@@ -35,10 +35,19 @@ function sleep(ms) {
   return new Promise((r) => setTimeout(r, ms));
 }
 
-async function fetchOnThisDay(lang, mm, dd) {
+async function fetchOnThisDay(lang, mm, dd, attempt = 1) {
   const url = `https://${lang}.wikipedia.org/api/rest_v1/feed/onthisday/events/${mm}/${dd}`;
   const res = await fetch(url, { headers: { 'User-Agent': USER_AGENT } });
-  if (!res.ok) return [];
+  if (!res.ok) {
+    if (attempt <= 3) {
+      const wait = attempt * 1500; // 1.5s, 3s, 4.5s
+      console.warn(`  ⚠ ${lang} ${mm}/${dd} → HTTP ${res.status}, retry dans ${wait}ms (tentative ${attempt}/3)`);
+      await sleep(wait);
+      return fetchOnThisDay(lang, mm, dd, attempt + 1);
+    }
+    console.error(`  ✗ ${lang} ${mm}/${dd} → HTTP ${res.status} après 3 tentatives, jour ignoré`);
+    return [];
+  }
   const data = await res.json();
   return (data.events || []).map((ev) => {
     const page = (ev.pages || [])[0];
@@ -188,7 +197,7 @@ async function main() {
     if (i % 10 === 0) {
       fs.writeFileSync(OUTPUT_FILE, JSON.stringify(result, null, 2));
     }
-    await sleep(200); // reste correct vis-à-vis des APIs
+    await sleep(500); // reste correct vis-à-vis des APIs (espacé pour éviter le throttling Wikimedia)
   }
 
   fs.writeFileSync(OUTPUT_FILE, JSON.stringify(result, null, 2));
