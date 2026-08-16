@@ -105,7 +105,7 @@
       "title_fr": "Premier vol réussi d'un moteur cryogénique indien avec le lancement de GSAT-14",
       "text_en": "India’s space program just leveled up: the cryogenic engine that powers GSAT-14 finally stuck the landing—no small feat when your rocket’s fueled by liquid oxygen and hydrogen!",
       "text_fr": "Le programme spatial indien passe à la vitesse supérieure : le moteur cryogénique de GSAT-14 décolle avec succès—un exploit quand votre fusée carbure à l’oxygène et l’hydrogène liquides !",
-      "image": null,
+      "image": "https://nbbou81000.github.io/Geek-almanac/assets/icons/space.svg",
       "wiki_url": "https://en.wikipedia.org/wiki/GSAT-14"
     }
   ],
@@ -149,7 +149,7 @@
       "title_fr": "Expérience Georgetown–IBM : première démonstration publique de traduction automatique",
       "text_en": "Before Google Translate, there was IBM teaching computers to speak—awkwardly, but hey, it was the '50s.",
       "text_fr": "Avant Google Translate, IBM apprenait aux ordinateurs à parler... maladroitement, mais bon, c'était les années 50 !",
-      "image": null,
+      "image": "https://nbbou81000.github.io/Geek-almanac/assets/icons/science.svg",
       "wiki_url": "https://en.wikipedia.org/wiki/Georgetown%E2%80%93IBM_experiment"
     },
     {
@@ -181,7 +181,7 @@
       "title_fr": "Publication du Manifeste du Hacker.",
       "text_en": "We are the digital rebels of the 80s! This manifesto turned hackers into folk heroes—even if some took it a bit too literally.",
       "text_fr": "Nous sommes les rebelles numériques des années 80 ! Ce manifeste a transformé les hackers en héros populaires… même si certains l’ont pris un peu trop au pied de la lettre.",
-      "image": null,
+      "image": "https://nbbou81000.github.io/Geek-almanac/assets/icons/culture.svg",
       "wiki_url": "https://fr.wikipedia.org/wiki/Manifeste_du_hacker"
     }
   ],
@@ -316,7 +316,7 @@
       "title_fr": "Premier tir réussi du LauncherOne depuis un Boeing 747",
       "text_en": "Virgin Orbit’s air-launched rocket just proved that planes can be better than ground pads for sending satellites to space. Who needs a launchpad when you’ve got a 747?",
       "text_fr": "La fusée air-lancée de Virgin Orbit vient de prouver qu’un avion peut être plus efficace qu’un pas de tir pour envoyer des satellites dans l’espace. À quoi bon une rampe de lancement quand on a un 747 ?",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/LauncherOne_Diagram.svg/langfr-330px-LauncherOne_Diagram.svg.png?utm_source=fr.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/LauncherOne_Diagram.svg/330px-LauncherOne_Diagram.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "wiki_url": "https://fr.wikipedia.org/wiki/LauncherOne"
     }
   ],
@@ -350,7 +350,7 @@
       "title_fr": "Megaupload fermé par le FBI",
       "text_en": "The file-sharing giant met its end in a dramatic raid, leaving millions of users wondering where their cat videos went.",
       "text_fr": "Le géant du partage de fichiers a connu une fin en apothéose lors d'un raid spectaculaire, laissant des millions d'utilisateurs se demander où étaient passés leurs vidéos de chats.",
-      "image": null,
+      "image": "https://nbbou81000.github.io/Geek-almanac/assets/icons/internet.svg",
       "wiki_url": "https://en.wikipedia.org/wiki/Megaupload"
     },
     {
@@ -406,7 +406,7 @@
       "title_fr": "Mars Express confirme la présence de glace d'eau sur Mars",
       "text_en": "Europe’s Mars Express probe didn’t just take pretty pictures—it literally found the cosmic cocktail’s main ingredient: water ice on the Red Planet!",
       "text_fr": "La sonde européenne Mars Express n’a pas seulement pris de belles photos : elle a découvert l’ingrédient principal du cocktail cosmique, de la glace d’eau sur la planète rouge !",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Iraq_%28orthographic%29.svg/langfr-330px-Iraq_%28orthographic%29.svg.png?utm_source=fr.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Flag_of_Iraq.svg/330px-Flag_of_Iraq.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "wiki_url": "https://fr.wikipedia.org/wiki/Irak"
     },
     {
@@ -426,7 +426,7 @@
       "title_fr": "La NASA lance ITOS-1, premier satellite météorologique opérationnel pour l’observation à long terme de la Terre",
       "text_en": "ITOS-1 didn’t just predict the weather—it revolutionized how we track climate change from space.",
       "text_fr": "ITOS-1 n’a pas seulement prédit la météo : il a révolutionné la façon dont on suit le changement climatique depuis l’espace.",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/NASA_logo_%282023_colors%29.svg/langfr-330px-NASA_logo_%282023_colors%29.svg.png?utm_source=fr.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/NASA_seal.svg/330px-NASA_seal.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "wiki_url": "https://fr.wikipedia.org/wiki/National_Aeronautics_and_Space_Administration"
     }
   ],
@@ -861,7 +861,7 @@
       "title_fr": "Le virus Anna Kournikova se propage via une fausse photo de la star du tennis",
       "text_en": "The world learned that love (for tennis stars) could hurt—millions of inboxes did, thanks to a sneaky VBS script disguised as a seductive JPEG. Who knew malware could be so... photogenic?",
       "text_fr": "Le monde a découvert que l'amour (pour les stars du tennis) pouvait faire mal—des millions de boîtes mail aussi, grâce à un script VBS malicieux déguisé en JPEG aguicheur. Qui aurait cru que les malwares pouvaient être si... photogéniques ?",
-      "image": null,
+      "image": "https://nbbou81000.github.io/Geek-almanac/assets/icons/internet.svg",
       "wiki_url": "https://en.wikipedia.org/wiki/Anna_Kournikova_(computer_virus)"
     },
     {
@@ -1032,7 +1032,7 @@
       "title_fr": "Vanguard 2 : Premier satellite météorologique lancé",
       "text_en": "Vanguard 2 blasted off to become the first satellite dedicated to studying Earth's cloud cover—a tiny but crucial step for modern meteorology.",
       "text_fr": "Vanguard 2 décolle et devient le premier satellite dédié à l'étude de la couverture nuageuse terrestre, un petit pas crucial pour la météorologie moderne.",
-      "image": null,
+      "image": "https://nbbou81000.github.io/Geek-almanac/assets/icons/space.svg",
       "wiki_url": "https://en.wikipedia.org/wiki/Project_Vanguard"
     }
   ],
@@ -1054,7 +1054,7 @@
       "title_fr": "Découverte de Pluton par Clyde Tombaugh",
       "text_en": "A young astronomer spots a tiny dot that would later spark decades of planetary debates and memes.",
       "text_fr": "Un astronome en herbe repère un point minuscule qui deviendra plus tard le sujet de débats planétaires… et de mèmes.",
-      "image": null,
+      "image": "https://nbbou81000.github.io/Geek-almanac/assets/icons/science.svg",
       "wiki_url": "https://en.wikipedia.org/wiki/January"
     }
   ],
@@ -1076,7 +1076,7 @@
       "title_fr": "Premier module de la station spatiale russe MIR mis en orbite.",
       "text_en": "Mir: the orbital lab that proved Russians could build IKEA furniture in zero-G. The ultimate geek’s dream of a home away from Earth.",
       "text_fr": "Mir : le labo orbital qui a prouvé que les Russes savaient monter des meubles IKEA en apesanteur. Le rêve ultime du geek : une maison loin de la Terre.",
-      "image": null,
+      "image": "https://nbbou81000.github.io/Geek-almanac/assets/icons/space.svg",
       "wiki_url": "https://en.wikipedia.org/wiki/Akkaraipattu_massacre"
     }
   ],
@@ -1132,7 +1132,7 @@
       "title_fr": "Odysseus effectue le premier atterrissage commercial en douceur sur la Lune.",
       "text_en": "IM-1’s Odysseus just proved that even robots can now afford a lunar vacation—no WiFi required!",
       "text_fr": "La mission IM-1 d’Odysseus vient de prouver que même les robots peuvent désormais s’offrir des vacances lunaires… sans WiFi !",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/NASA_Selects_First_Commercial_Moon_Landing_Services_for_Artemis_Program_%2847974873213%29.jpg/330px-NASA_Selects_First_Commercial_Moon_Landing_Services_for_Artemis_Program_%2847974873213%29.jpg?utm_source=fr.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Intuitive_Machines%E2%80%99_Nova-C_lunar_lander_%28IM_00309%29_%28cropped%29.jpg/330px-Intuitive_Machines%E2%80%99_Nova-C_lunar_lander_%28IM_00309%29_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "wiki_url": "https://fr.wikipedia.org/wiki/Nova-C"
     },
     {
@@ -1152,7 +1152,7 @@
       "title_fr": "La NASA lance Navstar-1, premier satellite du système GPS.",
       "text_en": "GPS just got its GPS—thanks, NASA, for making us all slightly less lost.",
       "text_fr": "Le GPS a enfin son propre GPS : merci la NASA pour nous avoir rendus un peu moins perdus.",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/NASA_logo_%282023_colors%29.svg/langfr-330px-NASA_logo_%282023_colors%29.svg.png?utm_source=fr.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/NASA_seal.svg/330px-NASA_seal.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "wiki_url": "https://fr.wikipedia.org/wiki/National_Aeronautics_and_Space_Administration"
     }
   ],
@@ -1211,7 +1211,7 @@
       "title_fr": "Lancement du disque compact et du lecteur laser en Europe",
       "text_en": "The shiny silver discs killed cassettes overnight—no more rewinding, just pure digital joy!",
       "text_fr": "Les disques argentés ont tué les cassettes du jour au lendemain… plus de rembobinage, que du plaisir numérique !",
-      "image": null,
+      "image": "https://nbbou81000.github.io/Geek-almanac/assets/icons/hardware.svg",
       "wiki_url": "https://en.wikipedia.org/wiki/Goodbye%2C_Farewell_and_Amen"
     }
   ],
@@ -1308,7 +1308,7 @@
       "title_fr": "La Nintendo Switch débarque en magasin dans le monde entier",
       "text_en": "Nintendo’s hybrid console revolutionized gaming by letting you play on the couch or on the go—because who has time to stay in one place anyway?",
       "text_fr": "La console hybride de Nintendo a révolutionné le gaming en permettant de jouer partout : parce que rester assis, c’est surfait.",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Nintendo_Switch_Console.png/330px-Nintendo_Switch_Console.png?utm_source=fr.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Nintendo_Switch_logo.svg/330px-Nintendo_Switch_logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "wiki_url": "https://fr.wikipedia.org/wiki/Nintendo_Switch"
     },
     {
@@ -1318,7 +1318,7 @@
       "title_fr": "Le NACA, ancêtre de la NASA, est créé aux États-Unis",
       "text_en": "The National Advisory Committee for Aeronautics was born, paving the way for supersonic jets and moon landings—all before anyone even knew what a ‘bug’ in code meant.",
       "text_fr": "Le NACA, ancêtre de la NASA, est fondé et ouvre la voie aux avions supersoniques et aux alunissages… avant même que le mot « bug » ne devienne synonyme de problème informatique.",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/NACA_seal_%28cropped%29.png/330px-NACA_seal_%28cropped%29.png?utm_source=fr.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/NACA_seal_%28cropped%29.png/330px-NACA_seal_%28cropped%29.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "wiki_url": "https://fr.wikipedia.org/wiki/National_Advisory_Committee_for_Aeronautics"
     }
   ],
@@ -1497,7 +1497,7 @@
       "title_fr": "Lancement de la mission ExoMars TGO vers Mars",
       "text_en": "Europe’s first Martian explorer blasted off to sniff out alien farts—er, methane—on the Red Planet.",
       "text_fr": "L’Europe envoie son premier explorateur martien renifler d’éventuels pets… euh, du méthane sur la planète rouge.",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/3/33/ExoMars_Trace_Gas_Orbiter.jpg?utm_source=fr.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/a/ae/ExoMars_2016_TGO_and_EDM_trans-small.png/330px-ExoMars_2016_TGO_and_EDM_trans-small.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "wiki_url": "https://fr.wikipedia.org/wiki/ExoMars_Trace_Gas_Orbiter"
     },
     {
@@ -1507,7 +1507,7 @@
       "title_fr": "Sortie européenne de la Xbox",
       "text_en": "Microsoft’s first console entered the ring, ready to punch Nintendo and Sony in the nostalgia.",
       "text_fr": "La première console de Microsoft débarquait en Europe pour boxer Nintendo et Sony dans l’arène du rétro-gaming.",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Flag_of_Europe.svg/langfr-330px-Flag_of_Europe.svg.png?utm_source=fr.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Flag_of_Europe.svg/330px-Flag_of_Europe.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "wiki_url": "https://fr.wikipedia.org/wiki/Union_europ%C3%A9enne"
     }
   ],
@@ -1663,7 +1663,7 @@
       "title_fr": "Pink Floyd sort 'The Dark Side of the Moon'",
       "text_en": "A psychedelic masterpiece that became the soundtrack of geek culture, from hackers coding to gamers lost in virtual worlds.",
       "text_fr": "Un chef-d'œuvre psychédélique devenu la bande-son de la culture geek, des hackers en train de coder aux gamers perdus dans des mondes virtuels.",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/PinkFloyd1973_retouched.jpg/330px-PinkFloyd1973_retouched.jpg?utm_source=fr.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "image": "https://upload.wikimedia.org/wikipedia/en/d/d6/Pink_Floyd_-_all_members.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
       "wiki_url": "https://fr.wikipedia.org/wiki/Pink_Floyd"
     }
   ],
@@ -1722,7 +1722,7 @@
       "title_fr": "La fusée Spectrum explose lors de son premier vol depuis la Norvège",
       "text_en": "Europe’s first orbital launch attempt ended in flames—literally—when Spectrum’s inaugural flight went up in smoke (hopefully not in the metaphorical sense).",
       "text_fr": "Le premier essai de lancement orbital européen s’est terminé dans les flammes—littéralement—quand la fusée Spectrum a explosé en vol (espérons que ce ne soit pas au sens figuré).",
-      "image": null,
+      "image": "https://nbbou81000.github.io/Geek-almanac/assets/icons/space.svg",
       "wiki_url": "https://fr.wikipedia.org/wiki/Spectrum_(fus%C3%A9e)"
     }
   ],
@@ -2113,7 +2113,7 @@
       "title_fr": "Le mot 'ordinateur' est inventé par IBM",
       "text_en": "Jacques Perret coined 'ordinateur' for IBM, because 'calculating machine' sounded way too 19th century for the digital age.",
       "text_fr": "Jacques Perret inventa 'ordinateur' pour IBM, car 'machine à calculer' sonnait bien trop XIXe siècle pour l’ère numérique.",
-      "image": null,
+      "image": "https://nbbou81000.github.io/Geek-almanac/assets/icons/hardware.svg",
       "wiki_url": "https://fr.wikipedia.org/wiki/Ordinateur"
     }
   ],
@@ -2200,7 +2200,7 @@
       "title_fr": "MOXIE produit de l’oxygène sur Mars pour la première fois",
       "text_en": "NASA’s little chemistry lab on wheels just proved we can breathe on Mars—one CO₂ conversion at a time.",
       "text_fr": "Le petit labo chimique mobile de la NASA vient de prouver qu’on peut respirer sur Mars… une molécule de CO₂ à la fois.",
-      "image": null,
+      "image": "https://nbbou81000.github.io/Geek-almanac/assets/icons/science.svg",
       "wiki_url": "https://en.wikipedia.org/wiki/Trial_of_Derek_Chauvin"
     }
   ],
@@ -2331,7 +2331,7 @@
       "title_fr": "Découverte d'un satellite autour de la planète naine Makémaké",
       "text_en": "Makemake just got a moon named S/2015 (136472) 1, proving that even dwarf planets need a little satellite love.",
       "text_fr": "Makémaké a enfin obtenu une lune, S/2015 (136472) 1, preuve que même les planètes naines méritent un peu d'amour satellite.",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Makemake_moon_Hubble_image_with_legend.jpg/330px-Makemake_moon_Hubble_image_with_legend.jpg?utm_source=fr.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Makemake_moon_Hubble_image_with_legend_%28cropped%29.jpg/330px-Makemake_moon_Hubble_image_with_legend_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "wiki_url": "https://fr.wikipedia.org/wiki/S%2F2015_(136472)_1"
     }
   ],
@@ -2403,7 +2403,7 @@
       "title_fr": "Mary Kies reçoit le premier brevet américain attribué à une femme",
       "text_en": "Kies' straw-weaving innovation broke the glass ceiling before it was even a thing—paving the way for female inventors in a male-dominated field.",
       "text_fr": "Son invention de tissage de paille avec de la soie a brisé un plafond de verre avant même que l'expression n'existe, ouvrant la voie aux inventrices dans un monde d'hommes.",
-      "image": null,
+      "image": "https://nbbou81000.github.io/Geek-almanac/assets/icons/science.svg",
       "wiki_url": "https://en.wikipedia.org/wiki/Mary_Dixon_Kies"
     }
   ],
@@ -2491,7 +2491,7 @@
       "title_fr": "La NASA annonce la découverte de 1 284 nouvelles planètes grâce au télescope spatial Kepler",
       "text_en": "Kepler’s cosmic treasure hunt just hit the jackpot: 1,284 new worlds, including a few that might fancy a visit. Aliens, where are you?",
       "text_fr": "La chasse au trésor cosmique de Kepler vient de gagner le gros lot : 1 284 nouvelles planètes, dont certaines pourraient bien mériter une visite. Aliens, vous êtes où ?",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/NASA_logo_%282023_colors%29.svg/langfr-330px-NASA_logo_%282023_colors%29.svg.png?utm_source=fr.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/NASA_seal.svg/330px-NASA_seal.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "wiki_url": "https://fr.wikipedia.org/wiki/National_Aeronautics_and_Space_Administration"
     }
   ],
@@ -2614,7 +2614,7 @@
       "title_fr": "Découverte du mécanisme d'Anticythère, premier ordinateur analogique connu au monde.",
       "text_en": "This ancient Greek device predicted astronomical positions with gears—basically, the first 'smartwatch' of antiquity.",
       "text_fr": "Cet appareil grec antique prédisait les positions astronomiques grâce à des engrenages—en gros, la première 'montre connectée' de l'Antiquité.",
-      "image": null,
+      "image": "https://nbbou81000.github.io/Geek-almanac/assets/icons/hardware.svg",
       "wiki_url": "https://en.wikipedia.org/wiki/Valerios_Stais"
     },
     {
@@ -2668,7 +2668,7 @@
       "title_fr": "Invention du Rubik's Cube par Ernő Rubik.",
       "text_en": "A puzzle that became a global obsession—because nothing says 'I’m smart' like spinning a colorful cube for hours in public.",
       "text_fr": "Un casse-tête devenu phénomène mondial : rien de tel pour prouver qu’on est un génie… ou juste très patient (et un peu maso).",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Val%C3%A9ry_Giscard_d%27Estaing_%281975%29.jpg/330px-Val%C3%A9ry_Giscard_d%27Estaing_%281975%29.jpg?utm_source=fr.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Val%C3%A9ry_Giscard_d%27Estaing_%281975%29.jpg/330px-Val%C3%A9ry_Giscard_d%27Estaing_%281975%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "wiki_url": "https://fr.wikipedia.org/wiki/Val%C3%A9ry_Giscard_d'Estaing"
     },
     {
@@ -2688,7 +2688,7 @@
       "title_fr": "Lancement de la sonde Mars 2 par l’Union soviétique.",
       "text_en": "The first human-made object to crash-land on Mars—proof that even failure can be a milestone in space exploration.",
       "text_fr": "Le premier objet humain à s’écraser sur Mars : la preuve que même un échec peut marquer l’histoire de l’exploration spatiale.",
-      "image": null,
+      "image": "https://nbbou81000.github.io/Geek-almanac/assets/icons/space.svg",
       "wiki_url": "https://en.wikipedia.org/wiki/Soviet_Mars_program"
     }
   ],
@@ -2835,7 +2835,7 @@
       "title_fr": "Lancement du satellite soviétique Kosmos 5",
       "text_en": "The Soviet Union launched Kosmos 5, a scientific research satellite, marking another step in the Cold War space race. It carried instruments to study cosmic rays and Earth's magnetic field.",
       "text_fr": "L'URSS lance Kosmos 5, un satellite de recherche scientifique, marquant une nouvelle étape dans la course spatiale de la Guerre froide. Il embarquait des instruments pour étudier les rayons cosmiques et le champ magnétique terrestre.",
-      "image": null,
+      "image": "https://nbbou81000.github.io/Geek-almanac/assets/icons/space.svg",
       "wiki_url": "https://en.wikipedia.org/wiki/Kosmos_5"
     },
     {
@@ -2845,7 +2845,7 @@
       "title_fr": "Thalès prédit une éclipse solaire lors de la bataille de l'Éclipse",
       "text_en": "Greek philosopher Thales accurately predicted a solar eclipse, ending a war between the Medes and Lydians. A true hack of ancient astronomy!",
       "text_fr": "Le philosophe grec Thalès prédit avec précision une éclipse solaire, mettant fin à une guerre entre Mèdes et Lydiens. Un vrai hack de l'astronomie antique !",
-      "image": null,
+      "image": "https://nbbou81000.github.io/Geek-almanac/assets/icons/science.svg",
       "wiki_url": "https://en.wikipedia.org/wiki/Eclipse_of_Thales"
     }
   ],
@@ -2890,7 +2890,7 @@
       "title_fr": "Lancement raté de la fusée Ariane 2 lors de son vol inaugural",
       "text_en": "The Ariane 2 rocket's maiden flight ended in failure, but hey, at least it didn’t explode like its predecessor Ariane 5’s first attempt—small victories in rocket science!",
       "text_fr": "Le premier vol d'Ariane 2 s'est soldé par un échec, mais au moins ça n’a pas explosé comme la première tentative d’Ariane 5—petites victoires en astronautique !",
-      "image": null,
+      "image": "https://nbbou81000.github.io/Geek-almanac/assets/icons/hardware.svg",
       "wiki_url": "https://en.wikipedia.org/wiki/Ariane_2"
     }
   ],
@@ -2912,7 +2912,7 @@
       "title_fr": "Premières demandes internationales déposées selon le Traité de coopération en matière de brevets, simplifiant la protection mondiale.",
       "text_en": "The PCT made patenting inventions abroad as easy as ordering a pizza—well, almost. No more paperwork nightmares!",
       "text_fr": "Le PCT a rendu le dépôt de brevets à l’étranger aussi simple qu’une commande de pizza… enfin, presque. Plus de cauchemars administratifs !",
-      "image": null,
+      "image": "https://nbbou81000.github.io/Geek-almanac/assets/icons/science.svg",
       "wiki_url": "https://en.wikipedia.org/wiki/Patent_Cooperation_Treaty"
     }
   ],
@@ -3292,7 +3292,7 @@
       "title_fr": "Sortie de Microsoft Windows 98",
       "text_en": "Windows 98: the OS that made plug-and-play a household phrase—and a tech support nightmare.",
       "text_fr": "Windows 98 : le système d’exploitation qui a transformé le « branchez et jouez » en une phrase courante… et un cauchemar pour le support technique.",
-      "image": null,
+      "image": "https://nbbou81000.github.io/Geek-almanac/assets/icons/software.svg",
       "wiki_url": "https://en.wikipedia.org/wiki/Clinton_v._City_of_New_York"
     }
   ],
@@ -3351,7 +3351,7 @@
       "title_fr": "Premier appel téléphonique international entre le Canada et les États-Unis",
       "text_en": "In 1881, crossing borders with a phone call was as groundbreaking as sending a fax in the 90s—except this time, no dial-up screeches were involved.",
       "text_fr": "En 1881, passer un appel téléphonique international entre le Canada et les États-Unis était aussi révolutionnaire que d’envoyer un fax dans les années 90—sauf qu’ici, pas de grésillements de modem.",
-      "image": null,
+      "image": "https://nbbou81000.github.io/Geek-almanac/assets/icons/internet.svg",
       "wiki_url": "https://en.wikipedia.org/wiki/Radiolinja"
     },
     {
@@ -3552,7 +3552,7 @@
       "title_fr": "Conférence de Dartmouth : La Naissance de l'Intelligence Artificielle",
       "text_en": "The Dartmouth workshop marked the official birth of AI as a field of study, where the term 'artificial intelligence' was coined. It was the first time brains gathered to make machines think—talk about a brainstorming session!",
       "text_fr": "L'atelier de Dartmouth a marqué la naissance officielle de l'IA comme domaine d'étude, où le terme 'intelligence artificielle' a été forgé. La première fois où des cerveaux se sont réunis pour faire réfléchir des machines—quel brainstorming !",
-      "image": null,
+      "image": "https://nbbou81000.github.io/Geek-almanac/assets/icons/science.svg",
       "wiki_url": "https://en.wikipedia.org/wiki/Dartmouth_workshop"
     },
     {
@@ -3616,7 +3616,7 @@
       "title_fr": "Sortie du Famicom de Nintendo et du SG-1000 de Sega au Japon",
       "text_en": "The Famicom and SG-1000 kickstarted the console wars—Nintendo’s red-and-white brick became a cultural icon, while Sega’s SG-1000 quietly faded into obscurity.",
       "text_fr": "Le Famicom et le SG-1000 ont lancé les guerres de consoles—le premier est devenu une icône, le second a sombré dans l’oubli.",
-      "image": null,
+      "image": "https://nbbou81000.github.io/Geek-almanac/assets/icons/gaming.svg",
       "wiki_url": "https://en.wikipedia.org/wiki/1983_Orly_Airport_attack"
     },
     {
@@ -3670,7 +3670,7 @@
       "title_fr": "Découverte de dix nouvelles lunes de Jupiter porte son total à 79—attention aux embouteillages cosmiques !",
       "text_en": "Jupiter just got a cosmic upgrade: 79 moons and counting! Who knew the gas giant was such a popular party host in the solar system?",
       "text_fr": "Jupiter vient de recevoir une mise à jour cosmique : 79 lunes et ça continue ! Qui savait que la géante gazeuse était un tel hôte populaire dans le système solaire ?",
-      "image": null,
+      "image": "https://nbbou81000.github.io/Geek-almanac/assets/icons/space.svg",
       "wiki_url": "https://fr.wikipedia.org/wiki/Satellites_naturels_de_Jupiter"
     }
   ],
@@ -3714,7 +3714,7 @@
       "title_fr": "Panne informatique mondiale paralyse les systèmes Windows",
       "text_en": "A CrowdStrike update turned millions of PCs into expensive paperweights—reminding us that even cybersecurity can crash harder than a blue screen.",
       "text_fr": "Une mise à jour de CrowdStrike a transformé des millions de PC en poids lourds inutiles—une preuve que même la cybersécurité peut planter plus fort qu'un écran bleu.",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Europe-Ukraine_%28disputed_territory%29.svg/langfr-330px-Europe-Ukraine_%28disputed_territory%29.svg.png?utm_source=fr.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Flag_of_Ukraine.svg/330px-Flag_of_Ukraine.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "wiki_url": "https://fr.wikipedia.org/wiki/Ukraine"
     }
   ],
@@ -3938,7 +3938,7 @@
       "title_fr": "Robert T. Morris Jr. inculpé pour le ver Morris : la première cyberattaque jugée",
       "text_en": "The Morris worm, the first major internet malware, crashed 10% of the web—earning its creator a spot in hacker history (and a criminal record).",
       "text_fr": "Le ver Morris, premier malware majeur d’Internet, a paralysé 10% du web—offrant à son créateur une place dans l’histoire du hacking… et un casier judiciaire.",
-      "image": null,
+      "image": "https://nbbou81000.github.io/Geek-almanac/assets/icons/internet.svg",
       "wiki_url": "https://en.wikipedia.org/wiki/Grand_jury"
     },
     {
@@ -4081,7 +4081,7 @@
       "title_fr": "Tandy Corporation annonce le TRS-80, l'un des premiers ordinateurs personnels produits en masse au monde.",
       "text_en": "The TRS-80, nicknamed \"Trash-80\" for its bulky design, kickstarted the home computer revolution—though it probably couldn’t run *Doom* without melting.",
       "text_fr": "Le TRS-80, surnommé \"Trash-80\" à cause de son design encombrant, a lancé la révolution des ordinateurs domestiques—même s’il aurait probablement fondu en essayant de faire tourner *Doom*.",
-      "image": null,
+      "image": "https://nbbou81000.github.io/Geek-almanac/assets/icons/hardware.svg",
       "wiki_url": "https://en.wikipedia.org/wiki/Tandy_Corporation"
     },
     {
@@ -4091,7 +4091,7 @@
       "title_fr": "Le sous-marin nucléaire USS Nautilus devient le premier navire à traverser en immersion le pôle Nord géographique.",
       "text_en": "The USS Nautilus proved nuclear power could conquer the Arctic—just don’t ask it to play *Among Us* under the ice.",
       "text_fr": "L'USS Nautilus a prouvé que l'énergie nucléaire pouvait conquérir l'Arctique—même si on ne lui demanderait pas de jouer à *Among Us* sous la banquise.",
-      "image": null,
+      "image": "https://nbbou81000.github.io/Geek-almanac/assets/icons/space.svg",
       "wiki_url": "https://en.wikipedia.org/wiki/Tandy_Corporation"
     }
   ],
@@ -4288,7 +4288,7 @@
       "title_fr": "La NASA lance la sonde Parker pour étudier la couronne solaire",
       "text_en": "Humanity’s first mission to touch the Sun—literally! Parker Solar Probe is diving through solar hell to unlock the secrets of our star’s fiery halo.",
       "text_fr": "La première mission humaine pour toucher le Soleil—littéralement ! La sonde Parker plonge dans l’enfer solaire pour percer les secrets de l’aura ardente de notre étoile.",
-      "image": null,
+      "image": "https://nbbou81000.github.io/Geek-almanac/assets/icons/space.svg",
       "wiki_url": "https://en.wikipedia.org/wiki/Sarmada"
     }
   ],
@@ -4322,7 +4322,7 @@
       "title_fr": "Le Japon délivre son premier brevet",
       "text_en": "Japan's first patent is issued to the inventor of a rust-proof paint. A tiny step for tech, a giant leap for avoiding future rusty swords!",
       "text_fr": "Le Japon délivre son premier brevet à l'inventeur d'une peinture antirouille. Un petit pas pour la tech, un bond géant pour éviter des épées rouillées !",
-      "image": null,
+      "image": "https://nbbou81000.github.io/Geek-almanac/assets/icons/science.svg",
       "wiki_url": "https://en.wikipedia.org/wiki/Japanese_patent_law"
     },
     {
@@ -4356,7 +4356,7 @@
       "title_fr": "La Chine lance le premier satellite à communication quantique au monde.",
       "text_en": "Quantum encryption just got a cosmic upgrade! China's Micius satellite paved the way for unhackable space chats.",
       "text_fr": "La communication quantique fait un bond dans l'espace ! Le satellite Micius chinois ouvre la voie à des échanges inviolables.",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/CHN_orthographic.svg/langfr-330px-CHN_orthographic.svg.png?utm_source=fr.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Chine_forming_on_soft_cliffs_at_Compton%2C_Isle_of_Wight.JPG/330px-Chine_forming_on_soft_cliffs_at_Compton%2C_Isle_of_Wight.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "wiki_url": "https://fr.wikipedia.org/wiki/Chine"
     },
     {
@@ -4366,7 +4366,7 @@
       "title_fr": "Microsoft lance Internet Explorer, déclenchant la première guerre des navigateurs.",
       "text_en": "The blue 'e' icon became the face of the internet for millions—whether they liked it or not.",
       "text_fr": "L'icône bleue du 'e' a marqué l'internet pour des millions d'utilisateurs... qu'ils le veuillent ou non.",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Internet_Explorer_10%2B11_logo.svg/langfr-330px-Internet_Explorer_10%2B11_logo.svg.png?utm_source=fr.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/0/00/Internet_Explorer_11_screenshot.png/330px-Internet_Explorer_11_screenshot.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "wiki_url": "https://fr.wikipedia.org/wiki/Internet_Explorer"
     },
     {
@@ -4516,7 +4516,7 @@
       "title_fr": "Premier tir de la fusée Atlas V avec à son bord le satellite Hot Bird 6.",
       "text_en": "Atlas V blasted off like a cosmic delivery drone, putting Hot Bird 6 into orbit to beam TV signals across Europe.",
       "text_fr": "La fusée Atlas V a décollé comme un drone de livraison cosmique, plaçant Hot Bird 6 en orbite pour diffuser des signaux TV à travers l’Europe.",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Mars_Science_Laboratory_%28Curosity%29_launches_aboard_an_Atlas_V.jpg/330px-Mars_Science_Laboratory_%28Curosity%29_launches_aboard_an_Atlas_V.jpg?utm_source=fr.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Atlas_V_logo.svg/330px-Atlas_V_logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "wiki_url": "https://fr.wikipedia.org/wiki/Atlas_V"
     }
   ],
@@ -4551,7 +4551,7 @@
       "title_fr": "Lancement de Google Talk",
       "text_en": "Google's chat service debuts, making instant messaging and VoIP as easy as typing a search query.",
       "text_fr": "Le service de messagerie instantanée et VoIP de Google débarque, aussi simple qu'une recherche web.",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Talk_%28Google%29.svg/langfr-330px-Talk_%28Google%29.svg.png?utm_source=fr.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Talk_%28Google%29.svg/330px-Talk_%28Google%29.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "wiki_url": "https://fr.wikipedia.org/wiki/Google_Talk"
     },
     {
@@ -4744,7 +4744,7 @@
       "title_fr": "Lancement du premier satellite nord-coréen, Kwangmyŏngsŏng 1",
       "text_en": "North Korea flexes its space muscles with this early (and controversial) orbital attempt—because even dictators need a good PR stunt.",
       "text_fr": "La Corée du Nord fait ses premiers pas dans l'espace avec ce satellite, un coup d'éclat controversé... parce que même les dictatures aiment les coups de com'.",
-      "image": null,
+      "image": "https://nbbou81000.github.io/Geek-almanac/assets/icons/space.svg",
       "wiki_url": "https://fr.wikipedia.org/wiki/Kwangmy%C5%8Fngs%C5%8Fng_1"
     }
   ],
@@ -4822,7 +4822,7 @@
       "title_fr": "Nokia vend sa division mobile à Microsoft pour 7,2 milliards de dollars",
       "text_en": "Nokia, once king of the mobile world, hands over its crown to Microsoft in a deal that reshaped the industry. A sad farewell to the Nokia 3310 era.",
       "text_fr": "Nokia, ex-roi du mobile, passe la couronne à Microsoft dans un deal qui a redessiné l'industrie. Un adieu mélancolique à l'ère du Nokia 3310.",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Nokia_headquarters_in_Espoo.jpg/330px-Nokia_headquarters_in_Espoo.jpg?utm_source=fr.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Midpoint_Nokia_Karaportti.jpg/330px-Midpoint_Nokia_Karaportti.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "wiki_url": "https://fr.wikipedia.org/wiki/Nokia"
     },
     {
@@ -4920,7 +4920,7 @@
       "title_fr": "Star Trek fait ses débuts avec l'épisode \"The Man Trap\"",
       "text_en": "Boldly going where no TV show had gone before, this sci-fi series became the blueprint for all geeky pop culture to come.",
       "text_fr": "En allant là où aucune série TV n’était encore allée, ce space opera est devenu le modèle de toute la culture geek à venir.",
-      "image": null,
+      "image": "https://nbbou81000.github.io/Geek-almanac/assets/icons/culture.svg",
       "wiki_url": "https://en.wikipedia.org/wiki/Star_Trek%3A_The_Original_Series"
     }
   ],
@@ -5104,7 +5104,7 @@
       "title_fr": "Inspiration4 : premier vol orbital entièrement civil",
       "text_en": "Four amateurs in space—because who needs astronaut training when you’ve got a billionaire’s wallet and a dream?",
       "text_fr": "Quatre civils dans l’espace : parce que pour ça, pas besoin de diplôme d’astronaute, juste un portefeuille bien rempli et un peu d’audace !",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/AUS_orthographic.svg/langfr-330px-AUS_orthographic.svg.png?utm_source=fr.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Emily_Manning.png/330px-Emily_Manning.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "wiki_url": "https://fr.wikipedia.org/wiki/Australie"
     },
     {
@@ -5114,7 +5114,7 @@
       "title_fr": "Microsoft rachète Mojang Studios pour 2,5 milliards de dollars",
       "text_en": "Minecraft’s creators just got a digital gold rush—Microsoft’s wallet was as deep as Steve Ballmer’s love for the game!",
       "text_fr": "Les créateurs de Minecraft ont reçu un chèque en or numérique : Microsoft a sorti le portefeuille aussi profond que l’amour de Steve Ballmer pour le jeu !",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/S%C3%B6der_M%C3%A4larstrand_43.png/330px-S%C3%B6der_M%C3%A4larstrand_43.png?utm_source=fr.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Mojang_Studios_Logo_%282020%2C_slim%29.svg/330px-Mojang_Studios_Logo_%282020%2C_slim%29.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "wiki_url": "https://fr.wikipedia.org/wiki/Mojang_Studios"
     }
   ],
@@ -5126,7 +5126,7 @@
       "title_fr": "Inspiration4 : premier vol spatial orbital habité privé lancé",
       "text_en": "SpaceX made history by sending four civilians into orbit—no astronauts allowed! The crew orbited Earth for three days, proving space isn’t just for governments anymore.",
       "text_fr": "SpaceX a marqué l’histoire en envoyant quatre civils en orbite—sans aucun astronaute ! L’équipage a tourné autour de la Terre pendant trois jours, prouvant que l’espace n’est plus réservé aux États.",
-      "image": null,
+      "image": "https://nbbou81000.github.io/Geek-almanac/assets/icons/space.svg",
       "wiki_url": "https://en.wikipedia.org/wiki/2021_Luxian_earthquake"
     },
     {
@@ -5190,7 +5190,7 @@
       "title_fr": "L'ICANN est fondée, offrant à Internet son propre annuaire",
       "text_en": "ICANN was born to manage domain names—because even the internet needed a librarian to avoid chaos. Without it, we’d all be typing IP addresses like it’s 1995.",
       "text_fr": "L’ICANN est née pour gérer les noms de domaine—parce qu’Internet avait besoin d’un bibliothécaire pour éviter le chaos. Sans elle, on taperait encore des adresses IP comme en 1995.",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Icann_logo.svg/langfr-330px-Icann_logo.svg.png?utm_source=fr.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Icann_logo.svg/330px-Icann_logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "wiki_url": "https://fr.wikipedia.org/wiki/Internet_Corporation_for_Assigned_Names_and_Numbers"
     },
     {
@@ -5299,7 +5299,7 @@
       "title_fr": "Découverte de 8 nouvelles lunes de Saturne par l’équipe de Brett J. Gladman",
       "text_en": "Brett J. Gladman and his crew expanded Saturn’s entourage by 8, proving that even gas giants need a good PR team.",
       "text_fr": "Brett J. Gladman et son équipe ont agrandi la cour de Saturne de 8 lunes, prouvant que même les géantes gazeuses ont besoin d’une bonne équipe de communication.",
-      "image": null,
+      "image": "https://nbbou81000.github.io/Geek-almanac/assets/icons/space.svg",
       "wiki_url": "https://fr.wikipedia.org/wiki/Brett_James_Gladman"
     }
   ],
@@ -5459,7 +5459,7 @@
       "title_fr": "L'Inde lance Astrosat, son premier observatoire spatial",
       "text_en": "India’s PSLV rocket deployed Astrosat, the country’s first dedicated astronomy satellite—because why leave all the stargazing to NASA?",
       "text_fr": "Le lanceur PSLV indien met en orbite Astrosat, premier observatoire spatial du pays—parce que l’astronomie, c’est aussi une affaire de fierté nationale.",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Flag_of_the_Taliban.svg/langfr-330px-Flag_of_the_Taliban.svg.png?utm_source=fr.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Flag_of_the_Taliban.svg/330px-Flag_of_the_Taliban.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "wiki_url": "https://fr.wikipedia.org/wiki/Talibans"
     }
   ],
@@ -5525,7 +5525,7 @@
       "title_fr": "Lancement de 4chan, le bac à sable le plus chaotique d'Internet",
       "text_en": "Where memes are born, trolls thrive, and cats rule the digital realm—welcome to the wild side of the web!",
       "text_fr": "Là où naissent les memes, où les trolls prospèrent et où les chats règnent sur le web—bienvenue dans la jungle numérique !",
-      "image": null,
+      "image": "https://nbbou81000.github.io/Geek-almanac/assets/icons/internet.svg",
       "wiki_url": "https://en.wikipedia.org/wiki/Imageboard"
     },
     {
@@ -5570,7 +5570,7 @@
       "title_fr": "Fondation de la Free Software Foundation",
       "text_en": "The Free Software Foundation is born, giving birth to the GNU Project and the concept of copyleft—because freedom in code shouldn’t be a bug.",
       "text_fr": "La Free Software Foundation voit le jour, lançant le projet GNU et le concept de copyleft : parce que la liberté dans le code ne devrait pas être un bug.",
-      "image": null,
+      "image": "https://nbbou81000.github.io/Geek-almanac/assets/icons/culture.svg",
       "wiki_url": "https://en.wikipedia.org/wiki/Free_Software_Foundation"
     },
     {
@@ -5736,7 +5736,7 @@
       "title_fr": "Ameritech lance le premier réseau cellulaire américain à Chicago",
       "text_en": "The birth of mobile freedom: those brick-sized phones of the '80s were just the beginning!",
       "text_fr": "La liberté mobile commence ici : ces téléphones de la taille d'une brique n'étaient que le début !",
-      "image": null,
+      "image": "https://nbbou81000.github.io/Geek-almanac/assets/icons/hardware.svg",
       "wiki_url": "https://en.wikipedia.org/wiki/Ameritech_Cellular"
     },
     {
@@ -5901,7 +5901,7 @@
       "title_fr": "Opération Osoaviakhim : l’URSS déporte des ingénieurs et équipements allemands",
       "text_en": "Cold War’s tech heist: over 2,000 engineers and their gear were forcibly moved to the USSR, kickstarting Soviet rocket science. No relocation fee included.",
       "text_fr": "Le hold-up technologique de la Guerre froide : plus de 2 000 ingénieurs et leur matériel ont été déplacés de force en URSS, propulsant la science des fusées soviétique. Sans frais de déménagement.",
-      "image": null,
+      "image": "https://nbbou81000.github.io/Geek-almanac/assets/icons/science.svg",
       "wiki_url": "https://en.wikipedia.org/wiki/Operation_Osoaviakhim"
     },
     {
@@ -6019,7 +6019,7 @@
       "title_fr": "Cassini découvre Japet, lune de Saturne",
       "text_en": "Jean-Dominique Cassini spotted Iapetus, proving that even in the 17th century, astronomers could find moons faster than you can say \"telescope.\"",
       "text_fr": "Jean-Dominique Cassini repère Japet, prouvant qu’au XVIIe siècle, les astronomes trouvaient des lunes plus vite qu’on ne dit \"télescope\".",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Obs-Paris-coupole-Arago.jpg/330px-Obs-Paris-coupole-Arago.jpg?utm_source=fr.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Obs-Paris-coupole-Arago.jpg/330px-Obs-Paris-coupole-Arago.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "wiki_url": "https://fr.wikipedia.org/wiki/Observatoire_de_Paris"
     }
   ],
@@ -6051,7 +6051,7 @@
       "title_fr": "Première publicité en ligne diffusée sur le site de Wired",
       "text_en": "The digital ad revolution begins: a humble banner ad on Wired’s site marked the birth of internet marketing as we know it.",
       "text_fr": "La révolution de la pub en ligne démarre : une simple bannière sur Wired a donné naissance au marketing internet moderne.",
-      "image": null,
+      "image": "https://nbbou81000.github.io/Geek-almanac/assets/icons/internet.svg",
       "wiki_url": "https://en.wikipedia.org/wiki/Gliese_229"
     }
   ],
@@ -6073,7 +6073,7 @@
       "title_fr": "NASA lance Ares I-X, chant du cygne du programme Constellation",
       "text_en": "NASA’s Ares I-X test flight marked the only launch of the doomed Constellation program, a project that burned through cash faster than its engines. RIP, moon dreams.",
       "text_fr": "Le vol test Ares I-X de la NASA a été le seul lancement du programme Constellation, un projet qui a brûlé plus de budget que de carburant. RIP, les rêves lunaires.",
-      "image": null,
+      "image": "https://nbbou81000.github.io/Geek-almanac/assets/icons/space.svg",
       "wiki_url": "https://en.wikipedia.org/wiki/28_October_2009_Peshawar_bombing"
     },
     {
@@ -6173,7 +6173,7 @@
       "title_fr": "Le ver Morris, premier ver informatique majeur, est lancé depuis le MIT",
       "text_en": "This self-replicating code caused chaos by exploiting Unix flaws, proving that the internet could be both a playground and a minefield.",
       "text_fr": "Ce code auto-réplicatif a semé le chaos en exploitant des failles Unix, prouvant que l'internet pouvait être à la fois un terrain de jeu et un champ de mines.",
-      "image": null,
+      "image": "https://nbbou81000.github.io/Geek-almanac/assets/icons/internet.svg",
       "wiki_url": "https://en.wikipedia.org/wiki/Morris_worm"
     }
   ],
@@ -6595,7 +6595,7 @@
       "title_fr": "Amazon lance la première liseuse, le Kindle",
       "text_en": "The Kindle revolutionized reading—finally, a device that could hold more books than your cluttered coffee table.",
       "text_fr": "Le Kindle a révolutionné la lecture—enfin un appareil capable de contenir plus de livres que votre table basse en désordre.",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Daft_Punk%2C_14-6-2007%2C_Bercy%2C_Paris.jpg/330px-Daft_Punk%2C_14-6-2007%2C_Bercy%2C_Paris.jpg?utm_source=fr.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "image": "https://upload.wikimedia.org/wikipedia/en/4/49/Daft_Punk_Alive_2007.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
       "wiki_url": "https://fr.wikipedia.org/wiki/Alive_2007"
     }
   ],
@@ -6933,7 +6933,7 @@
       "title_fr": "La mission OSIRIS-REx de la NASA atteint l’astéroïde Bénou",
       "text_en": "A cosmic treasure hunt begins—let’s hope Bennu’s rocks aren’t hiding any alien Wi-Fi passwords.",
       "text_fr": "La chasse au trésor cosmique démarre… espérons que Bennu ne cache pas de mot de passe Wi-Fi extraterrestre.",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/NASA_logo_%282023_colors%29.svg/langfr-330px-NASA_logo_%282023_colors%29.svg.png?utm_source=fr.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/NASA_seal.svg/330px-NASA_seal.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "wiki_url": "https://fr.wikipedia.org/wiki/National_Aeronautics_and_Space_Administration"
     }
   ],
@@ -6967,7 +6967,7 @@
       "title_fr": "L’explosion de Vanguard TV3 retarde le premier lancement américain de satellite",
       "text_en": "America’s space race got off to a fiery start—literally—as Vanguard TV3’s launchpad explosion turned the first US satellite attempt into a spectacular (and expensive) firework.",
       "text_fr": "La course spatiale américaine a démarré en feu—littéralement—quand l’explosion de Vanguard TV3 a transformé la première tentative de satellite en un feu d’artifice spectaculaire (et coûteux).",
-      "image": null,
+      "image": "https://nbbou81000.github.io/Geek-almanac/assets/icons/space.svg",
       "wiki_url": "https://en.wikipedia.org/wiki/Project_Vanguard"
     }
   ],
@@ -6999,7 +6999,7 @@
       "title_fr": "W1XAV diffuse la première publicité télévisée aux États-Unis.",
       "text_en": "Before Netflix ads, there was this: the world’s first TV commercial—a tiny step for marketing, a giant leap for consumerism.",
       "text_fr": "Avant les pubs Netflix, il y avait ça : la première pub télé au monde—un petit pas pour le marketing, un bond de géant pour le consumérisme.",
-      "image": null,
+      "image": "https://nbbou81000.github.io/Geek-almanac/assets/icons/internet.svg",
       "wiki_url": "https://en.wikipedia.org/wiki/W1WX"
     }
   ],
@@ -7177,7 +7177,7 @@
       "title_fr": "Premier lancement réussi du missile balistique Atlas",
       "text_en": "The US flexed its rocket muscles with the Atlas ICBM, proving that nukes could fly faster than a speeding bullet... and land anywhere.",
       "text_fr": "Les États-Unis ont montré leurs muscles technologiques avec le missile balistique Atlas, prouvant que les bombes pouvaient voler plus vite qu'une balle... et atterrir n'importe où.",
-      "image": null,
+      "image": "https://nbbou81000.github.io/Geek-almanac/assets/icons/space.svg",
       "wiki_url": "https://en.wikipedia.org/wiki/SM-65_Atlas"
     },
     {
@@ -7364,7 +7364,7 @@
       "title_fr": "Découverte des octonions par John T. Graves",
       "text_en": "John T. Graves dropped a mathematical bombshell: octonions, the wild 8D cousins of quaternions, proving math never runs out of surprises.",
       "text_fr": "John T. Graves a lâché une bombe mathématique : les octonions, cousins excentriques en 8D des quaternions, prouvant que les maths ne manquent jamais de surprises.",
-      "image": null,
+      "image": "https://nbbou81000.github.io/Geek-almanac/assets/icons/science.svg",
       "wiki_url": "https://en.wikipedia.org/wiki/Octonion"
     }
   ],
