@@ -1,0 +1,42 @@
+name: Generate Encyclopedia
+
+on:
+  workflow_dispatch: # bouton "Run workflow" — relance-le autant de fois
+    # que tu veux pour aller au-delà du volume fait en un seul run
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 355 # filet de sécurité externe, sous la limite dure de 360 (6h)
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Build term list (si pas déjà fait)
+        run: |
+          if [ ! -f terms.json ]; then
+            node buildTermList.js
+          else
+            echo "terms.json déjà présent, on passe cette étape."
+          fi
+
+      - name: Generate encyclopedia articles
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          MISTRAL_API_KEY: ${{ secrets.MISTRAL_API_KEY }}
+        run: node generateEncyclopedia.js
+
+      - name: Commit result
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add terms.json terms/ manifest.json
+          git diff --staged --quiet || git commit -m "Generate encyclopedia batch"
+          git push
