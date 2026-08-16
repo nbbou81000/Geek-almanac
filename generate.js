@@ -1,27 +1,26 @@
 // Éphéméride Geek — génération complète en un seul run GitHub Actions
+// Gemini (Flash-Lite) en primaire, Mistral en secours si Gemini échoue.
 // Utilise fetch natif (Node 20+), aucune dépendance npm nécessaire.
 
 const fs = require('fs');
 
 const USER_AGENT = 'EphemerideGeek/1.0 (https://github.com/nbbou81000/Geek-almanac)';
-const GROQ_API_KEY = process.env.GROQ_API_KEY;
-const GROQ_MODEL = 'llama-3.1-8b-instant'; // quota tier gratuit bien plus généreux que le 70B
+const GEMINI_API_KEY = process.env.GEMINI_API_KEY;
+const MISTRAL_API_KEY = process.env.MISTRAL_API_KEY;
+const GEMINI_MODEL = 'gemini-2.5-flash-lite';
+const MISTRAL_MODEL = 'mistral-small-latest';
 const OUTPUT_FILE = 'ephemeride.json';
 
-// Mots-clés pour pré-filtrer les événements avant même l'appel Groq —
-// réduit fortement le volume envoyé (donc les tokens consommés) sur les
-// jours chargés (parfois 50-65 événements bruts côté Wikipedia).
 const TECH_KEYWORDS = /computer|software|internet|hardware|robot|satellite|spacecraft|NASA|programming|algorithm|processor|semiconductor|Apple|Microsoft|Google|IBM|Intel|Amazon|video game|console|hacker|cyber|encryption|artificial intelligence|machine learning|website|browser|smartphone|telegraph|telephone|television|radio broadcast|electric|engine|invention|patent|laboratory|physicist|chemist|scientist|discover|launch|orbit|Mars|Moon|nuclear|laser|transistor|circuit|network|protocol|Wikipedia|Linux|Windows|iOS|Android/i;
 
 function preFilter(events) {
   const matched = events.filter((ev) => TECH_KEYWORDS.test(ev.text));
-  // Cap à 15 candidats max même si plus matchent, pour borner les tokens
   return matched.slice(0, 15);
 }
 
 function allDaysOfYear() {
   const days = [];
-  const d = new Date(Date.UTC(2024, 0, 1)); // année bissextile
+  const d = new Date(Date.UTC(2024, 0, 1));
   for (let i = 0; i < 366; i++) {
     const mm = String(d.getUTCMonth() + 1).padStart(2, '0');
     const dd = String(d.getUTCDate()).padStart(2, '0');
@@ -40,7 +39,7 @@ async function fetchOnThisDay(lang, mm, dd, attempt = 1) {
   const res = await fetch(url, { headers: { 'User-Agent': USER_AGENT } });
   if (!res.ok) {
     if (attempt <= 3) {
-      const wait = attempt * 1500; // 1.5s, 3s, 4.5s
+      const wait = attempt * 1500;
       console.warn(`  ⚠ ${lang} ${mm}/${dd} → HTTP ${res.status}, retry dans ${wait}ms (tentative ${attempt}/3)`);
       await sleep(wait);
       return fetchOnThisDay(lang, mm, dd, attempt + 1);
@@ -61,8 +60,7 @@ async function fetchOnThisDay(lang, mm, dd, attempt = 1) {
   });
 }
 
-async function curateWithGroq(mm, dd, eventsEn, eventsFr) {
-  // Ne garder que les champs utiles + texte tronqué, pour limiter les tokens
+function buildPrompts(mm, dd, eventsEn, eventsFr) {
   const slim = (ev) => ({
     year: ev.year,
     text: ev.text.length > 200 ? ev.text.slice(0, 200) + '…' : ev.text,
@@ -71,17 +69,13 @@ async function curateWithGroq(mm, dd, eventsEn, eventsFr) {
   const slimEn = preFilter(eventsEn).map(slim);
   const slimFr = preFilter(eventsFr).map(slim);
 
-  if (slimEn.length === 0 && slimFr.length === 0) {
-    return []; // rien de tech-plausible détecté, on économise l'appel Groq
-  }
-
   const systemPrompt = `Tu es le redacteur de "La Bible Geek", un almanach des grandes dates de la tech et de la culture geek (informatique, jeux video, internet, espace, sciences, hardware, langages de programmation, culture hacker...).
 
 On te donne une liste d'evenements "on this day" (deja pre-filtres, potentiellement lies a la tech) tires de Wikipedia (EN et FR) pour une date donnee. Ta mission :
-1. Parmi ces evenements, ne garde que ceux VRAIMENT lies a la tech/geek au sens large (informatique, jeux video, internet, espace, sciences, hardware, langages, culture hacker). Certains candidats peuvent etre des faux positifs (mot-cle present mais hors-sujet) : ignore-les.
+1. Parmi ces evenements, ne garde que ceux VRAIMENT lies a la tech/geek au sens large. Certains candidats peuvent etre des faux positifs (mot-cle present mais hors-sujet) : ignore-les.
 2. Selectionne entre 1 et 4 evenements maximum, les plus emblematiques.
 3. Pour chaque evenement selectionne, redige un texte COURT (1-2 phrases, ton vivant, une pointe d'humour si pertinent) en anglais ET en francais.
-4. Reponds UNIQUEMENT en JSON valide, ce format exact :
+4. Reponds UNIQUEMENT en JSON valide, ce format exact, sans aucun texte avant/apres :
 
 {"entries":[{"year":2007,"category":"hardware","title_en":"...","title_fr":"...","text_en":"...","text_fr":"...","wiki_ref":"titre_page_wikipedia"}]}
 
@@ -92,14 +86,55 @@ Si rien de vraiment geek/tech, reponds {"entries":[]}.
     slimEn
   )}\n\nEvenements FR :\n${JSON.stringify(slimFr)}`;
 
-  const res = await fetch('https://api.groq.com/openai/v1/chat/completions', {
+  return { systemPrompt, userPrompt, hasCandidates: slimEn.length > 0 || slimFr.length > 0 };
+}
+
+function parseJsonSafe(text) {
+  try {
+    const parsed = JSON.parse(text);
+    return parsed.entries || [];
+  } catch {
+    return null;
+  }
+}
+
+async function callGemini(systemPrompt, userPrompt) {
+  const url = `https://generativelanguage.googleapis.com/v1beta/models/${GEMINI_MODEL}:generateContent?key=${GEMINI_API_KEY}`;
+  const res = await fetch(url, {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      contents: [{ parts: [{ text: userPrompt }] }],
+      systemInstruction: { parts: [{ text: systemPrompt }] },
+      generationConfig: { responseMimeType: 'application/json', temperature: 0.4 },
+    }),
+  });
+
+  if (res.status === 429) {
+    console.warn('  ⚠ Gemini 429 (quota atteint pour cet appel)');
+    return { ok: false, rateLimited: true };
+  }
+  if (!res.ok) {
+    console.warn(`  Gemini error ${res.status}: ${(await res.text()).slice(0, 200)}`);
+    return { ok: false, rateLimited: false };
+  }
+  const data = await res.json();
+  const text = data.candidates?.[0]?.content?.parts?.[0]?.text;
+  if (!text) return { ok: false, rateLimited: false };
+  const entries = parseJsonSafe(text);
+  if (entries === null) return { ok: false, rateLimited: false };
+  return { ok: true, entries };
+}
+
+async function callMistral(systemPrompt, userPrompt) {
+  const res = await fetch('https://api.mistral.ai/v1/chat/completions', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
-      Authorization: `Bearer ${GROQ_API_KEY}`,
+      Authorization: `Bearer ${MISTRAL_API_KEY}`,
     },
     body: JSON.stringify({
-      model: GROQ_MODEL,
+      model: MISTRAL_MODEL,
       temperature: 0.4,
       response_format: { type: 'json_object' },
       messages: [
@@ -110,20 +145,38 @@ Si rien de vraiment geek/tech, reponds {"entries":[]}.
   });
 
   if (res.status === 429) {
-    console.error('  ⚠ Quota Groq atteint (429). Arrêt propre — relance le workflow demain pour continuer.');
-    throw new Error('RATE_LIMIT');
+    console.warn('  ⚠ Mistral 429 (quota atteint pour cet appel)');
+    return { ok: false, rateLimited: true };
   }
   if (!res.ok) {
-    console.warn(`  Groq error ${res.status}: ${await res.text()}`);
-    return [];
+    console.warn(`  Mistral error ${res.status}: ${(await res.text()).slice(0, 200)}`);
+    return { ok: false, rateLimited: false };
   }
   const data = await res.json();
-  try {
-    const parsed = JSON.parse(data.choices[0].message.content);
-    return parsed.entries || [];
-  } catch {
-    return [];
+  const text = data.choices?.[0]?.message?.content;
+  if (!text) return { ok: false, rateLimited: false };
+  const entries = parseJsonSafe(text);
+  if (entries === null) return { ok: false, rateLimited: false };
+  return { ok: true, entries };
+}
+
+async function curateContent(mm, dd, eventsEn, eventsFr) {
+  const { systemPrompt, userPrompt, hasCandidates } = buildPrompts(mm, dd, eventsEn, eventsFr);
+  if (!hasCandidates) return { entries: [], provider: 'skip' };
+
+  if (GEMINI_API_KEY) {
+    const gemini = await callGemini(systemPrompt, userPrompt);
+    if (gemini.ok) return { entries: gemini.entries, provider: 'gemini' };
+    console.warn('  → bascule sur Mistral pour ce jour');
   }
+
+  if (MISTRAL_API_KEY) {
+    const mistral = await callMistral(systemPrompt, userPrompt);
+    if (mistral.ok) return { entries: mistral.entries, provider: 'mistral' };
+  }
+
+  console.error(`  ✗ Gemini et Mistral ont échoué pour ${mm}-${dd}, jour laissé vide`);
+  return { entries: [], provider: 'failed' };
 }
 
 function attachMetadata(entries, eventsEn, eventsFr) {
@@ -151,13 +204,11 @@ function attachMetadata(entries, eventsEn, eventsFr) {
 }
 
 async function main() {
-  if (!GROQ_API_KEY) {
-    console.error('GROQ_API_KEY manquant (vérifie le secret GitHub Actions).');
+  if (!GEMINI_API_KEY && !MISTRAL_API_KEY) {
+    console.error('Aucune clé API disponible (ni GEMINI_API_KEY ni MISTRAL_API_KEY).');
     process.exit(1);
   }
 
-  // Reprend un fichier existant s'il y en a un (permet de relancer le
-  // workflow sans tout refaire si jamais il avait déjà partiellement tourné)
   let result = {};
   if (fs.existsSync(OUTPUT_FILE)) {
     try {
@@ -174,30 +225,20 @@ async function main() {
   for (const [i, key] of remaining.entries()) {
     const [mm, dd] = key.split('-');
     console.log(`[${i + 1}/${remaining.length}] ${key} ...`);
-    try {
-      const [eventsEn, eventsFr] = await Promise.all([
-        fetchOnThisDay('en', mm, dd),
-        fetchOnThisDay('fr', mm, dd),
-      ]);
-      const raw = await curateWithGroq(mm, dd, eventsEn, eventsFr);
-      result[key] = attachMetadata(raw, eventsEn, eventsFr);
-      console.log(`  ✓ ${result[key].length} entrée(s)`);
-    } catch (err) {
-      if (err.message === 'RATE_LIMIT') {
-        fs.writeFileSync(OUTPUT_FILE, JSON.stringify(result, null, 2));
-        console.log(`\n⏸ Arrêt à cause du quota Groq. ${Object.keys(result).length}/366 jours faits jusqu'ici.`);
-        console.log('Relance le workflow demain (le quota se réinitialise à minuit UTC) pour continuer — la reprise est automatique.');
-        process.exit(0);
-      }
-      console.error(`  ✗ Erreur sur ${key}: ${err.message}`);
-      result[key] = [];
-    }
 
-    // Sauvegarde tous les 10 jours (sécurité si le run est interrompu)
+    const [eventsEn, eventsFr] = await Promise.all([
+      fetchOnThisDay('en', mm, dd),
+      fetchOnThisDay('fr', mm, dd),
+    ]);
+    const { entries, provider } = await curateContent(mm, dd, eventsEn, eventsFr);
+    result[key] = attachMetadata(entries, eventsEn, eventsFr);
+    console.log(`  ✓ ${result[key].length} entrée(s) [${provider}]`);
+
     if (i % 10 === 0) {
       fs.writeFileSync(OUTPUT_FILE, JSON.stringify(result, null, 2));
     }
-    await sleep(500); // reste correct vis-à-vis des APIs (espacé pour éviter le throttling Wikimedia)
+
+    await sleep(provider === 'gemini' || provider === 'mistral' ? 4500 : 300);
   }
 
   fs.writeFileSync(OUTPUT_FILE, JSON.stringify(result, null, 2));
