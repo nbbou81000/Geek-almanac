@@ -7,7 +7,7 @@ const fs = require('fs');
 
 const USER_AGENT = 'EncyclopedieGeek/1.0 (GitHub Actions; contact: nico)';
 const MAX_DEPTH = 3; // profondeur de sous-catégories à explorer (augmenté pour plus de volume)
-const MAX_CRAWL_TIME_MS = 30 * 60 * 1000; // sécurité : 30 min max pour la collecte, quel que soit l'avancement
+const MAX_CRAWL_TIME_MS = 40 * 60 * 1000; // sécurité : 40 min max pour la collecte (augmenté vu le rythme plus lent)
 const OUTPUT_FILE = 'terms.json';
 
 // Catégories de départ, larges pour couvrir "tous les domaines de
@@ -112,6 +112,20 @@ async function fetchCategoryMembers(category, cmtype, cmcontinue, attempt = 1) {
   if (cmcontinue) url += `&cmcontinue=${encodeURIComponent(cmcontinue)}`;
   const res = await fetch(url, { headers: { 'User-Agent': 'EncyclopedieGeek/1.0 (https://github.com/nbbou81000/Geek-almanac)' } });
 
+  if (res.status === 429) {
+    if (attempt <= 5) {
+      const retryAfterHeader = res.headers.get('retry-after');
+      const retryAfterMs = retryAfterHeader ? parseInt(retryAfterHeader, 10) * 1000 : 0;
+      const backoff = attempt * 5000; // 5s, 10s, 15s, 20s, 25s
+      const wait = Math.max(retryAfterMs, backoff) + Math.floor(Math.random() * 1000); // + jitter
+      console.warn(`  ⚠ ${category} → HTTP 429, retry dans ${wait}ms (tentative ${attempt}/5)`);
+      await new Promise((r) => setTimeout(r, wait));
+      return fetchCategoryMembers(category, cmtype, cmcontinue, attempt + 1);
+    }
+    console.error(`  ✗ ${category} → throttle persistant après 5 tentatives, catégorie ignorée`);
+    return { members: [], next: null };
+  }
+
   if (!res.ok) {
     if (attempt <= 3) {
       const wait = attempt * 2000;
@@ -128,14 +142,13 @@ async function fetchCategoryMembers(category, cmtype, cmcontinue, attempt = 1) {
   try {
     data = JSON.parse(text);
   } catch {
-    // Réponse non-JSON = probablement un throttle Wikimedia ("too many requests")
-    if (attempt <= 3) {
-      const wait = attempt * 2000;
+    if (attempt <= 5) {
+      const wait = attempt * 5000 + Math.floor(Math.random() * 1000);
       console.warn(`  ⚠ ${category} → réponse non-JSON (throttle probable), retry dans ${wait}ms`);
       await new Promise((r) => setTimeout(r, wait));
       return fetchCategoryMembers(category, cmtype, cmcontinue, attempt + 1);
     }
-    console.error(`  ✗ ${category} → throttle persistant après 3 tentatives, catégorie ignorée`);
+    console.error(`  ✗ ${category} → throttle persistant après 5 tentatives, catégorie ignorée`);
     return { members: [], next: null };
   }
 
@@ -148,7 +161,7 @@ async function fetchCategoryMembers(category, cmtype, cmcontinue, attempt = 1) {
 async function collectFromCategory(category, depth, visitedCats, titles) {
   if (visitedCats.has(category) || depth > MAX_DEPTH) return;
   visitedCats.add(category);
-  await new Promise((r) => setTimeout(r, 150)); // espacement anti-throttle
+  await new Promise((r) => setTimeout(r, 800)); // espacement anti-throttle (augmenté)
 
   // Articles de cette catégorie
   let cont;
