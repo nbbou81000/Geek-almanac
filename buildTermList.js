@@ -223,7 +223,8 @@ async function fetchCategoryMembers(category, cmtype, cmcontinue, attempt = 1) {
   };
 }
 
-async function collectFromCategory(category, depth, visitedCats, titles) {
+async function collectFromCategory(category, depth, visitedCats, titles, deadline) {
+  if (Date.now() > deadline) return; // sécurité : coupe même en pleine récursion
   if (visitedCats.has(category) || depth > MAX_DEPTH) return;
   visitedCats.add(category);
   await new Promise((r) => setTimeout(r, 800)); // espacement anti-throttle (augmenté)
@@ -231,6 +232,7 @@ async function collectFromCategory(category, depth, visitedCats, titles) {
   // Articles de cette catégorie
   let cont;
   do {
+    if (Date.now() > deadline) return;
     const { members, next } = await fetchCategoryMembers(category, 'page', cont);
     members.forEach((m) => {
       if (isLikelyArticle(m.title)) titles.add(m.title);
@@ -240,16 +242,19 @@ async function collectFromCategory(category, depth, visitedCats, titles) {
 
   // Sous-catégories (récursion limitée en profondeur)
   if (depth < MAX_DEPTH) {
+    if (Date.now() > deadline) return;
     let subCont;
     const subcats = [];
     do {
+      if (Date.now() > deadline) break;
       const { members, next } = await fetchCategoryMembers(category, 'subcat', subCont);
       subcats.push(...members);
       subCont = next;
     } while (subCont);
 
     for (const sub of subcats) {
-      await collectFromCategory(sub.title, depth + 1, visitedCats, titles);
+      if (Date.now() > deadline) return;
+      await collectFromCategory(sub.title, depth + 1, visitedCats, titles, deadline);
     }
   }
 }
@@ -258,15 +263,16 @@ async function main() {
   const titles = new Set();
   const visitedCats = new Set();
   const startTime = Date.now();
+  const deadline = startTime + MAX_CRAWL_TIME_MS;
 
   for (const [i, cat] of SEED_CATEGORIES.entries()) {
-    if (Date.now() - startTime > MAX_CRAWL_TIME_MS) {
-      console.log(`\n⏰ Limite de temps de collecte atteinte (30 min), arrêt propre avec ${titles.size} termes déjà trouvés.`);
+    if (Date.now() > deadline) {
+      console.log(`\n⏰ Limite de temps de collecte atteinte (${MAX_CRAWL_TIME_MS / 60000} min), arrêt propre avec ${titles.size} termes déjà trouvés.`);
       break;
     }
     console.log(`[${i + 1}/${SEED_CATEGORIES.length}] Exploration ${cat} ...`);
     try {
-      await collectFromCategory(cat, 0, visitedCats, titles);
+      await collectFromCategory(cat, 0, visitedCats, titles, deadline);
     } catch (err) {
       console.warn(`  ⚠ Erreur sur ${cat}: ${err.message}`);
     }
