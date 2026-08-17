@@ -38,7 +38,10 @@ function sleep(ms) {
 
 function fallbackIcon(category) {
   const valid = ['hardware', 'software', 'internet', 'gaming', 'space', 'science', 'company', 'culture'];
-  const cat = valid.includes(category) ? category : 'culture';
+  // Nouvelles catégories sans icône dédiée -> mappées vers la plus proche existante
+  const aliases = { smartphone: 'hardware', cybersecurity: 'software' };
+  const resolved = aliases[category] || category;
+  const cat = valid.includes(resolved) ? resolved : 'culture';
   return `${FALLBACK_ICON_BASE}/${cat}.svg`;
 }
 
@@ -110,7 +113,7 @@ function buildCurationPrompts(title, extractEn, extractFr) {
 On te donne un extrait Wikipedia (anglais, et parfois francais) a propos d'un terme/concept/invention. Ta mission :
 1. Redige un article COMPLET et bien ecrit, en anglais ET en francais, sur ce terme — 2 a 3 paragraphes (environ 150-250 mots par langue), informatif, vivant, avec du contexte (pourquoi c'est important, une anecdote si pertinente).
 2. Si l'extrait fourni est trop pauvre ou hors-sujet (pas vraiment tech/geek), reponds avec "skip": true.
-3. Choisis une categorie parmi : hardware, software, internet, gaming, space, science, company, culture.
+3. Choisis une categorie parmi : hardware, software, internet, gaming, space, science, company, culture, cybersecurity, smartphone. Utilise "smartphone" specifiquement pour un modele ou une gamme de telephone (ex: iPhone, Galaxy S24, Pixel 8), et "hardware" pour tout le reste du materiel informatique.
 4. Reponds UNIQUEMENT en JSON valide, sans aucun texte avant/apres, ce format exact :
 
 {"skip": false, "category": "hardware", "title_en": "...", "title_fr": "...", "text_en": "...", "text_fr": "..."}`;
@@ -231,6 +234,84 @@ function shuffle(array) {
   return array;
 }
 
+// --- Priorisation par catégorie : ralentit (sans jamais bloquer) gaming en
+// particulier, et accélère space/cybersecurity/company/smartphones. ---
+const CATEGORY_CAPS = {
+  gaming: 0.15,   // gaming ralenti fort (était à 25%)
+  software: 0.25,
+  hardware: 0.20,
+};
+
+// Catégories à faire passer en tête de liste systématiquement
+const BOOST_CATEGORIES = ['space', 'cybersecurity', 'company', 'smartphone'];
+
+// Heuristique légère pour deviner la catégorie probable d'un titre AVANT
+// génération (juste pour la priorisation — la vraie catégorie finale reste
+// toujours décidée par le LLM lors de la curation).
+function guessCategoryFromTitle(title) {
+  const t = title.toLowerCase();
+  // Smartphones testé en premier (plus spécifique que "hardware")
+  if (/\b(iphone|galaxy\s+(s|a|note|z|m)\d+|xperia|pixel\s*\d+|redmi|oneplus|nexus\s*\d+|moto\s*[gexz]\d*|htc\s+(one|desire|wildfire)|nokia\s+\d+|blackberry|huawei\s+(p|mate)\d+|honor\s*\d+|oppo\s+(find|reno)|vivo\s+[xv]\d+|lg\s+(g|v)\d+|smartphone)\b/.test(t)) return 'smartphone';
+  if (/\b(space|spacex|starship|satellite|rocket|nasa|esa\b|orbit|mars|moon|lunar|astronaut|spacecraft|cosmonaut)\b/i.test(t)) return 'space';
+  if (/\b(security|malware|virus|hack(er|ing)?|encrypt|cyber|exploit|firewall|breach|ransomware)\b/.test(t)) return 'cybersecurity';
+  if (/\b(inc\.?|corporation|corp\.?|company|ltd|technologies|systems|labs?|holdings)\b/.test(t)) return 'company';
+  if (/\b(video game|game|kart|quest|saga|rpg|fps|nintendo|playstation|xbox|arcade|esports?)\b/.test(t)) return 'gaming';
+  if (/\b(software|framework|library|\bapi\b|sdk|compiler|linux|kernel|database|\bsql\b|open.source)\b/.test(t)) return 'software';
+  if (/\b(processor|chip|\bcpu\b|\bgpu\b|motherboard|hardware|drive|memory|\bram\b|circuit|semiconductor)\b/.test(t)) return 'hardware';
+  return null;
+}
+
+function countExistingCategories() {
+  const counts = {};
+  let total = 0;
+  if (!fs.existsSync(OUTPUT_DIR)) return { counts, total };
+  for (const file of fs.readdirSync(OUTPUT_DIR)) {
+    if (!file.endsWith('.json')) continue;
+    try {
+      const entry = JSON.parse(fs.readFileSync(path.join(OUTPUT_DIR, file), 'utf8'));
+      const cat = entry.category || 'culture';
+      counts[cat] = (counts[cat] || 0) + 1;
+      total++;
+    } catch {
+      // fichier illisible, on l'ignore juste pour le comptage
+    }
+  }
+  return { counts, total };
+}
+
+// Réordonne en 3 niveaux :
+//   1. BOOST_CATEGORIES (space/cybersecurity/company/smartphone) -> en tête
+//   2. Le reste (non concerné par un cap) -> priorité normale
+//   3. Catégories au-delà de leur quota (surtout gaming) -> différé en fin
+function prioritizeByCategory(remaining) {
+  const { counts, total } = countExistingCategories();
+
+  const isOverCap = (cat) => {
+    const cap = CATEGORY_CAPS[cat];
+    if (!cap || total === 0) return false;
+    return (counts[cat] || 0) / total > cap;
+  };
+
+  const boosted = [];
+  const normal = [];
+  const deferred = [];
+
+  for (const title of remaining) {
+    const guessed = guessCategoryFromTitle(title);
+    if (guessed && BOOST_CATEGORIES.includes(guessed)) {
+      boosted.push(title);
+    } else if (guessed && isOverCap(guessed)) {
+      deferred.push(title);
+    } else {
+      normal.push(title);
+    }
+  }
+  console.log(
+    `Priorisation : ${boosted.length} accélérés (space/cybersecurity/company/smartphone), ${normal.length} normaux, ${deferred.length} différés (gaming surtout)`
+  );
+  return [...boosted, ...normal, ...deferred];
+}
+
 async function main() {
   if (!GEMINI_API_KEY && !MISTRAL_API_KEY) {
     console.error('Aucune clé API disponible (ni GEMINI_API_KEY ni MISTRAL_API_KEY).');
@@ -250,7 +331,7 @@ async function main() {
   }
   const processedSet = new Set(manifest.processed_titles);
 
-  const remaining = shuffle(terms.filter((t) => !processedSet.has(t)));
+  const remaining = prioritizeByCategory(shuffle(terms.filter((t) => !processedSet.has(t))));
   console.log(`${remaining.length} terme(s) restant(s) sur ${terms.length} — ordre mélangé pour couvrir tout l'alphabet`);
 
   const startTime = Date.now();
