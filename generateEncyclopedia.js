@@ -222,6 +222,15 @@ function commitProgress(label) {
   }
 }
 
+function shuffle(array) {
+  // Fisher-Yates — mélange en place, uniforme
+  for (let i = array.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [array[i], array[j]] = [array[j], array[i]];
+  }
+  return array;
+}
+
 async function main() {
   if (!GEMINI_API_KEY && !MISTRAL_API_KEY) {
     console.error('Aucune clé API disponible (ni GEMINI_API_KEY ni MISTRAL_API_KEY).');
@@ -241,8 +250,8 @@ async function main() {
   }
   const processedSet = new Set(manifest.processed_titles);
 
-  const remaining = terms.filter((t) => !processedSet.has(t));
-  console.log(`${remaining.length} terme(s) restant(s) sur ${terms.length}`);
+  const remaining = shuffle(terms.filter((t) => !processedSet.has(t)));
+  console.log(`${remaining.length} terme(s) restant(s) sur ${terms.length} — ordre mélangé pour couvrir tout l'alphabet`);
 
   const startTime = Date.now();
   let lastCommitTime = Date.now();
