@@ -39,7 +39,7 @@ function sleep(ms) {
 function fallbackIcon(category) {
   const valid = ['hardware', 'software', 'internet', 'gaming', 'space', 'science', 'company', 'culture'];
   // Nouvelles catégories sans icône dédiée -> mappées vers la plus proche existante
-  const aliases = { smartphone: 'hardware', cybersecurity: 'software' };
+  const aliases = { smartphone: 'hardware', cybersecurity: 'software', language: 'software', protocol: 'internet' };
   const resolved = aliases[category] || category;
   const cat = valid.includes(resolved) ? resolved : 'culture';
   return `${FALLBACK_ICON_BASE}/${cat}.svg`;
@@ -113,7 +113,7 @@ function buildCurationPrompts(title, extractEn, extractFr) {
 On te donne un extrait Wikipedia (anglais, et parfois francais) a propos d'un terme/concept/invention. Ta mission :
 1. Redige un article COMPLET et bien ecrit, en anglais ET en francais, sur ce terme — 2 a 3 paragraphes (environ 150-250 mots par langue), informatif, vivant, avec du contexte (pourquoi c'est important, une anecdote si pertinente).
 2. Si l'extrait fourni est trop pauvre ou hors-sujet (pas vraiment tech/geek), reponds avec "skip": true.
-3. Choisis une categorie parmi : hardware, software, internet, gaming, space, science, company, culture, cybersecurity, smartphone. Utilise "smartphone" specifiquement pour un modele ou une gamme de telephone (ex: iPhone, Galaxy S24, Pixel 8), et "hardware" pour tout le reste du materiel informatique.
+3. Choisis une categorie parmi : hardware, software, internet, gaming, space, science, company, culture, cybersecurity, smartphone, language, protocol. Utilise "smartphone" specifiquement pour un modele ou une gamme de telephone (ex: iPhone, Galaxy S24, Pixel 8), "language" pour un langage de programmation (ex: Python, Rust, COBOL), "protocol" pour un protocole reseau/communication (ex: HTTP, Bluetooth, TCP/IP), et "hardware"/"software" pour tout le reste du materiel/logiciel.
 4. Reponds UNIQUEMENT en JSON valide, sans aucun texte avant/apres, ce format exact :
 
 {"skip": false, "category": "hardware", "title_en": "...", "title_fr": "...", "text_en": "...", "text_fr": "..."}`;
@@ -243,7 +243,7 @@ const CATEGORY_CAPS = {
 };
 
 // Catégories à faire passer en tête de liste systématiquement
-const BOOST_CATEGORIES = ['space', 'cybersecurity', 'company', 'smartphone'];
+const BOOST_CATEGORIES = ['space', 'cybersecurity', 'company', 'smartphone', 'hardware', 'software', 'language', 'protocol'];
 
 // Heuristique légère pour deviner la catégorie probable d'un titre AVANT
 // génération (juste pour la priorisation — la vraie catégorie finale reste
@@ -254,6 +254,9 @@ function guessCategoryFromTitle(title) {
   if (/\b(iphone|galaxy\s+(s|a|note|z|m)\d+|xperia|pixel\s*\d+|redmi|oneplus|nexus\s*\d+|moto\s*[gexz]\d*|htc\s+(one|desire|wildfire)|nokia\s+\d+|blackberry|huawei\s+(p|mate)\d+|honor\s*\d+|oppo\s+(find|reno)|vivo\s+[xv]\d+|lg\s+(g|v)\d+|smartphone)\b/.test(t)) return 'smartphone';
   if (/\b(space|spacex|starship|satellite|rocket|nasa|esa\b|orbit|mars|moon|lunar|astronaut|spacecraft|cosmonaut)\b/i.test(t)) return 'space';
   if (/\b(security|malware|virus|hack(er|ing)?|encrypt|cyber|exploit|firewall|breach|ransomware)\b/.test(t)) return 'cybersecurity';
+  // Langages et protocoles testés avant "software" générique (plus spécifiques)
+  if (/\b(programming language|scripting language|assembly language|python|javascript|typescript|rust\b|golang|ruby\b|\bphp\b|perl\b|haskell|kotlin|swift\b|scala\b|erlang|elixir|lua\b|cobol|fortran|pascal\b|basic\b|lisp\b|prolog|c\+\+|c#|objective-c|visual basic)\b/i.test(t)) return 'language';
+  if (/\b(protocol|\bhttp\b|\bhttps\b|tcp\/ip|\btcp\b|\budp\b|\bftp\b|\bssh\b|\bdns\b|smtp|imap|pop3|websocket|mqtt|bluetooth|wi-?fi|\bnfc\b|\bethernet\b|oauth|\bssl\b|\btls\b|\brest\b|graphql|\bsoap\b|\brpc\b)\b/i.test(t)) return 'protocol';
   if (/\b(inc\.?|corporation|corp\.?|company|ltd|technologies|systems|labs?|holdings)\b/.test(t)) return 'company';
   if (/\b(video game|game|kart|quest|saga|rpg|fps|nintendo|playstation|xbox|arcade|esports?)\b/.test(t)) return 'gaming';
   if (/\b(software|framework|library|\bapi\b|sdk|compiler|linux|kernel|database|\bsql\b|open.source)\b/.test(t)) return 'software';
@@ -307,7 +310,7 @@ function prioritizeByCategory(remaining) {
     }
   }
   console.log(
-    `Priorisation : ${boosted.length} accélérés (space/cybersecurity/company/smartphone), ${normal.length} normaux, ${deferred.length} différés (gaming surtout)`
+    `Priorisation : ${boosted.length} accélérés (space/cybersecurity/company/smartphone/hardware/software), ${normal.length} normaux, ${deferred.length} différés (gaming surtout)`
   );
   return [...boosted, ...normal, ...deferred];
 }

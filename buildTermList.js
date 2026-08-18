@@ -4,6 +4,7 @@
 // (ou de temps en temps pour enrichir), écrit terms.json.
 
 const fs = require('fs');
+const { execSync } = require('child_process');
 
 const USER_AGENT = 'EncyclopedieGeek/1.0 (GitHub Actions; contact: nico)';
 const MAX_DEPTH = 3; // profondeur de sous-catégories à explorer (augmenté pour plus de volume)
@@ -75,6 +76,26 @@ const SEED_CATEGORIES = [
   'Category:Computer companies',
   'Category:Video game companies',
 
+  // === PRIORITÉ 4bis : langages de programmation et protocoles ===
+  'Category:Programming languages',
+  'Category:Scripting languages',
+  'Category:Functional languages',
+  'Category:Compiled languages',
+  'Category:Esoteric programming languages',
+  'Category:Programming language theory',
+  'Category:Domain-specific programming languages',
+  'Category:Concatenative programming languages',
+  'Category:Object-oriented programming languages',
+  'Category:Assembly languages',
+  'Category:Internet protocols',
+  'Category:Network protocols',
+  'Category:Application layer protocols',
+  'Category:Cryptographic protocols',
+  'Category:Transport layer protocols',
+  'Category:Wireless networking protocols',
+  'Category:Communication protocols',
+  'Category:Data transmission',
+
   // === PRIORITÉ 5 : science, culture, histoire ===
   'Category:Computer pioneers',
   'Category:Computer scientists',
@@ -91,7 +112,6 @@ const SEED_CATEGORIES = [
   'Category:Computer humor',
 
   // === PRIORITÉ 6 (déjà bien fourni, traité en dernier si le temps le permet) ===
-  'Category:Programming languages',
   'Category:Artificial intelligence',
   'Category:Machine learning',
   'Category:Computer networking',
@@ -113,7 +133,6 @@ const SEED_CATEGORIES = [
   'Category:Cryptocurrencies',
   'Category:Wireless networking',
   'Category:File systems',
-  'Category:Assembly languages',
   'Category:Esports',
   'Category:Video game development',
   'Category:Mobile operating systems',
@@ -259,6 +278,22 @@ async function collectFromCategory(category, depth, visitedCats, titles, deadlin
   }
 }
 
+function saveProgress(titles, label) {
+  const result = Array.from(titles).sort();
+  fs.writeFileSync(OUTPUT_FILE, JSON.stringify(result, null, 2));
+  try {
+    execSync('git config user.name "github-actions[bot]"', { stdio: 'ignore' });
+    execSync('git config user.email "github-actions[bot]@users.noreply.github.com"', { stdio: 'ignore' });
+    execSync('git add terms.json', { stdio: 'ignore' });
+    execSync(`git commit -m "Term collection progress: ${label}" --quiet`, { stdio: 'ignore' });
+    execSync('git push --quiet', { stdio: 'ignore' });
+    console.log(`  💾 Progression commitée et pushée (${label})`);
+  } catch {
+    // Rien à commit (aucun changement) ou push impossible temporairement —
+    // pas bloquant, le prochain point de sauvegarde rattrapera.
+  }
+}
+
 async function main() {
   const titles = new Set();
   const visitedCats = new Set();
@@ -277,11 +312,18 @@ async function main() {
       console.warn(`  ⚠ Erreur sur ${cat}: ${err.message}`);
     }
     console.log(`  → ${titles.size} titres uniques cumulés`);
+
+    // Sauvegarde + commit tous les 5 catégories (sécurité contre un crash
+    // en cours de route — throttling persistant, erreur inattendue, etc.)
+    if ((i + 1) % 5 === 0) {
+      saveProgress(titles, `${i + 1}/${SEED_CATEGORIES.length} catégories, ${titles.size} termes`);
+    }
   }
 
   const result = Array.from(titles).sort();
   fs.writeFileSync(OUTPUT_FILE, JSON.stringify(result, null, 2));
   console.log(`\n✅ ${result.length} termes candidats écrits dans ${OUTPUT_FILE}`);
+  saveProgress(titles, `run terminé — ${result.length} termes au total`);
 }
 
 main();
