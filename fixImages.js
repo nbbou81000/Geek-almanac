@@ -1,8 +1,9 @@
-// Éphéméride Geek — patch des images manquantes uniquement
-// Ne touche PAS au texte déjà généré. Ne fait AUCUN appel Gemini/Mistral.
-// Lit ephemeride.json existant, complète les images absentes via Wikipedia
-// (nouvelle tentative sur la page de l'article), puis en dernier recours
-// une icône générique de catégorie. Rapide et repartable.
+// Éphéméride Geek — correction des wiki_url/images mal rattachés
+// Contrairement à la version précédente qui ne faisait confiance qu'au
+// wiki_url existant, celle-ci repart du titre de l'article et cherche
+// activement la vraie page Wikipedia correspondante (préfixes/suffixes
+// progressifs), pour corriger aussi les cas où wiki_url pointe carrément
+// vers un article totalement différent (pas juste une image manquante).
 
 const fs = require('fs');
 
@@ -20,15 +21,54 @@ function fallbackIcon(category) {
   return `${FALLBACK_ICON_BASE}/${cat}.svg`;
 }
 
-function titleFromWikiUrl(wikiUrl) {
-  if (!wikiUrl) return null;
+async function searchWikipedia(query, attempt = 1) {
   try {
-    const path = new URL(wikiUrl).pathname; // ex: /wiki/IBM_Personal_Computer
-    const raw = path.split('/wiki/')[1];
-    return raw ? decodeURIComponent(raw.replace(/_/g, ' ')) : null;
+    const url = `https://en.wikipedia.org/w/api.php?action=opensearch&search=${encodeURIComponent(query)}&limit=1&namespace=0&format=json`;
+    const res = await fetch(url, { headers: { 'User-Agent': USER_AGENT } });
+    if (!res.ok) {
+      if (attempt <= 3) {
+        await sleep(attempt * 2000);
+        return searchWikipedia(query, attempt + 1);
+      }
+      return null;
+    }
+    const text = await res.text();
+    let data;
+    try {
+      data = JSON.parse(text);
+    } catch {
+      // Réponse non-JSON = throttle probable
+      if (attempt <= 3) {
+        await sleep(attempt * 2000);
+        return searchWikipedia(query, attempt + 1);
+      }
+      return null;
+    }
+    return data[1] && data[1][0] ? { title: data[1][0], url: data[3][0] } : null;
   } catch {
     return null;
   }
+}
+
+// Cherche la vraie page Wikipedia en essayant des préfixes puis des
+// suffixes de plus en plus courts du titre (les titres générés sont
+// souvent des phrases descriptives, pas le vrai nom de l'article).
+async function findBestMatch(title) {
+  const words = title.replace(/[,.;:()]/g, '').split(' ').filter(Boolean);
+
+  for (let n = Math.min(5, words.length); n >= 2; n--) {
+    const prefix = words.slice(0, n).join(' ');
+    const r = await searchWikipedia(prefix);
+    await sleep(300);
+    if (r) return r;
+  }
+  for (let n = Math.min(4, words.length); n >= 2; n--) {
+    const suffix = words.slice(-n).join(' ');
+    const r = await searchWikipedia(suffix);
+    await sleep(300);
+    if (r) return r;
+  }
+  return null;
 }
 
 async function fetchPageThumbnail(title, attempt = 1) {
@@ -59,9 +99,10 @@ async function main() {
   const dayKeys = Object.keys(data);
 
   let totalEntries = 0;
-  let missingBefore = 0;
-  let fixedViaWiki = 0;
+  let urlCorrected = 0;
+  let imageFixed = 0;
   let fixedViaIcon = 0;
+  let unchanged = 0;
 
   for (const [i, key] of dayKeys.entries()) {
     const entries = data[key];
@@ -69,48 +110,46 @@ async function main() {
 
     for (const entry of entries) {
       totalEntries++;
-      const hadImage = !!entry.image;
-      if (!hadImage) missingBefore++;
 
-      // On re-vérifie TOUJOURS via wiki_url (source la plus fiable, liée
-      // exactement au bon article) — corrige aussi les images mal
-      // rattachées par le matching approximatif du script de génération,
-      // pas seulement les absentes.
-      const title = titleFromWikiUrl(entry.wiki_url) || entry.title_en;
-      let image = null;
-      if (title) {
-        image = await fetchPageThumbnail(title);
-      }
+      const match = await findBestMatch(entry.title_en || '');
 
-      if (image && image !== entry.image) {
-        const wasWrong = hadImage;
-        entry.image = image;
-        fixedViaWiki++;
-        console.log(
-          `  ✓ ${key} "${entry.title_en}" → image ${wasWrong ? 'corrigée' : 'trouvée'} via Wikipedia`
-        );
-      } else if (!image && !hadImage) {
+      if (match) {
+        const urlChanged = match.url !== entry.wiki_url;
+        if (urlChanged) {
+          console.log(`  ✓ ${key} "${entry.title_en}" → wiki_url corrigé (${match.title})`);
+          entry.wiki_url = match.url;
+          urlCorrected++;
+        }
+        const newImage = await fetchPageThumbnail(match.title);
+        if (newImage && newImage !== entry.image) {
+          entry.image = newImage;
+          imageFixed++;
+        } else if (!newImage && !entry.image) {
+          entry.image = fallbackIcon(entry.category);
+          fixedViaIcon++;
+        }
+        if (!urlChanged && (!newImage || newImage === entry.image)) unchanged++;
+      } else if (!entry.image) {
         entry.image = fallbackIcon(entry.category);
         fixedViaIcon++;
-        console.log(`  ○ ${key} "${entry.title_en}" → icône de secours (${entry.category})`);
+      } else {
+        unchanged++;
       }
-      // sinon : l'image existante est confirmée correcte (ou re-vérification
-      // impossible mais une image existait déjà) → on ne touche à rien
-
-      await sleep(300); // reste correct vis-à-vis de Wikipedia
     }
 
-    if (i % 20 === 0) {
+    if (i % 10 === 0) {
       fs.writeFileSync(OUTPUT_FILE, JSON.stringify(data, null, 2));
+      console.log(`  💾 Sauvegarde intermédiaire (${i + 1}/${dayKeys.length} jours)`);
     }
   }
 
   fs.writeFileSync(OUTPUT_FILE, JSON.stringify(data, null, 2));
   console.log(`\n✅ Terminé.`);
   console.log(`Total entrées : ${totalEntries}`);
-  console.log(`Images manquantes trouvées : ${missingBefore}`);
-  console.log(`  → réparées via Wikipedia : ${fixedViaWiki}`);
-  console.log(`  → icône de secours : ${fixedViaIcon}`);
+  console.log(`wiki_url corrigés : ${urlCorrected}`);
+  console.log(`Images corrigées/trouvées : ${imageFixed}`);
+  console.log(`Icônes de secours : ${fixedViaIcon}`);
+  console.log(`Inchangées (déjà correctes) : ${unchanged}`);
 }
 
 main();
