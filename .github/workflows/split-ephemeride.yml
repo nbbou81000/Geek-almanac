@@ -1,0 +1,29 @@
+name: Split Ephemeride
+
+on:
+  workflow_dispatch:
+
+jobs:
+  split:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Split ephemeride.json into per-day files
+        run: node splitEphemeride.js
+
+      - name: Commit result
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add ephemeride/
+          git diff --staged --quiet || git commit -m "Split ephemeride.json into per-day files"
+          git push
