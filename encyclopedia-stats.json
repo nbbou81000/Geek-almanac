@@ -1,0 +1,80 @@
+{
+  "generated_at": "2026-08-20T21:14:20.591Z",
+  "total": 12266,
+  "errors": 0,
+  "categories": {
+    "internet": 366,
+    "gaming": 2541,
+    "software": 2582,
+    "culture": 336,
+    "company": 572,
+    "hardware": 1391,
+    "cybersecurity": 867,
+    "science": 206,
+    "space": 2341,
+    "security": 3,
+    "music": 1,
+    "smartphone": 931,
+    "protocol": 122,
+    "language": 7
+  },
+  "letters": {
+    "V": 227,
+    "#": 423,
+    "L": 462,
+    "F": 395,
+    "H": 316,
+    "S": 1558,
+    "R": 428,
+    "I": 431,
+    "E": 302,
+    "B": 379,
+    "C": 882,
+    "A": 2259,
+    "G": 327,
+    "P": 629,
+    "T": 523,
+    "O": 304,
+    "M": 742,
+    "D": 411,
+    "N": 441,
+    "U": 125,
+    "J": 121,
+    "Q": 36,
+    "W": 173,
+    "K": 199,
+    "Z": 60,
+    "X": 79,
+    "Y": 34
+  },
+  "words": {
+    "fr": {
+      "avg": 192,
+      "median": 181,
+      "min": 62,
+      "max": 441,
+      "total": 2353771
+    },
+    "en": {
+      "avg": 168,
+      "median": 157,
+      "min": 83,
+      "max": 408,
+      "total": 2055365
+    }
+  },
+  "images": {
+    "real": 7555,
+    "fallback": 4711
+  },
+  "longest": {
+    "id": "03695",
+    "title": "Vault-Tec Corporation",
+    "words": 441
+  },
+  "shortest": {
+    "id": "08887",
+    "title": "Série HTC Desire",
+    "words": 62
+  }
+}
