@@ -1,0 +1,29 @@
+name: Build Encyclopedia Site
+
+on:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Build index and stats
+        run: node buildEncyclopediaSite.js
+
+      - name: Commit result
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add encyclopedia-index.json encyclopedia-stats.json
+          git diff --staged --quiet || git commit -m "Rebuild encyclopedia site index"
+          git push
