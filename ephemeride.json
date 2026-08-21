@@ -2880,8 +2880,8 @@
       "title_fr": "Discovery lance le module japonais Kibō vers l'ISS lors de STS-124",
       "text_en": "The Space Shuttle Discovery delivered the second part of Japan's Kibō lab to the ISS, proving once again that space is the final frontier for geeky tech upgrades.",
       "text_fr": "La navette Discovery a livré la seconde partie du laboratoire japonais Kibō à l'ISS, confirmant que l'espace est la frontière ultime pour les upgrades geek.",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/STS-133_Space_Shuttle_Discovery_after_undocking_3_%28cropped%29.jpg/330px-STS-133_Space_Shuttle_Discovery_after_undocking_3_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "wiki_url": "https://en.wikipedia.org/wiki/Space_Shuttle_Discovery"
+      "image": "https://nbbou81000.github.io/Geek-almanac/assets/icons/space.svg",
+      "wiki_url": "https://en.wikipedia.org/wiki/STS-3xx"
     },
     {
       "year": 1986,
@@ -2890,8 +2890,8 @@
       "title_fr": "Lancement raté de la fusée Ariane 2 lors de son vol inaugural",
       "text_en": "The Ariane 2 rocket's maiden flight ended in failure, but hey, at least it didn’t explode like its predecessor Ariane 5’s first attempt—small victories in rocket science!",
       "text_fr": "Le premier vol d'Ariane 2 s'est soldé par un échec, mais au moins ça n’a pas explosé comme la première tentative d’Ariane 5—petites victoires en astronautique !",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Ariane4.jpg/330px-Ariane4.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "wiki_url": "https://en.wikipedia.org/wiki/Ariane_(rocket_family)"
+      "image": "https://nbbou81000.github.io/Geek-almanac/assets/icons/hardware.svg",
+      "wiki_url": "https://en.wikipedia.org/wiki/Ariane"
     }
   ],
   "06-01": [
@@ -2902,8 +2902,8 @@
       "title_fr": "CNN lance sa diffusion en continu, révolutionnant l'information.",
       "text_en": "CNN didn’t just bring news—it brought the world a 24/7 soap opera of global chaos. Who needs sleep when you’ve got breaking news?",
       "text_fr": "CNN n’a pas juste diffusé l’actualité : elle a inventé le feuilleton mondial en continu. Qui a besoin de dormir quand le monde s’embrase en direct ?",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Ye%C4%9Finsu_at_the_OSCE_-_2023.jpg/330px-Ye%C4%9Finsu_at_the_OSCE_-_2023.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "wiki_url": "https://en.wikipedia.org/wiki/Can_Ye%C4%9Finsu"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/CNN_Logo_%282014%29.svg/330px-CNN_Logo_%282014%29.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "wiki_url": "https://en.wikipedia.org/wiki/CNN"
     },
     {
       "year": 1978,
@@ -2912,8 +2912,8 @@
       "title_fr": "Premières demandes internationales déposées selon le Traité de coopération en matière de brevets, simplifiant la protection mondiale.",
       "text_en": "The PCT made patenting inventions abroad as easy as ordering a pizza—well, almost. No more paperwork nightmares!",
       "text_fr": "Le PCT a rendu le dépôt de brevets à l’étranger aussi simple qu’une commande de pizza… enfin, presque. Plus de cauchemars administratifs !",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Geneva_Congress_of_the_First_International%2C_1866.jpg/330px-Geneva_Congress_of_the_First_International%2C_1866.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "wiki_url": "https://en.wikipedia.org/wiki/First_International"
+      "image": "https://nbbou81000.github.io/Geek-almanac/assets/icons/science.svg",
+      "wiki_url": "https://en.wikipedia.org/wiki/Patent_Cooperation_Treaty"
     }
   ],
   "06-02": [
@@ -2924,8 +2924,8 @@
       "title_fr": "Surveyor 1 se pose sur la Lune",
       "text_en": "The first soft landing of a U.S. spacecraft on another celestial body—because even robots deserve a parking spot on the Moon.",
       "text_fr": "Premier alunissage en douceur d'un engin américain sur un autre corps céleste : même les robots méritent leur place de parking sur la Lune.",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Surveyor_NASA_lunar_lander.jpg/330px-Surveyor_NASA_lunar_lander.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "wiki_url": "https://en.wikipedia.org/wiki/Surveyor_1"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Surveyor_3_on_Moon.jpg/330px-Surveyor_3_on_Moon.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "wiki_url": "https://en.wikipedia.org/wiki/Surveyor_3"
     },
     {
       "year": 1896,
@@ -2935,7 +2935,7 @@
       "text_en": "The birth of wireless communication—Marconi’s patent paved the way for Wi-Fi, Bluetooth, and your grandma’s vintage radio.",
       "text_fr": "La naissance des communications sans fil : le brevet de Marconi a ouvert la voie au Wi-Fi, au Bluetooth et à la radio de mamie.",
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Guglielmo_Marconi.jpg/330px-Guglielmo_Marconi.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "wiki_url": "https://en.wikipedia.org/wiki/The_Wireless_Telegraph_%26_Signal_Company"
+      "wiki_url": "https://en.wikipedia.org/wiki/Guglielmo_Marconi"
     }
   ],
   "06-03": [
@@ -2946,8 +2946,8 @@
       "title_fr": "Gemini 4 : première sortie extravéhiculaire américaine",
       "text_en": "Ed White floated into the void, proving that even in the cold vacuum of space, humans can still do the most epic of selfies.",
       "text_fr": "Ed White s'est élancé dans le vide, prouvant qu'en plein vide spatial, l'humanité sait encore faire les selfies les plus épiques.",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Ed_White_First_American_Spacewalker_-_GPN-2000-001180.jpg/330px-Ed_White_First_American_Spacewalker_-_GPN-2000-001180.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "wiki_url": "https://en.wikipedia.org/wiki/Gemini_4"
+      "image": "https://nbbou81000.github.io/Geek-almanac/assets/icons/space.svg",
+      "wiki_url": "https://en.wikipedia.org/wiki/Gemini"
     },
     {
       "year": 1889,
@@ -2956,8 +2956,8 @@
       "title_fr": "Première ligne de transmission d'électricité longue distance aux États-Unis",
       "text_en": "From a waterfall to the city, 14 miles of pure electrical magic made Portland glow like a cyberpunk dream.",
       "text_fr": "D'une chute d'eau à la ville, 23 km de magie électrique pure ont fait scintiller Portland comme un rêve cyberpunk.",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/500kV_3-Phase_Transmission_Lines.png/330px-500kV_3-Phase_Transmission_Lines.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "wiki_url": "https://en.wikipedia.org/wiki/First_long-distance_telephone_line"
+      "image": "https://nbbou81000.github.io/Geek-almanac/assets/icons/science.svg",
+      "wiki_url": "https://en.wikipedia.org/w/index.php?search=First%20long-distance%20electric%20power%20transmission%20line%20in%20the%20US"
     }
   ],
   "06-04": [
@@ -2968,8 +2968,8 @@
       "title_fr": "Premier vol de la fusée Falcon 9",
       "text_en": "SpaceX's Falcon 9 rocket took off for its first flight, proving that private companies could now play in the big space league. No more waiting for NASA to do all the heavy lifting!",
       "text_fr": "La fusée Falcon 9 de SpaceX a décollé pour son premier vol, prouvant que les entreprises privées pouvaient désormais jouer dans la cour des grands de l'espace. Plus besoin d'attendre que la NASA fasse tout le boulot !",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Falcon_9_launch.jpg/330px-Falcon_9_launch.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "wiki_url": "https://en.wikipedia.org/wiki/Falcon_9_Maiden_Flight"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Eurasian_hobby_%28Falco_subbuteo%29_by_Shantanu_Kuveskar.jpg/330px-Eurasian_hobby_%28Falco_subbuteo%29_by_Shantanu_Kuveskar.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "wiki_url": "https://en.wikipedia.org/wiki/Falcon"
     }
   ],
   "06-05": [
@@ -2980,8 +2980,8 @@
       "title_fr": "Sortie mondiale de la Nintendo Switch 2",
       "text_en": "The next-gen console hits shelves, promising even more pixels and power-ups than your Wiimote ever dreamed of.",
       "text_fr": "La console next-gen débarque en magasin, promettant encore plus de pixels et de power-ups que votre Wiimote n’en a jamais rêvé.",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Nintendo_Switch_2_logo.svg/330px-Nintendo_Switch_2_logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "wiki_url": "https://en.wikipedia.org/wiki/Nintendo_Switch_2"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Nintendo_Switch_logo.svg/330px-Nintendo_Switch_logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "wiki_url": "https://en.wikipedia.org/wiki/Nintendo_Switch"
     },
     {
       "year": 2024,
@@ -2990,8 +2990,8 @@
       "title_fr": "Premier vol habité du Boeing Starliner vers l'ISS",
       "text_en": "Barry Wilmore and Sunita Williams blast off in Boeing’s new space taxi, proving that even corporate rockets can have a smooth ride.",
       "text_fr": "Barry Wilmore et Sunita Williams décollent à bord du nouveau taxi spatial de Boeing, prouvant que même les fusées corporate savent voler en douceur.",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Boeing%27s_Starliner_crew_ship_approaches_the_space_station_%28iss067e066735%29_%28cropped%29.jpg/330px-Boeing%27s_Starliner_crew_ship_approaches_the_space_station_%28iss067e066735%29_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "wiki_url": "https://en.wikipedia.org/wiki/Boeing_Starliner"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Boeing%27s_CST-100_Starliner_spacecraft_docking_to_the_ISS.jpg/330px-Boeing%27s_CST-100_Starliner_spacecraft_docking_to_the_ISS.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "wiki_url": "https://en.wikipedia.org/wiki/Boeing_Starliner-1"
     }
   ],
   "06-06": [],
@@ -3003,8 +3003,8 @@
       "title_fr": "Sony lance le Betamax, premier format de magnétoscope.",
       "text_en": "Sony introduced the world to the Betamax, the OG of home video—though VHS would later win the format war like a boss.",
       "text_fr": "Sony lance le Betamax, pionnier des magnétoscopes domestiques—même si le VHS allait plus tard gagner la guerre des formats comme un chef.",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Sony_headquaters_1.jpg/330px-Sony_headquaters_1.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "wiki_url": "https://en.wikipedia.org/wiki/Record_format"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Betamax_logo.svg/330px-Betamax_logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "wiki_url": "https://en.wikipedia.org/wiki/Betamax"
     }
   ],
   "06-08": [
