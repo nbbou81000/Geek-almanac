@@ -5190,8 +5190,8 @@
       "title_fr": "L'ICANN est fondée, offrant à Internet son propre annuaire",
       "text_en": "ICANN was born to manage domain names—because even the internet needed a librarian to avoid chaos. Without it, we’d all be typing IP addresses like it’s 1995.",
       "text_fr": "L’ICANN est née pour gérer les noms de domaine—parce qu’Internet avait besoin d’un bibliothécaire pour éviter le chaos. Sans elle, on taperait encore des adresses IP comme en 1995.",
-      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/9/94/ISMMS.svg/330px-ISMMS.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "wiki_url": "https://en.wikipedia.org/wiki/Icahn_School_of_Medicine_at_Mount_Sinai"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Icann_logo.svg/330px-Icann_logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "wiki_url": "https://en.wikipedia.org/wiki/ICANN"
     },
     {
       "year": 1961,
@@ -5236,7 +5236,7 @@
       "text_en": "MAVEN arrived just in time to study Mars' atmosphere—because even robots need a good vacation spot.",
       "text_fr": "MAVEN est arrivée juste à temps pour étudier l'atmosphère de Mars… parce que même les robots ont besoin d’une bonne destination de vacances.",
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/MAVEN_Mission_Logo.png/330px-MAVEN_Mission_Logo.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "wiki_url": "https://en.wikipedia.org/wiki/Maven_(spacecraft)"
+      "wiki_url": "https://en.wikipedia.org/wiki/MAVEN"
     }
   ],
   "09-22": [
@@ -5247,8 +5247,8 @@
       "title_fr": "Les micro-robots japonais MINERVA-II atterrissent sur l'astéroïde Ryugu",
       "text_en": "First ever rovers to touch down on an asteroid—tiny Japanese explorers proving space is the final frontier (and also the coolest lab).",
       "text_fr": "Premiers rovers à se poser sur un astéroïde : ces micro-robots japonais prouvent que l'espace est le dernier terrain de jeu (et le plus stylé).",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/NI-125c-Netherlands_Indies-Japanese_Occupation-10_Gulden_%281942%29.jpg/330px-NI-125c-Netherlands_Indies-Japanese_Occupation-10_Gulden_%281942%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "wiki_url": "https://en.wikipedia.org/wiki/Japanese_government%E2%80%93issued_currency_in_the_Dutch_East_Indies"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/162173_Ryugu_brightened.png/330px-162173_Ryugu_brightened.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "wiki_url": "https://en.wikipedia.org/wiki/162173_Ryugu"
     },
     {
       "year": 1976,
@@ -5257,8 +5257,8 @@
       "title_fr": "La sonde Viking confirme la présence de calottes glaciaires sur Mars",
       "text_en": "Mars wasn’t just a red dot anymore—Viking’s data revealed its icy secrets, making winter on the Red Planet slightly less mysterious (and way more sci-fi).",
       "text_fr": "Mars n’était plus qu’un point rouge : les données de Viking ont révélé ses secrets glacés, rendant l’hiver sur la planète rouge un peu moins mystérieux (et bien plus geek).",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Mars%2C_as_seen_by_the_Hubble_Telescope.jpg/330px-Mars%2C_as_seen_by_the_Hubble_Telescope.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "wiki_url": "https://en.wikipedia.org/wiki/Polar_ice_cap"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Viking_spacecraft.jpg/330px-Viking_spacecraft.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "wiki_url": "https://en.wikipedia.org/wiki/Viking_1"
     }
   ],
   "09-23": [
@@ -5269,8 +5269,8 @@
       "title_fr": "Lancement du satellite Explorer 47",
       "text_en": "NASA’s Explorer 47 took off to study cosmic rays, proving that even in the Cold War, space was the final frontier for science (and bragging rights).",
       "text_fr": "Le satellite Explorer 47 de la NASA s’envola pour étudier les rayons cosmiques, prouvant qu’en pleine Guerre froide, l’espace restait la dernière frontière pour la science (et les droits à se vanter).",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Nintendo-DSi-Bl-Open.png/330px-Nintendo-DSi-Bl-Open.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "wiki_url": "https://en.wikipedia.org/wiki/Launch_of_the_Nintendo_DSi"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Explorer1.jpg/330px-Explorer1.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "wiki_url": "https://en.wikipedia.org/wiki/Explorer_1"
     },
     {
       "year": 1999,
@@ -5289,8 +5289,8 @@
       "title_fr": "Découverte collaborative de Neptune par Le Verrier, Adams et Galle",
       "text_en": "Before GPS, three mathematicians and a telescope outsmarted the cosmos to find Neptune—math: the original cheat code for space exploration.",
       "text_fr": "Avant le GPS, trois mathématiciens et un télescope ont déjoué le cosmos pour trouver Neptune : les maths, le premier code de triche de l’exploration spatiale.",
-      "image": "https://upload.wikimedia.org/wikipedia/en/a/a1/And_All_That_Could_Have_Been_cover.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-      "wiki_url": "https://en.wikipedia.org/wiki/And_All_That_Could_Have_Been"
+      "image": "https://nbbou81000.github.io/Geek-almanac/assets/icons/space.svg",
+      "wiki_url": "https://en.wikipedia.org/w/index.php?search=Collaborative%20discovery%20of%20Neptune%20by%20Le%20Verrier%2C%20Adams%2C%20and%20Galle"
     },
     {
       "year": 2000,
@@ -5300,7 +5300,7 @@
       "text_en": "Brett J. Gladman and his crew expanded Saturn’s entourage by 8, proving that even gas giants need a good PR team.",
       "text_fr": "Brett J. Gladman et son équipe ont agrandi la cour de Saturne de 8 lunes, prouvant que même les géantes gazeuses ont besoin d’une bonne équipe de communication.",
       "image": "https://nbbou81000.github.io/Geek-almanac/assets/icons/space.svg",
-      "wiki_url": "https://en.wikipedia.org/wiki/Discovery_of_new_zealand"
+      "wiki_url": "https://en.wikipedia.org/w/index.php?search=Discovery%20of%208%20new%20Saturnian%20moons%20by%20Brett%20J.%20Gladman%E2%80%99s%20team"
     }
   ],
   "09-24": [
@@ -5311,8 +5311,8 @@
       "title_fr": "OSIRIS-REx rapporte des échantillons d'astéroïde sur Terre",
       "text_en": "After a 7-year cosmic treasure hunt, NASA's OSIRIS-REx dropped off a package of space goodies—literally. No more \"space rocks, I barely know her\" excuses!",
       "text_fr": "Après 7 ans de chasse au trésor cosmique, OSIRIS-REx a livré un colis de cailloux spatiaux. Plus d’excuses du style « ces pierres de l’espace, je ne les connais même pas » !",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/NASA_seal.svg/330px-NASA_seal.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "wiki_url": "https://en.wikipedia.org/wiki/NASA"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/OSIRIS-REx_spacecraft_model.png/330px-OSIRIS-REx_spacecraft_model.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "wiki_url": "https://en.wikipedia.org/wiki/OSIRIS-REx"
     },
     {
       "year": 2014,
@@ -5322,7 +5322,7 @@
       "text_en": "India made history by becoming the first nation to reach Mars orbit on its maiden voyage—cheaper than a Hollywood sci-fi movie!",
       "text_fr": "L’Inde a marqué l’histoire en plaçant sa sonde en orbite martienne dès sa première tentative—pour moins cher qu’un blockbuster hollywoodien !",
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Mars_Orbiter_Mission_Over_Mars_%2815237158879%29.jpg/330px-Mars_Orbiter_Mission_Over_Mars_%2815237158879%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "wiki_url": "https://en.wikipedia.org/wiki/India%27s_Mars_Mission"
+      "wiki_url": "https://en.wikipedia.org/wiki/Mars_Orbiter_Mission"
     },
     {
       "year": 1960,
@@ -5331,8 +5331,8 @@
       "title_fr": "L'USS Enterprise, premier porte-avions nucléaire au monde, est lancé",
       "text_en": "The USS Enterprise didn’t just boldly go where no ship had gone before—it did it with atomic power! Kirk would approve.",
       "text_fr": "L’USS Enterprise n’a pas seulement osé là où aucun navire n’était allé avant—il l’a fait avec la puissance atomique ! Kirk approuverait.",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/USS_Enterprise_%28CVN-65%29_underway_in_the_Atlantic_Ocean_on_14_June_2004_%28040614-N-0119G-020%29.jpg/330px-USS_Enterprise_%28CVN-65%29_underway_in_the_Atlantic_Ocean_on_14_June_2004_%28040614-N-0119G-020%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "wiki_url": "https://en.wikipedia.org/wiki/USS_Enterprise-E"
+      "image": "https://nbbou81000.github.io/Geek-almanac/assets/icons/hardware.svg",
+      "wiki_url": "https://en.wikipedia.org/wiki/USS_Enterprise"
     }
   ],
   "09-25": [
@@ -5343,8 +5343,8 @@
       "title_fr": "La NASA lance la navette spatiale Atlantis vers la station Mir.",
       "text_en": "Atlantis docked with Mir, proving international space cooperation was no sci-fi fantasy—just hard work in zero-G.",
       "text_fr": "Atlantis s’amarre à Mir, prouvant que la coopération spatiale internationale n’était pas de la science-fiction… juste du boulot en apesanteur.",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Launch_Services_Program_logo.svg/330px-Launch_Services_Program_logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "wiki_url": "https://en.wikipedia.org/wiki/NASA_Launch_Services_Program"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/STS132_Atlantis_undocking2_%28cropped%29.jpg/330px-STS132_Atlantis_undocking2_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "wiki_url": "https://en.wikipedia.org/wiki/Space_Shuttle_Atlantis"
     },
     {
       "year": 1992,
@@ -5353,8 +5353,8 @@
       "title_fr": "La NASA lance Mars Observer.",
       "text_en": "Mars Observer vanished before delivering its postcards from the Red Planet—talk about a cosmic ghosting.",
       "text_fr": "Mars Observer a disparu avant d’envoyer ses cartes postales de la planète rouge… un vrai fantôme cosmique.",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Launch_Services_Program_logo.svg/330px-Launch_Services_Program_logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "wiki_url": "https://en.wikipedia.org/wiki/NASA_Launch_Services_Program"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Mars_Observer.jpg/330px-Mars_Observer.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "wiki_url": "https://en.wikipedia.org/wiki/Mars_Observer"
     },
     {
       "year": 1956,
@@ -5363,8 +5363,8 @@
       "title_fr": "Inauguration du TAT-1, premier câble téléphonique transatlantique sous-marin.",
       "text_en": "TAT-1 connected continents with copper and ambition—no satellites, no Wi-Fi, just pure analog grit.",
       "text_fr": "TAT-1 reliait les continents avec du cuivre et de l’audace… pas de satellites, pas de Wi-Fi, juste du grain à l’analogique.",
-      "image": "https://upload.wikimedia.org/wikipedia/en/0/06/Tad%2C_The_Lost_Explorer_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-      "wiki_url": "https://en.wikipedia.org/wiki/Tad,_The_Lost_Explorer"
+      "image": "https://nbbou81000.github.io/Geek-almanac/assets/icons/internet.svg",
+      "wiki_url": "https://en.wikipedia.org/wiki/Tat"
     },
     {
       "year": 1906,
@@ -5385,8 +5385,8 @@
       "title_fr": "Explosion de Soyouz 7K-ST No. 16L sur la rampe de lancement",
       "text_en": "A Soviet rocket's fiery farewell was cut short by a last-minute escape system—because even space can't afford a bad day.",
       "text_fr": "Un lanceur soviétique a fait ses adieux en feu, mais son système d'évacuation a sauvé l'équipage—parce que l'espace n'aime pas les mauvais jours.",
-      "image": "https://upload.wikimedia.org/wikipedia/en/d/dd/Soyuz_explosion.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-      "wiki_url": "https://en.wikipedia.org/wiki/Soyuz_7K-ST_No.16L"
+      "image": "https://nbbou81000.github.io/Geek-almanac/assets/icons/space.svg",
+      "wiki_url": "https://en.wikipedia.org/wiki/Soyuz"
     },
     {
       "year": 2022,
@@ -5395,8 +5395,8 @@
       "title_fr": "La mission DART de la NASA percute avec succès l'astéroïde Dimorphos",
       "text_en": "Earth just sent its first cosmic billiard ball to play pool with an asteroid—game on!",
       "text_fr": "La Terre vient d’envoyer sa première boule de billard cosmique pour jouer au billard avec un astéroïde—c’est parti !",
-      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/d/d6/Nana%27s_Party_poster.jpg/330px-Nana%27s_Party_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "wiki_url": "https://en.wikipedia.org/wiki/Nana%27s_Party"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Dimorphos_North-Up_Image_Composition_reduced_bloom.png/330px-Dimorphos_North-Up_Image_Composition_reduced_bloom.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "wiki_url": "https://en.wikipedia.org/wiki/Dimorphos"
     }
   ],
   "09-27": [
@@ -5407,8 +5407,8 @@
       "title_fr": "La NASA lance la sonde Dawn vers la ceinture d'astéroïdes",
       "text_en": "Dawn set off to study the protoplanet Vesta and dwarf planet Ceres—because who needs a GPS when you’ve got a cosmic road trip?",
       "text_fr": "Dawn a décollé pour étudier l'astéroïde Vesta et la planète naine Cérès—parce que même dans l'espace, on a besoin d'un road trip interstellaire !",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Launch_Services_Program_logo.svg/330px-Launch_Services_Program_logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "wiki_url": "https://en.wikipedia.org/wiki/NASA_Launch_Services_Program"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/NASA_seal.svg/330px-NASA_seal.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "wiki_url": "https://en.wikipedia.org/wiki/NASA"
     },
     {
       "year": 1998,
@@ -5417,8 +5417,8 @@
       "title_fr": "Google revendique rétroactivement sa date de naissance au 27 septembre 1998",
       "text_en": "From a garage to global domination, Google’s origin story just got a retroactive birthday—like claiming you were always this cool.",
       "text_fr": "D’un garage à la domination mondiale, l’histoire de Google a maintenant une date de naissance rétroactive—comme si on avait toujours été aussi génial.",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Swissair_111_debris.jpg/330px-Swissair_111_debris.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "wiki_url": "https://en.wikipedia.org/wiki/September_2,_1998"
+      "image": "https://nbbou81000.github.io/Geek-almanac/assets/icons/internet.svg",
+      "wiki_url": "https://en.wikipedia.org/wiki/September_27"
     },
     {
       "year": 2003,
@@ -5427,8 +5427,8 @@
       "title_fr": "Le satellite SMART-1 de l'ESA est lancé pour tester la propulsion solaire-électrique",
       "text_en": "SMART-1 proved that solar power could fuel deep space missions—because who needs gas when you’ve got sunshine?",
       "text_fr": "SMART-1 a démontré que l'énergie solaire pouvait propulser des missions spatiales—parce que même dans l'espace, le soleil brille plus fort que l'essence !",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/The_Smart_Set_January_1922.jpg/330px-The_Smart_Set_January_1922.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "wiki_url": "https://en.wikipedia.org/wiki/The_Smart_Set"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Artist%27s_impression_of_the_SMART-1_mission_ESA199399.jpg/330px-Artist%27s_impression_of_the_SMART-1_mission_ESA199399.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "wiki_url": "https://en.wikipedia.org/wiki/SMART-1"
     }
   ],
   "09-28": [
