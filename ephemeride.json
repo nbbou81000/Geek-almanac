@@ -5793,8 +5793,8 @@
       "title_fr": "Première sortie extravéhiculaire entièrement féminine par des astronautes de la NASA",
       "text_en": "Jessica Meir and Christina Koch made history by stepping out together, proving space isn’t just a boys’ club—though it’s still cooler up there.",
       "text_fr": "Jessica Meir et Christina Koch ont marqué l’histoire en sortant ensemble, prouvant que l’espace n’est pas un club de garçons… même si c’est encore plus cool là-haut.",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/NASA_space_suits_at_JSC.jpg/330px-NASA_space_suits_at_JSC.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "wiki_url": "https://en.wikipedia.org/wiki/NASA_Astronaut_Corps"
+      "image": "https://nbbou81000.github.io/Geek-almanac/assets/icons/space.svg",
+      "wiki_url": "https://en.wikipedia.org/w/index.php?search=First%20All-Female%20Spacewalk%20by%20NASA%20Astronauts"
     },
     {
       "year": 1989,
@@ -5803,8 +5803,8 @@
       "title_fr": "Lancement de la sonde Galileo par la navette spatiale Atlantis",
       "text_en": "Atlantis sent Galileo on a one-way trip to Jupiter—no return ticket, just pure cosmic exploration (and a lot of radiation).",
       "text_fr": "Atlantis a envoyé Galileo vers Jupiter sans billet retour, juste pour l’exploration cosmique… et une bonne dose de radiations.",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Artwork_Galileo-Io-Jupiter.JPG/330px-Artwork_Galileo-Io-Jupiter.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "wiki_url": "https://en.wikipedia.org/wiki/Galileo_Space_Probe"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/STS132_Atlantis_undocking2_%28cropped%29.jpg/330px-STS132_Atlantis_undocking2_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "wiki_url": "https://en.wikipedia.org/wiki/Space_Shuttle_Atlantis"
     },
     {
       "year": 1967,
@@ -5813,8 +5813,8 @@
       "title_fr": "Venera 4 mesure pour la première fois l’atmosphère d’une autre planète",
       "text_en": "Venera 4 crashed into Venus like a meteor, but not before sending back the first data on its toxic, crushing atmosphere—science at its most dramatic.",
       "text_fr": "Venera 4 s’est écrasée sur Vénus comme une météorite, mais pas avant d’envoyer les premières données sur son atmosphère toxique et écrasante—la science en mode drama.",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Venera_4_%28MMA_2011%29_%281%29.JPG/330px-Venera_4_%28MMA_2011%29_%281%29.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "wiki_url": "https://en.wikipedia.org/wiki/Venera_4"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/VenusLanderTopo.png/330px-VenusLanderTopo.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "wiki_url": "https://en.wikipedia.org/wiki/Venera_program"
     },
     {
       "year": 1954,
@@ -5823,8 +5823,8 @@
       "title_fr": "Le Regency TR-1 : la première radio à transistors produite en série",
       "text_en": "The TR-1 turned bulky radios into pocket-sized gadgets, proving that even in the 50s, tech could be both tiny and revolutionary.",
       "text_fr": "Le TR-1 a transformé les radios encombrantes en gadgets de poche, prouvant qu’en 1954, la tech pouvait déjà être minuscule et révolutionnaire.",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Regency_TR-1.jpg/330px-Regency_TR-1.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "wiki_url": "https://en.wikipedia.org/wiki/Regency_TR-1"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Emerson_Model_888_Pioneer_8-Transistor_AM_Radio%2C_Made_in_the_USA%2C_Circa_1958_%2821973868670%29.jpg/330px-Emerson_Model_888_Pioneer_8-Transistor_AM_Radio%2C_Made_in_the_USA%2C_Circa_1958_%2821973868670%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "wiki_url": "https://en.wikipedia.org/wiki/Transistor_radio"
     }
   ],
   "10-19": [
@@ -5835,8 +5835,8 @@
       "title_fr": "Max Planck découvre la loi du rayonnement du corps noir",
       "text_en": "The father of quantum mechanics just dropped the mic with his black-body radiation law—physics would never be the same again!",
       "text_fr": "Le père de la mécanique quantique vient de révolutionner la physique avec sa loi du rayonnement du corps noir, un tournant historique !",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Max_Planck_by_Hugo_Erfurth_1938cr_-_restoration1.jpg/330px-Max_Planck_by_Hugo_Erfurth_1938cr_-_restoration1.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "wiki_url": "https://en.wikipedia.org/wiki/Max_Planck"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Black_body.svg/330px-Black_body.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "wiki_url": "https://en.wikipedia.org/wiki/Planck's_law"
     },
     {
       "year": 2016,
@@ -5846,7 +5846,7 @@
       "text_en": "The ExoMars mission's Schiaparelli lander crashed into Mars, but hey, at least it tried—better luck next time, little guy!",
       "text_fr": "L'atterrisseur Schiaparelli de la mission ExoMars s'est écrasé sur Mars, mais au moins il a tenté sa chance—à la prochaine, petit explorateur !",
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Schiaparelli_Lander_Model_at_ESOC.JPG/330px-Schiaparelli_Lander_Model_at_ESOC.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "wiki_url": "https://en.wikipedia.org/wiki/Schiaparelli_lander"
+      "wiki_url": "https://en.wikipedia.org/wiki/Schiaparelli_EDM"
     }
   ],
   "10-20": [
@@ -5857,8 +5857,8 @@
       "title_fr": "Découverte du Sloan Great Wall, la plus grande structure cosmique connue à l'époque",
       "text_en": "Princeton students just casually found the universe’s biggest LEGO set—turns out it’s 1.4 billion light-years long.",
       "text_fr": "Des étudiants de Princeton ont découvert par hasard le plus grand « LEGO » de l’univers… long de 1,4 milliard d’années-lumière.",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/The_Moment_Carter_Opens_the_Shrine.jpg/330px-The_Moment_Carter_Opens_the_Shrine.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "wiki_url": "https://en.wikipedia.org/wiki/Discovery_of_the_tomb_of_Tutankhamun"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/2dfdtfe.gif/330px-2dfdtfe.gif?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "wiki_url": "https://en.wikipedia.org/wiki/Sloan_Great_Wall"
     }
   ],
   "10-21": [
@@ -5869,8 +5869,8 @@
       "title_fr": "La NASA récupère les activités spatiales de l'armée américaine.",
       "text_en": "Dwight D. Eisenhower hands NASA the keys to the cosmos, including the Army Ballistic Missile Agency—basically, the space race just got a major upgrade.",
       "text_fr": "Dwight D. Eisenhower transfère à la NASA les activités spatiales de l'armée, dont l'ABMA : la course à l'espace entre dans une nouvelle dimension.",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Paresev_1_in_Landing_%28E-8009%29.jpg/330px-Paresev_1_in_Landing_%28E-8009%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "wiki_url": "https://en.wikipedia.org/wiki/NASA_Paresev"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/NASA_seal.svg/330px-NASA_seal.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "wiki_url": "https://en.wikipedia.org/wiki/NASA"
     },
     {
       "year": 1879,
@@ -5891,8 +5891,8 @@
       "title_fr": "La navette spatiale Columbia décolle pour la mission STS-52 avec LAGEOS-2 et des expériences en microgravité",
       "text_en": "NASA’s reusable space truck proved its worth again—this time dropping a disco-ball-like satellite to track Earth’s crust movements. Who said space tech couldn’t have style?",
       "text_fr": "La navette spatiale réutilisable de la NASA a encore prouvé sa valeur, lâchant cette fois une boule à facettes spatiale pour suivre les mouvements de la croûte terrestre. Qui a dit que la tech spatiale manquait de style ?",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Space_Shuttle_Columbia_lands_following_STS-62_on_18_March_1994._%28cropped%29.jpg/330px-Space_Shuttle_Columbia_lands_following_STS-62_on_18_March_1994._%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "wiki_url": "https://en.wikipedia.org/wiki/Space_Shuttle_Columbia"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Sts052-80-030_lrg.jpg/330px-Sts052-80-030_lrg.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "wiki_url": "https://en.wikipedia.org/wiki/STS-52"
     },
     {
       "year": 1946,
@@ -5911,8 +5911,8 @@
       "title_fr": "Edison teste la première ampoule électrique pratique avec un filament en fil de carbone",
       "text_en": "Edison’s 13.5-hour lightbulb marathon proved that persistence pays off—though he’d probably need a longer nap after that.",
       "text_fr": "Le marathon de 13,5 heures d’Edison a prouvé que la persévérance paie… même s’il aurait eu besoin d’une sieste plus longue après ça.",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Edison_Marshall_in_The_Andalusia_Star_1920.jpg/330px-Edison_Marshall_in_The_Andalusia_Star_1920.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "wiki_url": "https://en.wikipedia.org/wiki/Edison_Tesla_Marshall"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Thomas_Edison2.jpg/330px-Thomas_Edison2.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "wiki_url": "https://en.wikipedia.org/wiki/Thomas_Edison"
     }
   ],
   "10-23": [
@@ -5923,8 +5923,8 @@
       "title_fr": "Apple lance le premier iPod, révolutionnant la musique portable.",
       "text_en": "The iPod didn't just play music—it made us all feel like DJs, even if our playlists were just 'Angry Birds' soundtracks.",
       "text_fr": "L'iPod n'a pas juste fait jouer de la musique—il nous a tous fait croire qu'on était des DJs, même avec des playlists dignes de la bande-son des Angry Birds.",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/The_End_of_Books_-_page_228a.jpg/330px-The_End_of_Books_-_page_228a.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "wiki_url": "https://en.wikipedia.org/wiki/Portable_music_player"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Pink_lady_and_cross_section.jpg/330px-Pink_lady_and_cross_section.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "wiki_url": "https://en.wikipedia.org/wiki/Apple"
     }
   ],
   "10-24": [
@@ -5935,8 +5935,8 @@
       "title_fr": "Lancement de la mission lunaire Chang'e 5-T1 par la Chine",
       "text_en": "China's Chang'e 5-T1 took a scenic detour around the Moon before returning home—because even space probes need a good road trip.",
       "text_fr": "La mission chinoise Chang'e 5-T1 a fait un détour pittoresque autour de la Lune avant de rentrer chez elle—parce que même les sondes spatiales ont besoin d’un bon voyage.",
-      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/d/d4/Chang%27e_5-T1.jpg/330px-Chang%27e_5-T1.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "wiki_url": "https://en.wikipedia.org/wiki/Chang%27e_5-T1"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/P._F._Chang%27s_%2851787277577%29.jpg/330px-P._F._Chang%27s_%2851787277577%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "wiki_url": "https://en.wikipedia.org/wiki/P._F._Chang's"
     },
     {
       "year": 1998,
@@ -5945,8 +5945,8 @@
       "title_fr": "Lancement de Deep Space 1 pour tester des technologies futuristes",
       "text_en": "Deep Space 1 wasn’t just visiting asteroids—it was flexing with ion propulsion and autonomous navigation like a space-age Swiss Army knife.",
       "text_fr": "Deep Space 1 ne se contentait pas de visiter des astéroïdes : il affichait son moteur ionique et sa navigation autonome comme un couteau suisse spatial.",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Deep_Space_1_clean_%28PIA04242%29.png/330px-Deep_Space_1_clean_%28PIA04242%29.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "wiki_url": "https://en.wikipedia.org/wiki/Deep_Space_1"
+      "image": "https://nbbou81000.github.io/Geek-almanac/assets/icons/space.svg",
+      "wiki_url": "https://en.wikipedia.org/wiki/Deep_Space"
     },
     {
       "year": 1861,
@@ -5955,8 +5955,8 @@
       "title_fr": "Achèvement de la première ligne télégraphique transcontinentale aux États-Unis",
       "text_en": "Before the internet, there was Morse code screaming across the continent at lightning speed—because patience was never a virtue in tech.",
       "text_fr": "Avant Internet, il y avait le télégraphe qui hurlait des messages en Morse à travers le continent à la vitesse de l’éclair—parce que la patience n’a jamais été une vertu en tech.",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Telegraph_Office_Monument_-_Salt_Lake_City%2C_Utah_-_8_July_2018.jpg/330px-Telegraph_Office_Monument_-_Salt_Lake_City%2C_Utah_-_8_July_2018.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "wiki_url": "https://en.wikipedia.org/wiki/First_transcontinental_telegraph"
+      "image": "https://nbbou81000.github.io/Geek-almanac/assets/icons/internet.svg",
+      "wiki_url": "https://en.wikipedia.org/w/index.php?search=First%20transcontinental%20telegraph%20line%20completed%20in%20the%20U.S."
     },
     {
       "year": 1851,
@@ -5965,8 +5965,8 @@
       "title_fr": "William Lassell découvre les lunes Ariel et Umbriel d’Uranus",
       "text_en": "Lassell spotted Ariel and Umbriel while sipping tea—because sometimes the universe drops cosmic gems into your lap when you least expect it.",
       "text_fr": "Lassell a repéré Ariel et Umbriel en buvant son thé—parce que parfois l’univers balance des pépites cosmiques dans votre assiette sans prévenir.",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/William_Lassell.jpg/330px-William_Lassell.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "wiki_url": "https://en.wikipedia.org/wiki/William_Lassell"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/PIA00040_Umbrielx2.47.jpg/330px-PIA00040_Umbrielx2.47.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "wiki_url": "https://en.wikipedia.org/wiki/Umbriel"
     }
   ],
   "10-25": [
@@ -5977,8 +5977,8 @@
       "title_fr": "Microsoft publie Windows XP",
       "text_en": "Windows XP arrived like a digital knight in shining armor, saving users from the Blue Screen of Doom and making PCs finally feel user-friendly.",
       "text_fr": "Windows XP débarquait comme un chevalier numérique en armure étincelante, sauvant les utilisateurs de l'écran bleu de la mort et rendant les PC enfin conviviaux.",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Aerial_Microsoft_West_Campus_August_2009.jpg/330px-Aerial_Microsoft_West_Campus_August_2009.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "wiki_url": "https://en.wikipedia.org/wiki/Windows_XP_editions"
+      "image": "https://nbbou81000.github.io/Geek-almanac/assets/icons/software.svg",
+      "wiki_url": "https://en.wikipedia.org/wiki/Microsoft_Windows"
     },
     {
       "year": 1968,
@@ -5987,8 +5987,8 @@
       "title_fr": "Lancement de Soyuz 2",
       "text_en": "Soyuz 2 took off, proving that even Soviet-era rockets could outpace a bad day at the office.",
       "text_fr": "Soyuz 2 décollait, prouvant qu'une fusée de l'ère soviétique pouvait même surpasser une journée de travail désastreuse.",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/%D0%92%D0%BE%D0%B7%D0%B4%D1%83%D1%88%D0%BD%D0%BE-%D0%BA%D0%BE%D1%81%D0%BC%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B5_%D1%81%D0%B8%D0%BB%D1%8B_%D0%BF%D1%80%D0%BE%D0%B2%D0%B5%D0%BB%D0%B8_%D1%83%D1%81%D0%BF%D0%B5%D1%88%D0%BD%D1%8B%D0%B9_%D0%BF%D1%83%D1%81%D0%BA_%D0%BD%D0%BE%D0%B2%D0%BE%D0%B9_%D1%80%D0%B0%D0%BA%D0%B5%D1%82%D1%8B-%D0%BD%D0%BE%D1%81%D0%B8%D1%82%D0%B5%D0%BB%D1%8F_%C2%AB%D0%A1%D0%BE%D1%8E%D0%B7-2.1%D0%92%C2%BB_%D1%81_%D0%BA%D0%BE%D1%81%D0%BC%D0%BE%D0%B4%D1%80%D0%BE%D0%BC%D0%B0_%D0%9F%D0%BB%D0%B5%D1%81%D0%B5%D1%86%D0%BA_07.jpg/330px-thumbnail.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "wiki_url": "https://en.wikipedia.org/wiki/Soyuz_2.1v"
+      "image": "https://nbbou81000.github.io/Geek-almanac/assets/icons/space.svg",
+      "wiki_url": "https://en.wikipedia.org/wiki/Soyuz"
     }
   ],
   "10-26": [
@@ -5999,8 +5999,8 @@
       "title_fr": "Sortie de Windows 8 par Microsoft",
       "text_en": "Microsoft unleashed Windows 8 upon the world, proving that even a desktop OS could be as confusing as a Rubik’s Cube in the dark.",
       "text_fr": "Microsoft lâche Windows 8 sur le monde, prouvant qu’un OS desktop pouvait être aussi déroutant qu’un Rubik’s Cube dans le noir.",
-      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/1/12/Windows_8_Desktop.png/330px-Windows_8_Desktop.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "wiki_url": "https://en.wikipedia.org/wiki/Windows_8_Release"
+      "image": "https://nbbou81000.github.io/Geek-almanac/assets/icons/software.svg",
+      "wiki_url": "https://en.wikipedia.org/wiki/Microsoft_Windows"
     },
     {
       "year": 2004,
@@ -6010,7 +6010,7 @@
       "text_en": "Rockstar turned San Andreas into a cultural phenomenon, selling 12 million copies and making PS2 owners feel like they were in a crime documentary.",
       "text_fr": "Rockstar transforme San Andreas en phénomène culturel, écoulant 12 millions d’exemplaires et faisant croire aux possesseurs de PS2 qu’ils vivaient dans un documentaire criminel.",
       "image": "https://upload.wikimedia.org/wikipedia/en/c/c4/GTASABOX.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-      "wiki_url": "https://en.wikipedia.org/wiki/Grand_Theft_Auto:_San_Andreas"
+      "wiki_url": "https://en.wikipedia.org/wiki/Grand_Theft_Auto%3A_San_Andreas"
     },
     {
       "year": 1671,
@@ -6019,8 +6019,8 @@
       "title_fr": "Cassini découvre Japet, lune de Saturne",
       "text_en": "Jean-Dominique Cassini spotted Iapetus, proving that even in the 17th century, astronomers could find moons faster than you can say \"telescope.\"",
       "text_fr": "Jean-Dominique Cassini repère Japet, prouvant qu’au XVIIe siècle, les astronomes trouvaient des lunes plus vite qu’on ne dit \"télescope\".",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Saturn_irregular_moon_orbits_tilted_annotated_2025.png/330px-Saturn_irregular_moon_orbits_tilted_annotated_2025.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "wiki_url": "https://en.wikipedia.org/wiki/Saturn%27s_moon"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Iapetus_trailing_natural_color.jpg/330px-Iapetus_trailing_natural_color.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "wiki_url": "https://en.wikipedia.org/wiki/Iapetus_(moon)"
     }
   ],
   "10-27": [
@@ -6031,8 +6031,8 @@
       "title_fr": "NASA teste la première fusée Saturn I lors de la mission Saturn-Apollo 1",
       "text_en": "The baby steps of the mighty Saturn V: this uncrewed test flight paved the way for humanity's giant leap to the Moon.",
       "text_fr": "Les premiers pas de la future fusée lunaire : ce vol d'essai sans équipage a ouvert la voie au grand bond de l'humanité vers la Lune.",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/NASA_logo_%282023_colors%29.svg/330px-NASA_logo_%282023_colors%29.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "wiki_url": "https://en.wikipedia.org/wiki/NASA,_Texas"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Apollo_11_Launch_-_GPN-2000-000630.jpg/330px-Apollo_11_Launch_-_GPN-2000-000630.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "wiki_url": "https://en.wikipedia.org/wiki/Saturn_V"
     },
     {
       "year": 2017,
@@ -6042,7 +6042,7 @@
       "text_en": "Egyptian sand, ancient pyramids, and a time-traveling assassin: Ubisoft’s reboot brought fresh life to the franchise.",
       "text_fr": "Sables égyptiens, pyramides antiques et un assassin voyageant dans le temps : le reboot d'Ubisoft a redonné un second souffle à la saga.",
       "image": "https://upload.wikimedia.org/wikipedia/en/4/4a/Assassin%27s_Creed_Origins_Cover_Art.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-      "wiki_url": "https://en.wikipedia.org/wiki/Assassin%27s_Creed_Origins"
+      "wiki_url": "https://en.wikipedia.org/wiki/Assassin's_Creed_Origins"
     },
     {
       "year": 1994,
@@ -6051,8 +6051,8 @@
       "title_fr": "Première publicité en ligne diffusée sur le site de Wired",
       "text_en": "The digital ad revolution begins: a humble banner ad on Wired’s site marked the birth of internet marketing as we know it.",
       "text_fr": "La révolution de la pub en ligne démarre : une simple bannière sur Wired a donné naissance au marketing internet moderne.",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Flickr_-_USCapitol_-_The_First_Continental_Congress%2C_1774.jpg/330px-Flickr_-_USCapitol_-_The_First_Continental_Congress%2C_1774.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "wiki_url": "https://en.wikipedia.org/wiki/First_Continental_Congress"
+      "image": "https://nbbou81000.github.io/Geek-almanac/assets/icons/internet.svg",
+      "wiki_url": "https://en.wikipedia.org/wiki/Wired"
     }
   ],
   "10-28": [
