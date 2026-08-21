@@ -3727,7 +3727,7 @@
       "text_en": "Neil Armstrong and Buzz Aldrin’s lunar module touched down in the Sea of Tranquility, proving that humans could indeed moonwalk—literally. The world held its breath as the Eagle landed, proving space was no longer just for sci-fi.",
       "text_fr": "Le module lunaire d’Apollo 11 atterrit dans la Mer de la Tranquillité, offrant à Armstrong et Aldrin le premier pas historique sur la Lune. La Terre a retenu son souffle : l’espace n’était plus réservé aux rêves de science-fiction.",
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/A_Man_on_the_Moon%2C_AS11-40-5903_%28cropped%29.jpg/330px-A_Man_on_the_Moon%2C_AS11-40-5903_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "wiki_url": "https://en.wikipedia.org/wiki/Apollo_11_landing"
+      "wiki_url": "https://en.wikipedia.org/wiki/Apollo_11"
     },
     {
       "year": 1976,
@@ -3736,8 +3736,8 @@
       "title_fr": "Viking 1 atterrit sur Mars",
       "text_en": "NASA’s Viking 1 made history as the first operational lander to touch down on the Red Planet, paving the way for rovers and future human missions. Mars finally had a visitor, and it brought a camera—and a lot of science.",
       "text_fr": "Viking 1, premier atterrisseur opérationnel de la NASA, se pose sur Mars, ouvrant la voie aux rovers et aux futures missions habitées. La planète rouge avait enfin un invité, équipé d’une caméra et d’une montagne de données.",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Viking_Biological_package.I.png/330px-Viking_Biological_package.I.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "wiki_url": "https://en.wikipedia.org/wiki/Viking_lander_biological_experiments"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Viking_spacecraft.jpg/330px-Viking_spacecraft.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "wiki_url": "https://en.wikipedia.org/wiki/Viking_1"
     },
     {
       "year": 2019,
@@ -3746,8 +3746,8 @@
       "title_fr": "Soyuz MS-13 décolle pour l’ISS le jour du 50e anniversaire d’Apollo 11",
       "text_en": "On the same day humanity celebrated the first Moon landing, Soyuz MS-13 launched to the ISS—because why not double the space party? Two crews, two milestones, one cosmic coincidence.",
       "text_fr": "Le jour où le monde fêtait le premier pas sur la Lune, Soyuz MS-13 décollait vers l’ISS—parce qu’un anniversaire spatial, c’est toujours mieux à deux. Deux équipages, deux exploits, une coïncidence cosmique.",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/ISS-60_Soyuz_MS-13_spacecraft_approaches_the_ISS_%281%29.jpg/330px-ISS-60_Soyuz_MS-13_spacecraft_approaches_the_ISS_%281%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "wiki_url": "https://en.wikipedia.org/wiki/Soyuz_MS-13"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/The_Soviet_Union_1971_CPA_4060_stamp_%28Cosmonauts_Georgy_Dobrovolsky%2C_Vladislav_Volkov_and_Viktor_Patsayev%29.png/330px-The_Soviet_Union_1971_CPA_4060_stamp_%28Cosmonauts_Georgy_Dobrovolsky%2C_Vladislav_Volkov_and_Viktor_Patsayev%29.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "wiki_url": "https://en.wikipedia.org/wiki/Soyuz_11"
     },
     {
       "year": 2021,
@@ -3756,8 +3756,8 @@
       "title_fr": "New Shepard réalise son premier vol habité avec Jeff Bezos et Wally Funk",
       "text_en": "Blue Origin’s suborbital rocket carried billionaire Jeff Bezos and aviation pioneer Wally Funk to the edge of space—because even billionaires need a vacation from gravity. Welcome to the exclusive club of space tourists!",
       "text_fr": "La fusée New Shepard de Blue Origin emmène Jeff Bezos et Wally Funk aux confins de l’espace—parce que même les milliardaires méritent une pause anti-gravité. Bienvenue dans le club très select des touristes spatiaux !",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/New_Shepard_booster_at_Oshkosh_Airventure_2017_03_%2836103651636%29.jpg/330px-New_Shepard_booster_at_Oshkosh_Airventure_2017_03_%2836103651636%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "wiki_url": "https://en.wikipedia.org/wiki/New_Shepard_First_Step"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Wally_Funk_2012.jpg/330px-Wally_Funk_2012.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "wiki_url": "https://en.wikipedia.org/wiki/Wally_Funk"
     }
   ],
   "07-21": [
@@ -3768,8 +3768,8 @@
       "title_fr": "Fin du programme de navettes spatiales de la NASA",
       "text_en": "The Space Shuttle Atlantis lands, marking the end of an era after 30 years of missions that defined space exploration. Farewell, iconic orange tank!",
       "text_fr": "La navette Atlantis se pose, mettant fin à 30 ans de missions qui ont marqué l'exploration spatiale. Adieu, réservoir orange emblématique !",
-      "image": "https://upload.wikimedia.org/wikipedia/en/9/9e/Eoeposter.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-      "wiki_url": "https://en.wikipedia.org/wiki/The_End_of_Evangelion"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/STS120LaunchHiRes-edit1.jpg/330px-STS120LaunchHiRes-edit1.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "wiki_url": "https://en.wikipedia.org/wiki/Space_Shuttle"
     },
     {
       "year": 1969,
@@ -3778,8 +3778,8 @@
       "title_fr": "Premiers humains marchent sur la Lune",
       "text_en": "Neil Armstrong plants the flag with that legendary \"one small step\" line—proof that even geeks can reach the stars (literally).",
       "text_fr": "Neil Armstrong plante le drapeau avec son célèbre \"un petit pas\"—la preuve que même les geeks peuvent toucher les étoiles (littéralement).",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Apollo_program.svg/330px-Apollo_program.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "wiki_url": "https://en.wikipedia.org/wiki/First_humans"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/FullMoon2010.jpg/330px-FullMoon2010.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "wiki_url": "https://en.wikipedia.org/wiki/Moon"
     }
   ],
   "07-22": [
@@ -3790,8 +3790,8 @@
       "title_fr": "Lancement de la mission lunaire Chandrayaan-2 par l'Inde",
       "text_en": "India flexed its space muscles by sending Chandrayaan-2 to the Moon—though its Vikram lander later took a *hard landing* nap.",
       "text_fr": "L'Inde a envoyé Chandrayaan-2 sur la Lune, mais son atterrisseur Vikram a fini en mode *sieste forcée*.",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/0/0d/By_Indian_Post.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-      "wiki_url": "https://en.wikipedia.org/wiki/By_Indian_Post"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Chandrayaan-3_%E2%80%93_Image_of_Vikram_lander_on_lunar_surface_taken_by_Pragyan_rover_navcam_at_1104_IST%2C_30_August_2023_from_15_meters_away_%28with_text%29.webp/330px-Chandrayaan-3_%E2%80%93_Image_of_Vikram_lander_on_lunar_surface_taken_by_Pragyan_rover_navcam_at_1104_IST%2C_30_August_2023_from_15_meters_away_%28with_text%29.webp.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "wiki_url": "https://en.wikipedia.org/wiki/Chandrayaan-3"
     },
     {
       "year": 1962,
@@ -3800,8 +3800,8 @@
       "title_fr": "Échec spectaculaire de la mission Mariner 1",
       "text_en": "A single missing hyphen doomed Mariner 1, proving that even rockets need perfect punctuation.",
       "text_fr": "Un simple trait d'union manquant a condamné Mariner 1, rappelant que même les fusées ont besoin de ponctuation parfaite.",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Mariner_2_Engineering_Model.jpg/330px-Mariner_2_Engineering_Model.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "wiki_url": "https://en.wikipedia.org/wiki/Mariner_1"
+      "image": "https://nbbou81000.github.io/Geek-almanac/assets/icons/space.svg",
+      "wiki_url": "https://en.wikipedia.org/wiki/Mariner_(disambiguation)"
     },
     {
       "year": 1951,
@@ -3810,8 +3810,8 @@
       "title_fr": "Premiers chiens à revenir vivants de l'espace",
       "text_en": "Dezik and Tsygan became the first spacefaring canines to survive their trip—no space-travel taxis for them!",
       "text_fr": "Dezik et Tsygan furent les premiers chiens à survivre à un voyage spatial—pas de Uber interstellaire pour eux !",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Laika_in_1957.jpg/330px-Laika_in_1957.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "wiki_url": "https://en.wikipedia.org/wiki/First_dog_in_space"
+      "image": "https://nbbou81000.github.io/Geek-almanac/assets/icons/space.svg",
+      "wiki_url": "https://en.wikipedia.org/w/index.php?search=First%20dogs%20safely%20return%20from%20space"
     }
   ],
   "07-23": [
@@ -3822,8 +3822,8 @@
       "title_fr": "La NASA découvre Kepler-452b, le 'cousin plus âgé' de la Terre.",
       "text_en": "Kepler-452b just proved that Earth’s siblings are out there—and they’re *way* older. Hope they’ve got better Wi-Fi than us!",
       "text_fr": "Kepler-452b vient de prouver que les cousins de la Terre existent… et ils sont *beaucoup* plus vieux. On espère qu’ils ont un meilleur Wi-Fi que nous !",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Properties_of_regolith_on_Eros.jpg/330px-Properties_of_regolith_on_Eros.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "wiki_url": "https://en.wikipedia.org/wiki/NASA_Discovery"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Kepler-452b_artist_concept.jpg/330px-Kepler-452b_artist_concept.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "wiki_url": "https://en.wikipedia.org/wiki/Kepler-452b"
     },
     {
       "year": 1999,
@@ -3832,8 +3832,8 @@
       "title_fr": "La navette Columbia déploie l'observatoire Chandra et place Eileen Collins comme première femme commandant.",
       "text_en": "Chandra’s X-ray eyes still peer into the cosmos today—while Eileen Collins broke the glass ceiling… literally.",
       "text_fr": "Les 'yeux' à rayons X de Chandra scrutent encore l’univers aujourd’hui, tandis qu’Eileen Collins brisait le plafond de verre… littéralement.",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Space_Shuttle_Columbia_lands_following_STS-62_on_18_March_1994._%28cropped%29.jpg/330px-Space_Shuttle_Columbia_lands_following_STS-62_on_18_March_1994._%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "wiki_url": "https://en.wikipedia.org/wiki/Space_Shuttle_Columbia"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Commander_Eileen_Collins_-_GPN-2000-001177.jpg/330px-Commander_Eileen_Collins_-_GPN-2000-001177.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "wiki_url": "https://en.wikipedia.org/wiki/Eileen_Collins"
     },
     {
       "year": 1972,
@@ -3842,8 +3842,8 @@
       "title_fr": "Landsat 1, premier satellite d'observation de la Terre, est lancé.",
       "text_en": "Before Google Earth, Landsat 1 was snapping our planet’s selfies from space—no filters needed.",
       "text_fr": "Avant Google Earth, Landsat 1 prenait des selfies de notre planète depuis l’espace… sans filtre.",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Landsat_1.jpg/330px-Landsat_1.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "wiki_url": "https://en.wikipedia.org/wiki/Landsat_1"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Landsat_Data_Continuity_Mission_Observatory_testing.jpg/330px-Landsat_Data_Continuity_Mission_Observatory_testing.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "wiki_url": "https://en.wikipedia.org/wiki/Landsat_8"
     },
     {
       "year": 1962,
@@ -3852,8 +3852,8 @@
       "title_fr": "Telstar transmet la première émission TV en direct entre les États-Unis et l’Europe.",
       "text_en": "Telstar didn’t just beam TV signals—it kickstarted the era of instant global connectivity. No buffering… for the time being.",
       "text_fr": "Telstar n’a pas seulement diffusé des émissions TV : il a lancé l’ère de la connectivité mondiale instantanée. Pas de buffering… pour l’instant.",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Iridium_satellite.jpg/330px-Iridium_satellite.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "wiki_url": "https://en.wikipedia.org/wiki/Satellite_communication"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Telstar_satellite-CnAM_35181-IMG_5408-gradient.jpg/330px-Telstar_satellite-CnAM_35181-IMG_5408-gradient.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "wiki_url": "https://en.wikipedia.org/wiki/Telstar"
     }
   ],
   "07-24": [
@@ -3864,8 +3864,8 @@
       "title_fr": "La base de Cap Canaveral lance sa première fusée, un Bumper rocket.",
       "text_en": "The humble beginnings of America's space program—where it all started with a rocket that barely scratched the edge of space.",
       "text_fr": "Les premiers pas du programme spatial américain, avec une fusée qui a à peine frôlé l'espace.",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/STORIE_Launch_and_Install_on_the_Space_Station_%28SVS15043_-_4~orig%29.jpg/330px-STORIE_Launch_and_Install_on_the_Space_Station_%28SVS15043_-_4~orig%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "wiki_url": "https://en.wikipedia.org/wiki/Cape_Canaveral_Air_Force_Station"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Cape_canaveral.jpg/330px-Cape_canaveral.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "wiki_url": "https://en.wikipedia.org/wiki/Cape_Canaveral"
     },
     {
       "year": 1847,
@@ -3886,8 +3886,8 @@
       "title_fr": "Viking 1 prend la célèbre photo du « Visage de Mars ».",
       "text_en": "The probe snapped a mysterious rock formation that fueled decades of alien conspiracy theories—until science spoiled the fun.",
       "text_fr": "La sonde immortalise une formation rocheuse qui alimentera des théories du complot extraterrestre pendant des années… jusqu’à ce que la science gâche la fête.",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Viking_spacecraft.jpg/330px-Viking_spacecraft.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "wiki_url": "https://en.wikipedia.org/wiki/Viking_1"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Mars_-_August_30_2021_-_Flickr_-_Kevin_M._Gill.png/330px-Mars_-_August_30_2021_-_Flickr_-_Kevin_M._Gill.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "wiki_url": "https://en.wikipedia.org/wiki/Mars"
     },
     {
       "year": 1973,
@@ -3896,8 +3896,8 @@
       "title_fr": "La sonde soviétique Mars 5 est lancée pour étudier la planète rouge.",
       "text_en": "A silent workhorse that mapped Mars before vanishing into the cosmic void—because space is the final frontier, and also really hard.",
       "text_fr": "Un ouvrier de l’espace qui cartographia Mars avant de disparaître dans le vide cosmique—parce que l’espace est la dernière frontière, et aussi très compliqué.",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Flag_of_the_Soviet_Union.svg/330px-Flag_of_the_Soviet_Union.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "wiki_url": "https://en.wikipedia.org/wiki/Soviet_Mars_program"
+      "image": "https://upload.wikimedia.org/wikipedia/en/7/7b/Red_Planet_Mard_Poster.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "wiki_url": "https://en.wikipedia.org/wiki/Red_Planet_Mars"
     },
     {
       "year": 1837,
@@ -3906,8 +3906,8 @@
       "title_fr": "Première utilisation commerciale du télégraphe électrique à Londres.",
       "text_en": "Cooke and Wheatstone’s invention turned Morse code into the 19th-century version of instant messaging—no emojis, though.",
       "text_fr": "L’invention de Cooke et Wheatstone transforme le code Morse en messagerie instantanée du XIXe siècle… sans émojis, hélas.",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Cooke_and_Wheatstone_electric_telegraph.jpg/330px-Cooke_and_Wheatstone_electric_telegraph.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "wiki_url": "https://en.wikipedia.org/wiki/First_commercial_cinematic_release"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/London_Skyline_%28125508655%29.jpeg/330px-London_Skyline_%28125508655%29.jpeg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "wiki_url": "https://en.wikipedia.org/wiki/London"
     },
     {
       "year": 1835,
@@ -3928,8 +3928,8 @@
       "title_fr": "STS-114 : Retour en vol de Discovery après la catastrophe de Columbia",
       "text_en": "NASA's first post-Columbia shuttle mission launched, proving space tech could still boldly go where no one had gone before—without exploding.",
       "text_fr": "La mission STS-114 de la NASA a marqué le retour en vol de la navette Discovery après l’accident de Columbia, prouvant que l’exploration spatiale pouvait encore défier les lois de la gravité… et de la prudence.",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/4/48/ColumbiaFLIR2003.gif?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-      "wiki_url": "https://en.wikipedia.org/wiki/Columbia_Disaster"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/ISS-11_Discovery_heat_shield_photograph.jpg/330px-ISS-11_Discovery_heat_shield_photograph.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "wiki_url": "https://en.wikipedia.org/wiki/STS-114"
     },
     {
       "year": 1989,
@@ -3938,8 +3938,8 @@
       "title_fr": "Robert T. Morris Jr. inculpé pour le ver Morris : la première cyberattaque jugée",
       "text_en": "The Morris worm, the first major internet malware, crashed 10% of the web—earning its creator a spot in hacker history (and a criminal record).",
       "text_fr": "Le ver Morris, premier malware majeur d’Internet, a paralysé 10% du web—offrant à son créateur une place dans l’histoire du hacking… et un casier judiciaire.",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Robert_Tappan_Morris.jpg/330px-Robert_Tappan_Morris.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "wiki_url": "https://en.wikipedia.org/wiki/Robert_T._Morris,_Jr."
+      "image": "https://nbbou81000.github.io/Geek-almanac/assets/icons/internet.svg",
+      "wiki_url": "https://en.wikipedia.org/w/index.php?search=Robert%20T.%20Morris%20Jr.%20Indicted%20for%20the%20Morris%20Worm%3A%20The%20First%20Cyberattack%20Prosecution"
     },
     {
       "year": 1971,
@@ -3948,8 +3948,8 @@
       "title_fr": "Apollo 15 : Premier véhicule lunaire et mission \"J\" révolutionnaire",
       "text_en": "Apollo 15 took the first Moon buggy for a spin, proving that even astronauts needed a cool ride to explore the lunar dust.",
       "text_fr": "Apollo 15 a déployé le premier véhicule lunaire, prouvant qu’un bon 4x4 était indispensable… même sur la Lune.",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/AS15-88-11866_-_Apollo_15_flag%2C_rover%2C_LM%2C_Irwin_-_restoration1.jpg/330px-AS15-88-11866_-_Apollo_15_flag%2C_rover%2C_LM%2C_Irwin_-_restoration1.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "wiki_url": "https://en.wikipedia.org/wiki/Apollo_15"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/NASA-Apollo8-Dec24-Earthrise.jpg/330px-NASA-Apollo8-Dec24-Earthrise.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "wiki_url": "https://en.wikipedia.org/wiki/Apollo_8"
     },
     {
       "year": 1963,
@@ -3970,8 +3970,8 @@
       "title_fr": "Premier câble télégraphique transatlantique permanent achevé",
       "text_en": "Before the internet, there was this *very* slow but revolutionary cable that let Europe and America chat in Morse for the first time—no lag, just patience!",
       "text_fr": "Avant l’internet, ce câble télégraphique transatlantique, lent mais révolutionnaire, a permis à l’Europe et à l’Amérique de s’échanger des messages en Morse… sans latence, juste avec de la patience !",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Landing_of_the_Atlantic_Cable_of_1866%2C_Heart%27s_Content%2C_Newfoundland.jpg/330px-Landing_of_the_Atlantic_Cable_of_1866%2C_Heart%27s_Content%2C_Newfoundland.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "wiki_url": "https://en.wikipedia.org/wiki/First_permanent_secretaries"
+      "image": "https://nbbou81000.github.io/Geek-almanac/assets/icons/internet.svg",
+      "wiki_url": "https://en.wikipedia.org/w/index.php?search=First%20permanent%20transatlantic%20telegraph%20cable%20completed"
     }
   ],
   "07-28": [],
@@ -3983,8 +3983,8 @@
       "title_fr": "Création de la NASA",
       "text_en": "The U.S. finally gets its space agency to boldly go where no one has gone before—thanks to Eisenhower’s pen stroke.",
       "text_fr": "Les États-Unis se dotent enfin d’une agence spatiale pour explorer l’inconnu… grâce à la signature d’Eisenhower.",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Artist%27s_concept_of_NISAR_over_Earth.jpg/330px-Artist%27s_concept_of_NISAR_over_Earth.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "wiki_url": "https://en.wikipedia.org/wiki/NASA-ISRO_Synthetic_Aperture_Radar"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/NASA_seal.svg/330px-NASA_seal.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "wiki_url": "https://en.wikipedia.org/wiki/NASA"
     },
     {
       "year": 1985,
@@ -3993,8 +3993,8 @@
       "title_fr": "Lancement de la navette Challenger STS-51-F avec un échec moteur",
       "text_en": "Challenger’s wild ride proved that space travel is thrilling… and occasionally terrifying—like a rollercoaster designed by a mad scientist.",
       "text_fr": "La navette Challenger nous rappelle que l’espace est à la fois fascinant… et parfois terrifiant, comme un manège conçu par un savant fou.",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Challenger_explosion.jpg/330px-Challenger_explosion.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "wiki_url": "https://en.wikipedia.org/wiki/Space_Shuttle_Challenger_launch_decision"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/STS-51-L.jpg/330px-STS-51-L.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "wiki_url": "https://en.wikipedia.org/wiki/STS-51-L"
     },
     {
       "year": 2005,
@@ -4003,8 +4003,8 @@
       "title_fr": "Découverte de la planète naine Éris bouscule le système solaire",
       "text_en": "Eris didn’t just join the party—it crashed it, leading to Pluto’s demotion and a cosmic identity crisis.",
       "text_fr": "Éris n’est pas venue à la fête, elle l’a détruite, causant la rétrogradation de Pluton et une crise d’identité cosmique.",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/The_Moment_Carter_Opens_the_Shrine.jpg/330px-The_Moment_Carter_Opens_the_Shrine.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "wiki_url": "https://en.wikipedia.org/wiki/Discovery_of_the_tomb_of_Tutankhamun"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Eris_and_moon_Dysnomia_JWST_NIRCam.jpg/330px-Eris_and_moon_Dysnomia_JWST_NIRCam.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "wiki_url": "https://en.wikipedia.org/wiki/Eris_(dwarf_planet)"
     }
   ],
   "07-30": [
