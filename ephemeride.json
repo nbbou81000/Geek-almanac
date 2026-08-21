@@ -3173,8 +3173,8 @@
       "title_fr": "La navette Columbia lance la mission STS-78 avec Spacelab pour des recherches en microgravité",
       "text_en": "The shuttle carried a lab dedicated to life science and microgravity experiments—basically, space science at its finest.",
       "text_fr": "La navette transportait un laboratoire dédié aux sciences de la vie et à la microgravité—de la science spatiale à son meilleur.",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Space_Shuttle_Columbia_lands_following_STS-62_on_18_March_1994._%28cropped%29.jpg/330px-Space_Shuttle_Columbia_lands_following_STS-62_on_18_March_1994._%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "wiki_url": "https://en.wikipedia.org/wiki/Space_Shuttle_Columbia"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/STS078-733-004_Columbia_and_Spacelab_Module_LM2.jpg/330px-STS078-733-004_Columbia_and_Spacelab_Module_LM2.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "wiki_url": "https://en.wikipedia.org/wiki/STS-78"
     },
     {
       "year": 1840,
@@ -3239,8 +3239,8 @@
       "title_fr": "IBM sépare le prix du logiciel de celui du matériel, donnant naissance à l'industrie moderne du logiciel",
       "text_en": "A move that made Bill Gates a billionaire before most people even knew what a 'software' was—thanks, Big Blue!",
       "text_fr": "Un coup qui fera de Bill Gates un milliardaire avant que beaucoup ne sachent ce qu'est un 'logiciel'—merci, Big Blue !",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Warren_E_Burger_official_photograph_as_chief_justice.jpg/330px-Warren_E_Burger_official_photograph_as_chief_justice.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "wiki_url": "https://en.wikipedia.org/wiki/Software_industry"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/IBM_CHQ_-_Oct_2014.jpg/330px-IBM_CHQ_-_Oct_2014.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "wiki_url": "https://en.wikipedia.org/wiki/IBM"
     },
     {
       "year": 1868,
@@ -3272,8 +3272,8 @@
       "title_fr": "Lancement de STS-50 avec le matériel Extended Duration Orbiter",
       "text_en": "Columbia broke the orbital marathon record, proving that even space shuttles could binge-watch movies in zero-G.",
       "text_fr": "Columbia a battu le record de la plus longue mission orbitale, prouvant que même les navettes spatiales pouvaient binge-watcher des films en apesanteur.",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Space_Shuttle_Columbia_lands_following_STS-62_on_18_March_1994._%28cropped%29.jpg/330px-Space_Shuttle_Columbia_lands_following_STS-62_on_18_March_1994._%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "wiki_url": "https://en.wikipedia.org/wiki/Space_Shuttle_Columbia"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/EDO_insignia.png/330px-EDO_insignia.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "wiki_url": "https://en.wikipedia.org/wiki/Extended_Duration_Orbiter"
     },
     {
       "year": 1981,
@@ -3283,7 +3283,7 @@
       "text_en": "From a tiny garage startup to a corporate giant—Bill Gates just gave the world a front-row seat to the future.",
       "text_fr": "D’un modeste garage à un géant du corporate—Bill Gates a offert au monde une place en première ligne pour le futur.",
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Aerial_Microsoft_West_Campus_August_2009.jpg/330px-Aerial_Microsoft_West_Campus_August_2009.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "wiki_url": "https://en.wikipedia.org/wiki/Microsoft_Incorporated"
+      "wiki_url": "https://en.wikipedia.org/wiki/Microsoft"
     },
     {
       "year": 1998,
@@ -3293,7 +3293,7 @@
       "text_en": "Windows 98: the OS that made plug-and-play a household phrase—and a tech support nightmare.",
       "text_fr": "Windows 98 : le système d’exploitation qui a transformé le « branchez et jouez » en une phrase courante… et un cauchemar pour le support technique.",
       "image": "https://upload.wikimedia.org/wikipedia/en/thumb/0/00/Windows98.png/330px-Windows98.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "wiki_url": "https://en.wikipedia.org/wiki/Microsoft_Windows_98"
+      "wiki_url": "https://en.wikipedia.org/wiki/Windows_98"
     }
   ],
   "06-26": [
@@ -3304,8 +3304,8 @@
       "title_fr": "Premier scan de code-barres UPC : un paquet de chewing-gum Wrigley's entre dans l'histoire en caisse.",
       "text_en": "The beep that changed retail forever: a simple pack of gum kickstarted the barcode revolution, making shopping both faster and more mysterious (what *are* those black lines, anyway?).",
       "text_fr": "Le bip qui a révolutionné le commerce : un simple paquet de chewing-gum lance la révolution des codes-barres, rendant les courses plus rapides... et bien plus mystérieuses (mais que signifient ces lignes noires, au fait ?).",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/FPTP_countries.png/330px-FPTP_countries.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "wiki_url": "https://en.wikipedia.org/wiki/First-past-the-post_voting"
+      "image": "https://nbbou81000.github.io/Geek-almanac/assets/icons/hardware.svg",
+      "wiki_url": "https://en.wikipedia.org/wiki/Wrigley_Company"
     },
     {
       "year": 1948,
@@ -3314,8 +3314,8 @@
       "title_fr": "Shockley brevète le premier transistor pratique, ouvrant la voie à l'électronique moderne.",
       "text_en": "The tiny component that made computers, phones, and everything digital possible—imagine the 20th century without it, and you’d be stuck in the Stone Age of tech.",
       "text_fr": "Le composant minuscule qui a rendu possibles les ordinateurs, téléphones et tout ce qui est numérique—essayez d’imaginer le XXe siècle sans lui, et vous seriez coincé à l’âge de pierre de la tech.",
-      "image": "https://upload.wikimedia.org/wikipedia/en/5/51/Modern_Electronics_Oct_1984.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-      "wiki_url": "https://en.wikipedia.org/wiki/Modern_Electronics"
+      "image": "https://nbbou81000.github.io/Geek-almanac/assets/icons/science.svg",
+      "wiki_url": "https://en.wikipedia.org/wiki/Shockley"
     }
   ],
   "06-27": [],
@@ -3328,8 +3328,8 @@
       "title_fr": "Apple lance le premier iPhone",
       "text_en": "The first iPhone hits the shelves, turning every pocket into a sci-fi prop and smartphones into must-have gadgets.",
       "text_fr": "Le premier iPhone débarque en magasin, transformant chaque poche en accessoire de science-fiction et les smartphones en objets indispensables.",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/IPhone_1st_Gen.svg/330px-IPhone_1st_Gen.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "wiki_url": "https://en.wikipedia.org/wiki/The_first_iphone"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Pink_lady_and_cross_section.jpg/330px-Pink_lady_and_cross_section.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "wiki_url": "https://en.wikipedia.org/wiki/Apple"
     }
   ],
   "06-30": [],
