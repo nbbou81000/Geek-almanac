@@ -2213,8 +2213,8 @@
       "title_fr": "Première transmission téléphonique en direct par fibre optique",
       "text_en": "The future of high-speed internet and telecom was born when optical fiber carried live phone calls for the first time. Say goodbye to copper wires, hello to laser-powered data highways!",
       "text_fr": "L’avenir d’Internet et des télécoms a pris son envol quand la fibre optique a transporté pour la première fois des appels téléphoniques en direct. Adieu les fils de cuivre, bonjour les autoroutes de données laser !",
-      "image": "https://upload.wikimedia.org/wikipedia/en/f/f4/BIGBANG_The_Real.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-      "wiki_url": "https://en.wikipedia.org/wiki/First_Live_Concert:_The_Real"
+      "image": "https://nbbou81000.github.io/Geek-almanac/assets/icons/hardware.svg",
+      "wiki_url": "https://en.wikipedia.org/w/index.php?search=First%20live%20telephone%20traffic%20over%20optical%20fiber"
     }
   ],
   "04-23": [
@@ -2225,8 +2225,8 @@
       "title_fr": "Soyuz 1 : premier accident spatial mortel",
       "text_en": "Colonel Vladimir Komarov became the first human to die in space during Soyuz 1's tragic re-entry. A lesson in cosmic humility: space is hard, and sometimes even heroes pay the ultimate price.",
       "text_fr": "Le colonel Vladimir Komarov est devenu la première personne à mourir dans l'espace lors du retour tragique de Soyuz 1. Une leçon d'humilité cosmique : l'espace est difficile, et parfois même les héros paient le prix fort.",
-      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f7/Soyuz_1_crash.jpg/330px-Soyuz_1_crash.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "wiki_url": "https://en.wikipedia.org/wiki/Soyuz_1"
+      "image": "https://nbbou81000.github.io/Geek-almanac/assets/icons/space.svg",
+      "wiki_url": "https://en.wikipedia.org/wiki/Soyuz"
     },
     {
       "year": 2009,
@@ -2257,8 +2257,8 @@
       "title_fr": "Premier satellite chinois : Dong Fang Hong I",
       "text_en": "China joined the space race with its first satellite, a 173 kg red beacon playing 'The East Is Red'—because even satellites need a soundtrack.",
       "text_fr": "La Chine entre dans la course spatiale avec son premier satellite, un engin de 173 kg diffusant *L’Orient est rouge*—parce qu’un satellite a besoin de sa bande-son aussi.",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/QinShiHuang19century.jpg/330px-QinShiHuang19century.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "wiki_url": "https://en.wikipedia.org/wiki/China%27s_first_emperor"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Dongfanghong-1.jpg/330px-Dongfanghong-1.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "wiki_url": "https://en.wikipedia.org/wiki/Dong_Fang_Hong_1"
     }
   ],
   "04-25": [
@@ -2269,8 +2269,8 @@
       "title_fr": "Pioneer 10 dépasse l'orbite de Pluton",
       "text_en": "The first human-made object to leave our solar system's planetary zone just got a cosmic upgrade—Pluto’s neighborhood is now a tourist-free zone!",
       "text_fr": "Le premier objet humain à quitter la zone planétaire du système solaire fait un upgrade cosmique : le quartier de Pluton est désormais une zone sans touristes !",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/An_artist%27s_impression_of_a_Pioneer_spacecraft_on_its_way_to_interstellar_space.jpg/330px-An_artist%27s_impression_of_a_Pioneer_spacecraft_on_its_way_to_interstellar_space.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "wiki_url": "https://en.wikipedia.org/wiki/Pioneer_10"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Pluto_in_True_Color_-_High-Res.png/330px-Pluto_in_True_Color_-_High-Res.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "wiki_url": "https://en.wikipedia.org/wiki/Pluto"
     },
     {
       "year": 1961,
@@ -2289,8 +2289,8 @@
       "title_fr": "Première cellule solaire pratique démontrée par les Bell Labs",
       "text_en": "Bell Labs just turned sunlight into power—because who needs fossil fuels when you can charge your phone with a sunny day?",
       "text_fr": "Les Bell Labs viennent de transformer la lumière du soleil en énergie—parce que qui a besoin de carburants fossiles quand on peut recharger son téléphone avec une journée ensoleillée ?",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/404th_Fighter_Squadron_-_P-47_Thunderbolt.jpg/330px-404th_Fighter_Squadron_-_P-47_Thunderbolt.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "wiki_url": "https://en.wikipedia.org/wiki/First_Tactical_Air_Force_(Provisional)"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Nokia_Bell_Labs_2023.svg/330px-Nokia_Bell_Labs_2023.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "wiki_url": "https://en.wikipedia.org/wiki/Bell_Labs"
     }
   ],
   "04-26": [
@@ -2302,7 +2302,7 @@
       "text_en": "The CIH virus, also known as Chernobyl, taught us that even malware has a sense of humor—it waited until April 26th to strike, like a digital April Fool's joke gone wrong!",
       "text_fr": "Le virus CIH, surnommé Chernobyl, nous a appris que même les malwares ont un sens de l'humour : il frappait le 26 avril, comme une blague de 1er avril numérique qui tourne au cauchemar !",
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/CIHvirus.gif/330px-CIHvirus.gif?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "wiki_url": "https://en.wikipedia.org/wiki/Outbreak_of_the_First_Intifada"
+      "wiki_url": "https://en.wikipedia.org/wiki/CIH_(computer_virus)"
     },
     {
       "year": 1993,
@@ -2321,8 +2321,8 @@
       "title_fr": "La sonde Ranger 4 de la NASA s'écrase sur la Lune",
       "text_en": "Ranger 4 became the first American spacecraft to reach the Moon—unfortunately, it was already dead on arrival, like a space zombie.",
       "text_fr": "Ranger 4 fut le premier vaisseau américain à atteindre la Lune… mais il était déjà hors service à l'arrivée, comme un zombie spatial.",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Last_Look_at_Hangar_One.jpg/330px-Last_Look_at_Hangar_One.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "wiki_url": "https://en.wikipedia.org/wiki/NASA%E2%80%99s_Hangar_1"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/The_Ranger_Spacecraft_GPN-2000-001979.jpg/330px-The_Ranger_Spacecraft_GPN-2000-001979.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "wiki_url": "https://en.wikipedia.org/wiki/Ranger_7"
     },
     {
       "year": 2016,
@@ -2331,8 +2331,8 @@
       "title_fr": "Découverte d'un satellite autour de la planète naine Makémaké",
       "text_en": "Makemake just got a moon named S/2015 (136472) 1, proving that even dwarf planets need a little satellite love.",
       "text_fr": "Makémaké a enfin obtenu une lune, S/2015 (136472) 1, preuve que même les planètes naines méritent un peu d'amour satellite.",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Die_Entdekkung_von_Amerika_-_title_page.jpg/330px-Die_Entdekkung_von_Amerika_-_title_page.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "wiki_url": "https://en.wikipedia.org/wiki/The_Discovery_of_America"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Makemake_and_its_moon.jpg/330px-Makemake_and_its_moon.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "wiki_url": "https://en.wikipedia.org/wiki/Makemake"
     }
   ],
   "04-27": [],
@@ -2346,8 +2346,8 @@
       "title_fr": "Le CERN libère les protocoles du World Wide Web",
       "text_en": "The internet just got a massive upgrade: Tim Berners-Lee’s brainchild is now open-source, paving the way for the web as we know it. Free as in freedom (and free as in beer)!",
       "text_fr": "Internet entre en mode open-source : le CERN libère les protocoles du Web, offrant une liberté (et une gratuité) qui changera tout. Merci Tim Berners-Lee !",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/CERN_logo_badge.svg/330px-CERN_logo_badge.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "wiki_url": "https://en.wikipedia.org/wiki/Protocols_for_file_transfer"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/WWW_logo_by_Robert_Cailliau.svg/330px-WWW_logo_by_Robert_Cailliau.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "wiki_url": "https://en.wikipedia.org/wiki/History_of_the_World_Wide_Web"
     },
     {
       "year": 1897,
@@ -2356,8 +2356,8 @@
       "title_fr": "J.J. Thomson découvre l'électron",
       "text_en": "The tiny particle that powers our gadgets was found in a lab—imagine if electrons came with user manuals!",
       "text_fr": "La particule qui alimente nos écrans a été découverte en 1897 : l'électron, minuscule mais indispensable !",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/J.J_Thomson.jpg/330px-J.J_Thomson.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "wiki_url": "https://en.wikipedia.org/wiki/JJ_Thomson"
+      "image": "https://nbbou81000.github.io/Geek-almanac/assets/icons/science.svg",
+      "wiki_url": "https://en.wikipedia.org/wiki/Thomson"
     }
   ],
   "05-01": [],
