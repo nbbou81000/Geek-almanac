@@ -5439,8 +5439,8 @@
       "title_fr": "Falcon 1 met en orbite avec la mission RatSat",
       "text_en": "SpaceX’s Falcon 1 became the first privately-funded liquid-fueled rocket to reach orbit—proving that garage startups could literally shoot for the stars.",
       "text_fr": "La fusée Falcon 1 de SpaceX, premier lanceur privé à carburant liquide en orbite, a montré que même un garage pouvait viser les étoiles.",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Falcon_1_Flight_4_liftoff.jpg/330px-Falcon_1_Flight_4_liftoff.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "wiki_url": "https://en.wikipedia.org/wiki/Falcon_1"
+      "image": "https://upload.wikimedia.org/wikipedia/en/a/ae/RatSat_Falcon_1.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "wiki_url": "https://en.wikipedia.org/wiki/RatSat"
     },
     {
       "year": 1951,
@@ -5449,8 +5449,8 @@
       "title_fr": "CBS commercialise les premiers téléviseurs couleur (avant de les retirer)",
       "text_en": "CBS launched the first color TVs in 1951, but poor sales and high costs made them vanish faster than a dial-up modem in 2024.",
       "text_fr": "CBS lance les premiers téléviseurs couleur en 1951, mais leur prix exorbitant et leur faible adoption les font disparaître comme un modem 56k en 2024.",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/RCA_Victor_Color_TV_ad_featuring_milliner_Lilly_Dach%C3%A9%2C_1959.jpg/330px-RCA_Victor_Color_TV_ad_featuring_milliner_Lilly_Dach%C3%A9%2C_1959.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "wiki_url": "https://en.wikipedia.org/wiki/Keith_Cassells"
+      "image": "https://nbbou81000.github.io/Geek-almanac/assets/icons/hardware.svg",
+      "wiki_url": "https://en.wikipedia.org/w/index.php?search=CBS%20sells%20first%20color%20TVs%20(then%20pulls%20the%20plug)"
     },
     {
       "year": 2015,
@@ -5459,8 +5459,8 @@
       "title_fr": "L'Inde lance Astrosat, son premier observatoire spatial",
       "text_en": "India’s PSLV rocket deployed Astrosat, the country’s first dedicated astronomy satellite—because why leave all the stargazing to NASA?",
       "text_fr": "Le lanceur PSLV indien met en orbite Astrosat, premier observatoire spatial du pays—parce que l’astronomie, c’est aussi une affaire de fierté nationale.",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Wavelength_Sensitivity_of_Hubble%2C_Webb%2C_Roman%2C_and_Other_Observatories_%2801FEBQTM8Y4FESTQ4N2AFQDBXH%29.jpg/330px-Wavelength_Sensitivity_of_Hubble%2C_Webb%2C_Roman%2C_and_Other_Observatories_%2801FEBQTM8Y4FESTQ4N2AFQDBXH%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "wiki_url": "https://en.wikipedia.org/wiki/Space_observatory"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Astrosat-1_in_deployed_configuration_001.png/330px-Astrosat-1_in_deployed_configuration_001.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "wiki_url": "https://en.wikipedia.org/wiki/AstroSat"
     }
   ],
   "09-29": [
@@ -5471,8 +5471,8 @@
       "title_fr": "NASA lance STS-26, première mission de la navette spatiale après Challenger",
       "text_en": "Three years after the tragedy, NASA dusts off its spacesuits and proves the Shuttle can fly again—because space waits for no one, not even grieving engineers.",
       "text_fr": "Trois ans après la tragédie, la NASA relance la navette spatiale et prouve qu’elle peut revoler—l’espace, lui, n’attend personne, pas même des ingénieurs en deuil.",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Launch_Services_Program_logo.svg/330px-Launch_Services_Program_logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "wiki_url": "https://en.wikipedia.org/wiki/NASA_Launch_Services_Program"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/S83-35803_%28cropped%29.jpg/330px-S83-35803_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "wiki_url": "https://en.wikipedia.org/wiki/Space_Shuttle_Challenger"
     },
     {
       "year": 1954,
@@ -5481,8 +5481,8 @@
       "title_fr": "Le CERN est fondé avec la signature de sa convention à Paris",
       "text_en": "The birthplace of the web’s granddaddy (the Web itself) and home to particle-smashing madness—CERN proves that science is the ultimate geek playground.",
       "text_fr": "Le berceau du grand-père du Web (le Web lui-même) et temple de la folie des particules—le CERN prouve que la science est le terrain de jeu ultime des geeks.",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/ISR_Surface.jpg/330px-ISR_Surface.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "wiki_url": "https://en.wikipedia.org/wiki/CERN_ISR"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/CERN_logo_badge.svg/330px-CERN_logo_badge.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "wiki_url": "https://en.wikipedia.org/wiki/CERN"
     }
   ],
   "09-30": [
@@ -5504,7 +5504,7 @@
       "text_en": "Ethernet was born, turning offices into data highways and making cable management a nightmare for sysadmins worldwide.",
       "text_fr": "L'Ethernet voyait le jour, transformant les bureaux en autoroutes de données et rendant la gestion des câbles un cauchemar pour les admins système du monde entier.",
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Ethernet_connector.webp/330px-Ethernet_connector.webp.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "wiki_url": "https://en.wikipedia.org/wiki/De_Courcy_Ireland"
+      "wiki_url": "https://en.wikipedia.org/wiki/Ethernet"
     },
     {
       "year": 1954,
@@ -5513,7 +5513,7 @@
       "title_fr": "L'USS Nautilus, premier sous-marin nucléaire au monde, est mis en service",
       "text_en": "The Nautilus proved that nuclear power could power more than just light bulbs—it could also power stealthy underwater espionage.",
       "text_fr": "Le Nautilus prouvait que l'énergie nucléaire pouvait propulser plus que des ampoules : elle servait aussi à des missions d'espionnage sous-marin discrètes.",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/USS_Nautilus_SSN-571_-underway.jpg/330px-USS_Nautilus_SSN-571_-underway.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "image": "https://nbbou81000.github.io/Geek-almanac/assets/icons/hardware.svg",
       "wiki_url": "https://en.wikipedia.org/wiki/USS_Nautilus"
     }
   ],
@@ -5526,7 +5526,7 @@
       "text_en": "Where memes are born, trolls thrive, and cats rule the digital realm—welcome to the wild side of the web!",
       "text_fr": "Là où naissent les memes, où les trolls prospèrent et où les chats règnent sur le web—bienvenue dans la jungle numérique !",
       "image": "https://nbbou81000.github.io/Geek-almanac/assets/icons/internet.svg",
-      "wiki_url": "https://en.wikipedia.org/wiki/Imageboard"
+      "wiki_url": "https://en.wikipedia.org/w/index.php?search=4chan%20launches%2C%20the%20internet's%20most%20chaotic%20playground"
     },
     {
       "year": 1982,
@@ -5545,8 +5545,8 @@
       "title_fr": "La NASA remplace le NACA, lançant la course à l'espace à plein régime",
       "text_en": "One small step for bureaucracy, one giant leap for mankind’s cosmic ambitions!",
       "text_fr": "Un petit pas pour l'administration, un bond de géant pour les ambitions cosmiques de l'humanité !",
-      "image": "https://upload.wikimedia.org/wikipedia/en/d/d0/Nature%2C_Place%2C_and_Story_book_cover_%28MQUP%2C_2017%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-      "wiki_url": "https://en.wikipedia.org/wiki/Nature,_Place,_and_Story"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/NASA_60th-_How_It_All_Began.webm/330px--NASA_60th-_How_It_All_Began.webm.jpg",
+      "wiki_url": "https://en.wikipedia.org/wiki/Creation_of_NASA"
     }
   ],
   "10-02": [],
@@ -5571,7 +5571,7 @@
       "text_en": "The Free Software Foundation is born, giving birth to the GNU Project and the concept of copyleft—because freedom in code shouldn’t be a bug.",
       "text_fr": "La Free Software Foundation voit le jour, lançant le projet GNU et le concept de copyleft : parce que la liberté dans le code ne devrait pas être un bug.",
       "image": "https://nbbou81000.github.io/Geek-almanac/assets/icons/culture.svg",
-      "wiki_url": "https://en.wikipedia.org/wiki/Free_Software_Foundation_anti-Windows_campaigns"
+      "wiki_url": "https://en.wikipedia.org/wiki/Free_Software_Foundation"
     },
     {
       "year": 1957,
@@ -5590,8 +5590,8 @@
       "title_fr": "Lancement de WikiLeaks",
       "text_en": "WikiLeaks drops its first classified documents, proving that transparency can be as explosive as a server under DDoS attack.",
       "text_fr": "WikiLeaks publie ses premiers documents classifiés, prouvant que la transparence peut être aussi explosive qu'un serveur sous attaque DDoS.",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/The_Wikileaks_Party_logo.svg/330px-The_Wikileaks_Party_logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "wiki_url": "https://en.wikipedia.org/wiki/WikiLeaks_Party"
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c6/Wikileaks_homepage_screenshot_March_2025.png/330px-Wikileaks_homepage_screenshot_March_2025.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "wiki_url": "https://en.wikipedia.org/wiki/WikiLeaks"
     }
   ],
   "10-05": [
@@ -5603,7 +5603,7 @@
       "text_en": "Microsoft finally gave us a reason to upgrade... or at least to stare at the new Start menu for hours.",
       "text_fr": "Microsoft nous a enfin donné une raison de mettre à jour... ou au moins de fixer le nouveau menu Démarrer pendant des heures.",
       "image": "https://upload.wikimedia.org/wikipedia/en/thumb/9/92/Windows_11_Desktop.png/330px-Windows_11_Desktop.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "wiki_url": "https://en.wikipedia.org/wiki/Windows_11_version_history"
+      "wiki_url": "https://en.wikipedia.org/wiki/Windows_11"
     }
   ],
   "10-06": [
@@ -5615,7 +5615,7 @@
       "text_en": "The universe just got a lot more crowded: humanity spotted its first alien world, proving we’re not alone—or at least, not *completely* alone.",
       "text_fr": "L’univers vient de gagner en densité : l’humanité détecte sa première exoplanète, prouvant qu’on n’est pas seuls… ou du moins, pas *tout à fait* seuls.",
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Artist_impression_of_the_exoplanet_51_Pegasi_b.jpg/330px-Artist_impression_of_the_exoplanet_51_Pegasi_b.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "wiki_url": "https://en.wikipedia.org/wiki/Discovery_of_51_Pegasi_b"
+      "wiki_url": "https://en.wikipedia.org/wiki/51_Pegasi_b"
     },
     {
       "year": 1990,
@@ -5624,8 +5624,8 @@
       "title_fr": "Lancement de la sonde Ulysses par la navette Discovery pour étudier les pôles du Soleil",
       "text_en": "Ulysses didn’t just orbit the Sun—it went where no probe dared: straight over the poles, like a cosmic daredevil.",
       "text_fr": "Ulysses n’a pas simplement tourné autour du Soleil : il a osé survoler ses pôles, tel un casse-cou cosmique.",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Ulysses_spacecraft.jpg/330px-Ulysses_spacecraft.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "wiki_url": "https://en.wikipedia.org/wiki/Ulysses_(spacecraft)"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/S83-35803_%28cropped%29.jpg/330px-S83-35803_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "wiki_url": "https://en.wikipedia.org/wiki/Space_Shuttle_Challenger"
     }
   ],
   "10-07": [
@@ -5636,8 +5636,8 @@
       "title_fr": "Luna 3 transmet les premières photos de la face cachée de la Lune",
       "text_en": "The Soviets just spoiled the Moon's privacy with the first-ever snapshots of its mysterious far side. Spoiler: it's still just craters, no aliens.",
       "text_fr": "Les Soviétiques viennent de violer l'intimité de la Lune en publiant les premières photos de sa face cachée. Spoiler : toujours des cratères, pas d'extraterrestres.",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/%D0%9B%D1%83%D0%BD%D0%B0-3_%2814562265547%29.jpg/330px-%D0%9B%D1%83%D0%BD%D0%B0-3_%2814562265547%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "wiki_url": "https://en.wikipedia.org/wiki/Luna_3"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/FullMoon2010.jpg/330px-FullMoon2010.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "wiki_url": "https://en.wikipedia.org/wiki/Moon"
     },
     {
       "year": 2002,
