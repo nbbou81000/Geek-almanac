@@ -1132,8 +1132,8 @@
       "title_fr": "Odysseus effectue le premier atterrissage commercial en douceur sur la Lune.",
       "text_en": "IM-1’s Odysseus just proved that even robots can now afford a lunar vacation—no WiFi required!",
       "text_fr": "La mission IM-1 d’Odysseus vient de prouver que même les robots peuvent désormais s’offrir des vacances lunaires… sans WiFi !",
-      "image": "https://upload.wikimedia.org/wikipedia/en/b/b1/Odysseus-Voyage-to-the-Underworld-2008-poster.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-      "wiki_url": "https://en.wikipedia.org/wiki/Odysseus_and_the_Isle_of_the_Mists"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Moon_Soft_Landings.svg/330px-Moon_Soft_Landings.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "wiki_url": "https://en.wikipedia.org/wiki/Moon_landing"
     },
     {
       "year": 1986,
@@ -1142,8 +1142,8 @@
       "title_fr": "Ariane 1 met en orbite Spot-1, premier satellite européen d’observation de la Terre.",
       "text_en": "Spot-1 was basically Europe’s first selfie stick—except it took *real* high-res pics of Earth.",
       "text_fr": "Spot-1 était en quelque sorte le premier *selfie stick* européen… sauf qu’il prenait de *vraies* photos haute résolution de la Terre.",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Ariane_1_Le_Bourget_FRA_001.jpg/330px-Ariane_1_Le_Bourget_FRA_001.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "wiki_url": "https://en.wikipedia.org/wiki/Ariane_1"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/d/d6/Spot-5.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "wiki_url": "https://en.wikipedia.org/wiki/SPOT_(satellite)"
     },
     {
       "year": 1978,
@@ -1152,8 +1152,8 @@
       "title_fr": "La NASA lance Navstar-1, premier satellite du système GPS.",
       "text_en": "GPS just got its GPS—thanks, NASA, for making us all slightly less lost.",
       "text_fr": "Le GPS a enfin son propre GPS : merci la NASA pour nous avoir rendus un peu moins perdus.",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Launch_Services_Program_logo.svg/330px-Launch_Services_Program_logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "wiki_url": "https://en.wikipedia.org/wiki/NASA_Launch_Services_Program"
+      "image": "https://nbbou81000.github.io/Geek-almanac/assets/icons/space.svg",
+      "wiki_url": "https://en.wikipedia.org/wiki/Navstar_7"
     }
   ],
   "02-23": [],
@@ -1178,8 +1178,8 @@
       "title_fr": "Premier vol de la fusée Saturn IB dans le programme Apollo",
       "text_en": "The Saturn IB blasted off for the first time, paving the way for crewed missions to the Moon—because who needs a rocket when you’ve got a dream (and a lot of fuel)?",
       "text_fr": "La Saturn IB décolle pour la première fois, ouvrant la voie aux missions habitées vers la Lune—parce qu’un rêve (et beaucoup de carburant), c’est bien, mais une fusée, c’est mieux.",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Buran_on_An-225_%28Le_Bourget_1989%29_1.JPEG/330px-Buran_on_An-225_%28Le_Bourget_1989%29_1.JPEG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "wiki_url": "https://en.wikipedia.org/wiki/First_flight_of_Shuttle_Buran"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Apollo_11_Launch_-_GPN-2000-000630.jpg/330px-Apollo_11_Launch_-_GPN-2000-000630.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "wiki_url": "https://en.wikipedia.org/wiki/Saturn_V"
     }
   ],
   "02-27": [],
@@ -1201,8 +1201,8 @@
       "title_fr": "Le satellite espion Discoverer 1 échoue à atteindre son orbite",
       "text_en": "The first polar-orbit spy sat got lost in space—talk about a bad first impression for a Cold War snooper!",
       "text_fr": "Le premier satellite espion en orbite polaire a raté son entrée dans l’espace… une bien mauvaise première pour un espion de la Guerre froide !",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Ritratto_di_Annibale_de_Gasparis.jpg/330px-Ritratto_di_Annibale_de_Gasparis.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "wiki_url": "https://en.wikipedia.org/wiki/Discoverer_of_10_Hygiea"
+      "image": "https://nbbou81000.github.io/Geek-almanac/assets/icons/space.svg",
+      "wiki_url": "https://en.wikipedia.org/wiki/Discoverer"
     },
     {
       "year": 1983,
@@ -1211,8 +1211,8 @@
       "title_fr": "Lancement du disque compact et du lecteur laser en Europe",
       "text_en": "The shiny silver discs killed cassettes overnight—no more rewinding, just pure digital joy!",
       "text_fr": "Les disques argentés ont tué les cassettes du jour au lendemain… plus de rembobinage, que du plaisir numérique !",
-      "image": "https://upload.wikimedia.org/wikipedia/en/5/57/CD_and_DVD_Copy_Protection.webp?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-      "wiki_url": "https://en.wikipedia.org/wiki/Compact_Disc_and_DVD_copy_protection"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Compact_Disc_wordmark.svg/330px-Compact_Disc_wordmark.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "wiki_url": "https://en.wikipedia.org/wiki/Compact_disc"
     }
   ],
   "02-29": [],
@@ -1224,8 +1224,8 @@
       "title_fr": "Lancement du satellite Envisat pour surveiller l'environnement terrestre",
       "text_en": "The then-heaviest payload ever sent to orbit, this 10.5m-long environmental sentinel became Europe's watchful eye over climate change—until it was decommissioned in 2012.",
       "text_fr": "Avec ses 10,5 mètres de long, ce satellite européen a été le plus lourd jamais lancé pour scruter la Terre... jusqu'à sa mise hors service en 2012.",
-      "image": "https://upload.wikimedia.org/wikipedia/en/7/73/Arms_of_the_Royal_Society_of_Edinburgh.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-      "wiki_url": "https://en.wikipedia.org/wiki/Earth_%26_Environmental_Science_Transactions_of_the_Royal_Society_of_Edinburgh"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Envisatmod.jpg/330px-Envisatmod.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "wiki_url": "https://en.wikipedia.org/wiki/Envisat"
     },
     {
       "year": 1966,
@@ -1234,8 +1234,8 @@
       "title_fr": "Venera 3, premier objet humain à s'écraser sur Vénus",
       "text_en": "This Soviet probe didn't just fly by—it punched Venus in the face (metaphorically) and became the first crash-landing on another planet. RIP, but mission accomplished.",
       "text_fr": "Cette sonde soviétique ne s'est pas contentée de survoler Vénus : elle y a fait un crash historique, devenant le premier objet humain à toucher la planète. RIP, mais mission accomplie.",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/1966_CPA_3379.jpg/330px-1966_CPA_3379.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "wiki_url": "https://en.wikipedia.org/wiki/Venera_3"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Venera_13_probe_-_illustrated.jpg/330px-Venera_13_probe_-_illustrated.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "wiki_url": "https://en.wikipedia.org/wiki/Venera_13"
     },
     {
       "year": 1893,
