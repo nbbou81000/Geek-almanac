@@ -6064,7 +6064,7 @@
       "text_en": "NASA’s Cygnus CRS Orb-3 resupply mission to the ISS went up in flames—literally—just seconds after liftoff. A spectacular (and expensive) reminder that space travel is still rocket science… and sometimes, it explodes.",
       "text_fr": "La mission de ravitaillement Cygnus CRS Orb-3 de la NASA a explosé en plein vol quelques secondes après son décollage. Une démonstration (coûteuse) que l'espace reste une science de fusées… et parfois, ça explose.",
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Antares_Orb-3_launch_failure_%28201410280009HQ%29.jpg/330px-Antares_Orb-3_launch_failure_%28201410280009HQ%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "wiki_url": "https://en.wikipedia.org/wiki/Cygnus_CRS_Orb-3"
+      "wiki_url": "https://en.wikipedia.org/wiki/Cygnus_Orb-3"
     },
     {
       "year": 2009,
@@ -6073,8 +6073,8 @@
       "title_fr": "NASA lance Ares I-X, chant du cygne du programme Constellation",
       "text_en": "NASA’s Ares I-X test flight marked the only launch of the doomed Constellation program, a project that burned through cash faster than its engines. RIP, moon dreams.",
       "text_fr": "Le vol test Ares I-X de la NASA a été le seul lancement du programme Constellation, un projet qui a brûlé plus de budget que de carburant. RIP, les rêves lunaires.",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Launch_Services_Program_logo.svg/330px-Launch_Services_Program_logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "wiki_url": "https://en.wikipedia.org/wiki/NASA_Launch_Services_Program"
+      "image": "https://nbbou81000.github.io/Geek-almanac/assets/icons/space.svg",
+      "wiki_url": "https://en.wikipedia.org/w/index.php?search=NASA%20Launches%20Ares%20I-X%2C%20Constellation%E2%80%99s%20Swan%20Song"
     },
     {
       "year": 1971,
@@ -6083,8 +6083,8 @@
       "title_fr": "Prospero : le seul satellite britannique lancé par une fusée britannique",
       "text_en": "Prospero became the UK’s one and only satellite launched by a British rocket—proof that even small nations can punch above their weight in space.",
       "text_fr": "Prospero est devenu le seul satellite britannique lancé par une fusée nationale—la preuve que même les petits pays peuvent peser lourd dans l’espace.",
-      "image": "https://upload.wikimedia.org/wikipedia/en/5/5e/SatLaunchVehicle.jpeg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-      "wiki_url": "https://en.wikipedia.org/wiki/Satellite_Launch_Vehicle"
+      "image": "https://nbbou81000.github.io/Geek-almanac/assets/icons/space.svg",
+      "wiki_url": "https://en.wikipedia.org/w/index.php?search=Prospero%3A%20Britain%E2%80%99s%20Sole%20Homegrown%20Satellite%20Launch"
     }
   ],
   "10-29": [
@@ -6095,8 +6095,8 @@
       "title_fr": "La navette Discovery embarque John Glenn, l'astronaute le plus âgé",
       "text_en": "At 77, John Glenn became the oldest human in space—proving age is just a number, even when you're strapped to a rocket. The mission also marked the first HDTV broadcast of a shuttle launch in the US.",
       "text_fr": "À 77 ans, John Glenn devenait l’humain le plus âgé dans l’espace, prouvant que l’âge n’est qu’un chiffre… surtout quand on est assis sur une fusée. La mission a aussi marqué le premier direct HDTV d’un décollage de navette aux États-Unis.",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/STS-133_Space_Shuttle_Discovery_after_undocking_3_%28cropped%29.jpg/330px-STS-133_Space_Shuttle_Discovery_after_undocking_3_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "wiki_url": "https://en.wikipedia.org/wiki/Space_Shuttle_Discovery"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/John_Glenn_Low_Res.jpg/330px-John_Glenn_Low_Res.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "wiki_url": "https://en.wikipedia.org/wiki/John_Glenn"
     },
     {
       "year": 1991,
@@ -6115,8 +6115,8 @@
       "title_fr": "Premier lien informatique entre deux ordinateurs sur ARPANET",
       "text_en": "ARPANET sent its first digital handshake—birth of the internet as we know it, though no one had memes to share yet.",
       "text_fr": "ARPANET a échangé sa première poignée de main numérique : la naissance d’Internet, même si les mèmes n’existaient pas encore.",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/ENIAC-changing_a_tube_%28cropped%29.jpg/330px-ENIAC-changing_a_tube_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "wiki_url": "https://en.wikipedia.org/wiki/Computer"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Arpanet_logical_map%2C_march_1977.png/330px-Arpanet_logical_map%2C_march_1977.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "wiki_url": "https://en.wikipedia.org/wiki/ARPANET"
     }
   ],
   "10-30": [
@@ -6127,8 +6127,8 @@
       "title_fr": "Sortie de la PC-Engine (future TurboGrafx-16) au Japon",
       "text_en": "NEC launched the 16-bit beast that would battle Nintendo and Sega in the console wars—though it never quite won the throne.",
       "text_fr": "NEC lançait la PC-Engine, une console 16 bits qui défia Nintendo et Sega… sans jamais vraiment régner.",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Single-cylinder_T-head_engine_%28Autocar_Handbook%2C_13th_ed%2C_1935%29.jpg/330px-Single-cylinder_T-head_engine_%28Autocar_Handbook%2C_13th_ed%2C_1935%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "wiki_url": "https://en.wikipedia.org/wiki/T-head_engine"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/TurboGrafx16-Console-Set.jpg/330px-TurboGrafx16-Console-Set.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "wiki_url": "https://en.wikipedia.org/wiki/TurboGrafx-16"
     }
   ],
   "10-31": [
@@ -6151,8 +6151,8 @@
       "title_fr": "La sonde Lucy découvre un système binaire d'astéroïdes",
       "text_en": "NASA's Lucy probe flew past asteroid Dinkinesh and spotted a tiny moonlet—because even space rocks need a buddy!",
       "text_fr": "La sonde Lucy de la NASA survole l'astéroïde Dinkinesh et découvre un petit satellite—parce que même les cailloux de l'espace ont besoin d'un pote !",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Lucy-PatroclusMenoetius-art.png/330px-Lucy-PatroclusMenoetius-art.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "wiki_url": "https://en.wikipedia.org/wiki/Lucy_(spacecraft)"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Francesco_del_Cossa_-_Saint_Lucy.jpg/330px-Francesco_del_Cossa_-_Saint_Lucy.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "wiki_url": "https://en.wikipedia.org/wiki/Lucy"
     },
     {
       "year": 1987,
@@ -6161,8 +6161,8 @@
       "title_fr": "Le HST britannique bat le record de vitesse ferroviaire avec génération électrique embarquée",
       "text_en": "The InterCity 125 hit 238 km/h, proving that diesel-electric trains could outrun your excuses for being late.",
       "text_fr": "L'InterCity 125 atteint 238 km/h, prouvant que les trains diesel-électriques pouvaient battre vos excuses pour être en retard.",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/HS_4000_Barrow_Hill_Open_Day_1971.jpg/330px-HS_4000_Barrow_Hill_Open_Day_1971.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "wiki_url": "https://en.wikipedia.org/wiki/British_Rail_HS4000"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/St_Philip%27s_Marsh_-_GWR_43002_Sir_Kenneth_Grange.JPG/330px-St_Philip%27s_Marsh_-_GWR_43002_Sir_Kenneth_Grange.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "wiki_url": "https://en.wikipedia.org/wiki/British_Rail_Class_43_(HST)"
     }
   ],
   "11-02": [
@@ -6174,7 +6174,7 @@
       "text_en": "This self-replicating code caused chaos by exploiting Unix flaws, proving that the internet could be both a playground and a minefield.",
       "text_fr": "Ce code auto-réplicatif a semé le chaos en exploitant des failles Unix, prouvant que l'internet pouvait être à la fois un terrain de jeu et un champ de mines.",
       "image": "https://nbbou81000.github.io/Geek-almanac/assets/icons/internet.svg",
-      "wiki_url": "https://en.wikipedia.org/wiki/The_Morris_Brothers"
+      "wiki_url": "https://en.wikipedia.org/wiki/Morris_worm"
     }
   ],
   "11-03": [
@@ -6185,8 +6185,8 @@
       "title_fr": "Mariner 10 : première mission vers Mercure",
       "text_en": "NASA launched Mariner 10, the first probe to ever visit Mercury—because even the solar system’s hottest planet needed a travel guide.",
       "text_fr": "La NASA lance Mariner 10, la première sonde à visiter Mercure—parce que même la planète la plus chaude du système solaire méritait un guide touristique.",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/NASM-A19830006000-NASM2019-01579.jpg/330px-NASM-A19830006000-NASM2019-01579.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "wiki_url": "https://en.wikipedia.org/wiki/Mariner_10"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/2nd_Mercury_Mariner_--_03-30-2012.JPG/330px-2nd_Mercury_Mariner_--_03-30-2012.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "wiki_url": "https://en.wikipedia.org/wiki/Mercury_Mariner"
     },
     {
       "year": 1957,
@@ -6195,8 +6195,8 @@
       "title_fr": "Sputnik 2 : l’odyssée spatiale (et tragique) de Laïka",
       "text_en": "The USSR sent Laika into orbit aboard Sputnik 2—proof that even dogs have better space tech than some humans today.",
       "text_fr": "L’URSS envoie Laïka en orbite avec Sputnik 2—preuve que même les chiens ont une meilleure tech spatiale que certains humains aujourd’hui.",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Laika_ac_Sputnik_2_Replica_%286995685051%29.jpg/330px-Laika_ac_Sputnik_2_Replica_%286995685051%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "wiki_url": "https://en.wikipedia.org/wiki/Sputnik_2"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Laika_in_1957.jpg/330px-Laika_in_1957.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "wiki_url": "https://en.wikipedia.org/wiki/Laika"
     }
   ],
   "11-04": [],
@@ -6208,8 +6208,8 @@
       "title_fr": "L'Inde lance la sonde spatiale Mangalyaan vers Mars.",
       "text_en": "India joins the Mars club with a budget tighter than a student's ramen budget. Cheaper than Hollywood, but way cooler!",
       "text_fr": "L'Inde s'offre Mars avec un budget plus serré qu'un étudiant en ramen. Moins cher qu'un film de Hollywood, mais bien plus classe !",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Cassini_Saturn_Orbit_Insertion.jpg/330px-Cassini_Saturn_Orbit_Insertion.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "wiki_url": "https://en.wikipedia.org/wiki/Interplanetary_probe"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Mars_Orbiter_Mission_Over_Mars_%2815237158879%29.jpg/330px-Mars_Orbiter_Mission_Over_Mars_%2815237158879%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "wiki_url": "https://en.wikipedia.org/wiki/Mars_Orbiter_Mission"
     },
     {
       "year": 2007,
@@ -6218,8 +6218,8 @@
       "title_fr": "Google dévoile le système d'exploitation mobile Android.",
       "text_en": "Android drops the mic and takes over the world—one cheap smartphone at a time.",
       "text_fr": "Android lâche le micro et conquiert le monde… un smartphone low-cost à la fois.",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Chang_e_1.jpg/330px-Chang_e_1.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "wiki_url": "https://en.wikipedia.org/wiki/The_Android"
+      "image": "https://nbbou81000.github.io/Geek-almanac/assets/icons/software.svg",
+      "wiki_url": "https://en.wikipedia.org/wiki/Android_(operating_system)"
     },
     {
       "year": 2007,
@@ -6228,8 +6228,8 @@
       "title_fr": "Chang'e 1, premier satellite lunaire chinois, entre en orbite autour de la Lune.",
       "text_en": "China plants its flag in lunar orbit—next stop: Moon cheese imports?",
       "text_fr": "La Chine hisse son drapeau en orbite lunaire… et si c’était pour importer du fromage de Lune ?",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/QinShiHuang19century.jpg/330px-QinShiHuang19century.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "wiki_url": "https://en.wikipedia.org/wiki/China%27s_first_emperor"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/The_Moon_Goddess_Chang_E_-_Unidentified_artist%2C_after_Tang_Yin.jpg/330px-The_Moon_Goddess_Chang_E_-_Unidentified_artist%2C_after_Tang_Yin.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "wiki_url": "https://en.wikipedia.org/wiki/Chang'e"
     }
   ],
   "11-06": [],
