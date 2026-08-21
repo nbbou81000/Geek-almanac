@@ -1497,8 +1497,8 @@
       "title_fr": "Lancement de la mission ExoMars TGO vers Mars",
       "text_en": "Europe’s first Martian explorer blasted off to sniff out alien farts—er, methane—on the Red Planet.",
       "text_fr": "L’Europe envoie son premier explorateur martien renifler d’éventuels pets… euh, du méthane sur la planète rouge.",
-      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/a/ae/ExoMars_2016_TGO_and_EDM_trans-small.png/330px-ExoMars_2016_TGO_and_EDM_trans-small.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "wiki_url": "https://en.wikipedia.org/wiki/Exomars_TGO"
+      "image": "https://upload.wikimedia.org/wikipedia/en/5/58/ExoMars_ESA.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "wiki_url": "https://en.wikipedia.org/wiki/ExoMars"
     },
     {
       "year": 2002,
@@ -1507,8 +1507,8 @@
       "title_fr": "Sortie européenne de la Xbox",
       "text_en": "Microsoft’s first console entered the ring, ready to punch Nintendo and Sony in the nostalgia.",
       "text_fr": "La première console de Microsoft débarquait en Europe pour boxer Nintendo et Sony dans l’arène du rétro-gaming.",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Europa2vrp.jpg/330px-Europa2vrp.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "wiki_url": "https://en.wikipedia.org/wiki/European_Launcher_Development_Organisation"
+      "image": "https://nbbou81000.github.io/Geek-almanac/assets/icons/gaming.svg",
+      "wiki_url": "https://en.wikipedia.org/wiki/Xbox_360"
     }
   ],
   "03-15": [],
@@ -1520,8 +1520,8 @@
       "title_fr": "Premier amarrage spatial : Mission Gemini 8",
       "text_en": "Neil Armstrong and David Scott made history by performing the first docking of two spacecraft in orbit—though it ended with a wild spin and an emergency landing.",
       "text_fr": "Neil Armstrong et David Scott ont marqué l'histoire en réalisant le premier amarrage de deux vaisseaux en orbite… avant de se retrouver dans une vrille folle et un atterrissage d'urgence.",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/GeminiPatch.svg/330px-GeminiPatch.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "wiki_url": "https://en.wikipedia.org/wiki/Gemini_mission"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Gemini8StationKeep.gif/330px-Gemini8StationKeep.gif?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "wiki_url": "https://en.wikipedia.org/wiki/Gemini_8"
     },
     {
       "year": 1926,
@@ -1531,7 +1531,7 @@
       "text_en": "Goddard's rocket reached a modest 12.5 meters—but it paved the way for the Apollo missions and Elon Musk’s questionable life choices.",
       "text_fr": "Sa fusée n’a grimpé que de 12,5 mètres, mais elle a ouvert la voie aux missions Apollo… et aux choix de vie discutables d’Elon Musk.",
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Dr._Robert_H._Goddard_-_GPN-2002-000131.jpg/330px-Dr._Robert_H._Goddard_-_GPN-2002-000131.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "wiki_url": "https://en.wikipedia.org/wiki/Robert_Goddard"
+      "wiki_url": "https://en.wikipedia.org/wiki/Robert_H._Goddard"
     },
     {
       "year": 1995,
@@ -1554,7 +1554,7 @@
       "text_en": "Cosmonaut Alexei Leonov stepped out of Voskhod 2 for 12 minutes, proving humans could survive the void—unlike his spacesuit, which nearly became a balloon.",
       "text_fr": "Le cosmonaute Alexei Leonov sort du Voskhod 2 pendant 12 minutes, prouvant que l'homme peut survivre dans le vide… contrairement à sa combinaison, qui faillit se transformer en ballon.",
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Alexei_Leonov.jpg/330px-Alexei_Leonov.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "wiki_url": "https://en.wikipedia.org/wiki/First_space_walk"
+      "wiki_url": "https://en.wikipedia.org/wiki/Alexei_Leonov"
     },
     {
       "year": 1899,
@@ -1563,8 +1563,8 @@
       "title_fr": "Découverte de Phoebe, lune de Saturne, grâce à des photographies",
       "text_en": "William Henry Pickering spotted Phoebe, Saturn’s ninth moon, using photos—proving even distant moons could be caught on camera before selfies were a thing.",
       "text_fr": "William Henry Pickering découvre Phoebe, neuvième lune de Saturne, grâce à des photos—preuve que même les lunes lointaines pouvaient être capturées avant l’ère des selfies.",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Eesti_Lennundusmuuseum._H%C3%A4vitaja_F-4C_Phantom_II_kabiin_%28cubemap%29.jpg/330px-Eesti_Lennundusmuuseum._H%C3%A4vitaja_F-4C_Phantom_II_kabiin_%28cubemap%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "wiki_url": "https://en.wikipedia.org/wiki/VR_photography"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Phoebe_cassini_full.jpg/330px-Phoebe_cassini_full.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "wiki_url": "https://en.wikipedia.org/wiki/Phoebe_(moon)"
     }
   ],
   "03-19": [],
@@ -1577,8 +1577,8 @@
       "title_fr": "La NASA lance Ranger 9, dernière sonde lunaire du programme Ranger.",
       "text_en": "Ranger 9 crashed into the Moon in 1965, sending back the first close-up images of lunar craters—because even space probes need a dramatic finale.",
       "text_fr": "Ranger 9 s'écrase sur la Lune en 1965 après avoir transmis les premières images rapprochées de ses cratères—parce que même une sonde mérite un final spectaculaire.",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Launch_Services_Program_logo.svg/330px-Launch_Services_Program_logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "wiki_url": "https://en.wikipedia.org/wiki/NASA_Launch_Services_Program"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/The_Ranger_Spacecraft_GPN-2000-001979.jpg/330px-The_Ranger_Spacecraft_GPN-2000-001979.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "wiki_url": "https://en.wikipedia.org/wiki/Ranger_8"
     }
   ],
   "03-22": [
