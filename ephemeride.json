@@ -1589,8 +1589,8 @@
       "title_fr": "Intel expédie les premiers processeurs Pentium (80586).",
       "text_en": "The Pentium era begins with a 60MHz beast that made your calculator jealous. Welcome to the 90s, where your PC could finally keep up with your dreams.",
       "text_fr": "L'ère Pentium démarre avec un monstre à 60 MHz qui rendait ta calculatrice jalouse. Bienvenue dans les années 90, où ton PC pouvait enfin suivre tes rêves.",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Intel_Headquarters_in_2023.jpg/330px-Intel_Headquarters_in_2023.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "wiki_url": "https://en.wikipedia.org/wiki/Internship"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Intel_Pentium_Processor.svg/330px-Intel_Pentium_Processor.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "wiki_url": "https://en.wikipedia.org/wiki/Pentium_(original)"
     },
     {
       "year": 1960,
@@ -1599,8 +1599,8 @@
       "title_fr": "Premier brevet du laser déposé par Schawlow et Townes.",
       "text_en": "Laser beams aren’t just for evil geniuses anymore—thanks to this duo, science just got a whole lot cooler (and more dangerous).",
       "text_fr": "Les lasers ne sont plus réservés aux génies maléfiques—grâce à ce duo, la science vient de devenir bien plus cool (et un peu plus dangereuse).",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Independent_National_Patriotic_Front_of_Liberia_in_Monrovia_1990.png/330px-Independent_National_Patriotic_Front_of_Liberia_in_Monrovia_1990.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "wiki_url": "https://en.wikipedia.org/wiki/First_Liberian_Civil_War"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Charles_Townes.jpg/330px-Charles_Townes.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "wiki_url": "https://en.wikipedia.org/wiki/Charles_H._Townes"
     },
     {
       "year": 1960,
@@ -1609,8 +1609,8 @@
       "title_fr": "La navette spatiale Atlantis de la NASA lancée pour la mission STS-76.",
       "text_en": "Atlantis soared into space, proving that reusable rockets weren’t just a sci-fi dream. Spoiler: it worked a little too well.",
       "text_fr": "Atlantis s’élança dans l’espace, prouvant que les fusées réutilisables n’étaient pas qu’un rêve de SF. Spoiler : ça a (un peu) trop bien marché.",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/STS120LaunchHiRes-edit1.jpg/330px-STS120LaunchHiRes-edit1.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "wiki_url": "https://en.wikipedia.org/wiki/NASA_space_shuttle"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/STS132_Atlantis_undocking2_%28cropped%29.jpg/330px-STS132_Atlantis_undocking2_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "wiki_url": "https://en.wikipedia.org/wiki/Space_Shuttle_Atlantis"
     }
   ],
   "03-23": [
@@ -1621,8 +1621,8 @@
       "title_fr": "NASA lance Gemini 3, premier vol spatial habité américain à deux astronautes",
       "text_en": "Gus Grissom and John Young paved the way for the Moon landings—though Grissom might have had a few choice words about the astronaut menu.",
       "text_fr": "Gus Grissom et John Young ont ouvert la voie aux alunissages… même si Grissom a peut-être râlé contre le menu spatial.",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Launch_Services_Program_logo.svg/330px-Launch_Services_Program_logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "wiki_url": "https://en.wikipedia.org/wiki/NASA_Launch_Services_Program"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Ed_White_First_American_Spacewalker_-_GPN-2000-001180.jpg/330px-Ed_White_First_American_Spacewalker_-_GPN-2000-001180.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "wiki_url": "https://en.wikipedia.org/wiki/Gemini_4"
     },
     {
       "year": 2007,
@@ -1631,8 +1631,8 @@
       "title_fr": "Sortie européenne de la console PlayStation 3 de Sony",
       "text_en": "The PS3 arrived with a price tag that made gamers cry… and a Blu-ray drive that made movie buffs cheer.",
       "text_fr": "La PS3 débarque avec un prix qui fait pleurer les joueurs… et un lecteur Blu-ray qui fait sauter de joie les cinéphiles.",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Europa2vrp.jpg/330px-Europa2vrp.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "wiki_url": "https://en.wikipedia.org/wiki/European_Launcher_Development_Organisation"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/PS4_consoles_montage.jpg/330px-PS4_consoles_montage.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "wiki_url": "https://en.wikipedia.org/wiki/PlayStation_4"
     },
     {
       "year": 2001,
@@ -1642,7 +1642,7 @@
       "text_en": "After 15 years of service, Mir went out in a blaze of glory—like a cosmic retirement party with a fiery finale.",
       "text_fr": "Après 15 ans de bons et loyaux services, Mir a terminé sa course en apothéose—un feu d’artifice cosmique pour une retraite spectaculaire.",
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Mir_Space_Station_viewed_from_Endeavour_during_STS-89.jpg/330px-Mir_Space_Station_viewed_from_Endeavour_during_STS-89.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "wiki_url": "https://en.wikipedia.org/wiki/Mir_space_station"
+      "wiki_url": "https://en.wikipedia.org/wiki/Mir"
     }
   ],
   "03-24": [
@@ -1653,8 +1653,8 @@
       "title_fr": "Première version commerciale de Mac OS X par Apple",
       "text_en": "The world said 'Hello' to a sleek, Unix-based OS that made Unix cool for the masses—finally, no more cryptic command lines!",
       "text_fr": "Le monde découvre un OS Unix stylé et accessible, enfin sans lignes de commande cryptiques—la fin des galères pour les utilisateurs lambda !",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Foot_and_mouth_disease_in_mouth.jpg/330px-Foot_and_mouth_disease_in_mouth.jpg?utm_source=fr.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "wiki_url": "https://en.wikipedia.org/wiki/First_commercial_cinematic_release"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/MacLogo.svg/330px-MacLogo.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "wiki_url": "https://en.wikipedia.org/wiki/Mac_(computer)"
     },
     {
       "year": 1973,
@@ -1663,8 +1663,8 @@
       "title_fr": "Pink Floyd sort 'The Dark Side of the Moon'",
       "text_en": "A psychedelic masterpiece that became the soundtrack of geek culture, from hackers coding to gamers lost in virtual worlds.",
       "text_fr": "Un chef-d'œuvre psychédélique devenu la bande-son de la culture geek, des hackers en train de coder aux gamers perdus dans des mondes virtuels.",
-      "image": "https://upload.wikimedia.org/wikipedia/en/d/d6/Pink_Floyd_-_all_members.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-      "wiki_url": "https://en.wikipedia.org/wiki/Pink_Floyd"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Dark_Side_of_the_Moon.png/330px-Dark_Side_of_the_Moon.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "wiki_url": "https://en.wikipedia.org/wiki/The_Dark_Side_of_the_Moon"
     }
   ],
   "03-25": [
@@ -1676,7 +1676,7 @@
       "text_en": "The Space Shuttle Columbia arrived at Kennedy Space Center, ready to blast off into history—and occasionally, into *very* expensive foam insulation drama.",
       "text_fr": "L'orbiteur Columbia est livré au Centre spatial Kennedy, prêt à entrer dans l'histoire… et à causer quelques drames avec son isolation en mousse.",
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Space_Shuttle_Columbia_lands_following_STS-62_on_18_March_1994._%28cropped%29.jpg/330px-Space_Shuttle_Columbia_lands_following_STS-62_on_18_March_1994._%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "wiki_url": "https://en.wikipedia.org/wiki/Columbia_Space_Shuttle"
+      "wiki_url": "https://en.wikipedia.org/wiki/Space_Shuttle_Columbia"
     },
     {
       "year": 1655,
@@ -1697,8 +1697,8 @@
       "title_fr": "Lancement d'Explorer 3 par l'armée américaine",
       "text_en": "The U.S. Army's Explorer 3 joined its twin to map cosmic rays, proving space was way more than just a pretty void.",
       "text_fr": "Explorer 3, lancé par l'armée américaine, a rejoint son jumeau pour cartographier les rayons cosmiques, prouvant que l'espace n'était pas qu'un vide bien rangé.",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Explorer_III.jpg/330px-Explorer_III.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "wiki_url": "https://en.wikipedia.org/wiki/Explorer_3"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Explorer1.jpg/330px-Explorer1.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "wiki_url": "https://en.wikipedia.org/wiki/Explorer_1"
     }
   ],
   "03-27": [],
@@ -1734,8 +1734,8 @@
       "title_fr": "Fin de la mission d'un an à bord de l'ISS",
       "text_en": "Scott Kelly and Mikhail Kornienko returned from space after 340 days—proving humans can survive (and maybe even miss) zero gravity. Now, who’s signing up for Mars?",
       "text_fr": "Scott Kelly et Mikhail Kornienko sont de retour après 340 jours dans l’espace—preuve que l’humanité peut survivre (et peut-être même s’ennuyer) en apesanteur. Qui veut tenter Mars ?",
-      "image": "https://upload.wikimedia.org/wikipedia/en/1/19/A_un_dios_desconocido.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-      "wiki_url": "https://en.wikipedia.org/wiki/To_an_Unknown_God"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/One-Year_Crew_Mission_commemorative_poster.jpg/330px-One-Year_Crew_Mission_commemorative_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "wiki_url": "https://en.wikipedia.org/wiki/ISS_year-long_mission"
     },
     {
       "year": 1970,
@@ -1744,8 +1744,8 @@
       "title_fr": "Explorer 1 rentre dans l’atmosphère après 12 ans en orbite",
       "text_en": "The first US satellite had a long career—12 years in space before burning up like a cosmic firework. Talk about a legendary retirement!",
       "text_fr": "Le premier satellite américain a eu une longue carrière—12 ans dans l’espace avant de se désintégrer comme un feu d’artifice cosmique. Une retraite légendaire !",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Explorer1.jpg/330px-Explorer1.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "wiki_url": "https://en.wikipedia.org/wiki/Explorer_1"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Explorer_12_-_Goddard_Space_Flight_Center.jpg/330px-Explorer_12_-_Goddard_Space_Flight_Center.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "wiki_url": "https://en.wikipedia.org/wiki/Explorer_12"
     },
     {
       "year": 1966,
